@@ -1,0 +1,240 @@
+{
+    "settings": {
+        "showCollisions": true,
+        "showConnections": true,
+        "startMapId": "cb5e225f-e996-4ca8-b068-09a12ec18b75",
+        "startX": 15,
+        "startY": 11,
+        "startDirection": "down",
+        "zoom": 200,
+        "startSceneId": "37030df8-0b20-4307-8887-0bbddd37b663",
+        "playerSpriteSheetId": "ba286154-cbfc-4b24-827e-f1e88a69c606"
+    },
+    "_version": "1",
+    "name": "Javier Test",
+    "variables": [
+        {
+            "id": "0",
+            "name": "Seen Cat"
+        },
+        {
+            "id": "1",
+            "name": "Seen duck"
+        },
+        {
+            "id": "2",
+            "name": "Used Radio"
+        }
+    ],
+    "backgrounds": [
+        {
+            "id": "6db7697e-f0df-4a4a-a66f-3df5c1b99dce",
+            "name": "LOGO",
+            "width": 20,
+            "height": 18,
+            "filename": "LOGO.png",
+            "_v": 1557712890811
+        },
+        {
+            "id": "9c0b8473-3237-49b1-95d4-206cdecb7bf3",
+            "name": "TilemapExample",
+            "width": 20,
+            "height": 18,
+            "filename": "TilemapExample.png",
+            "_v": 1557712890811
+        }
+    ],
+    "spriteSheets": [
+        {
+            "id": "d353c22b-a4ca-4094-8dab-3022bb9ddc81",
+            "name": "Animated NPC 1",
+            "numFrames": 6,
+            "type": "actor_animated",
+            "filename": "Animated NPC 1.png",
+            "_v": 1557712890817
+        },
+        {
+            "id": "e2f2fda7-f559-4bb1-857c-a3240dc904b1",
+            "name": "Animated NPC 2",
+            "numFrames": 6,
+            "type": "actor_animated",
+            "filename": "Animated NPC 2.png",
+            "_v": 1557712890817
+        },
+        {
+            "id": "457c5944-8a9c-4e3b-831c-eacd0353f34d",
+            "name": "Animated NPC 3",
+            "numFrames": 6,
+            "type": "actor_animated",
+            "filename": "Animated NPC 3.png",
+            "_v": 1557712890817
+        },
+        {
+            "id": "7312ba96-3df0-4aac-8339-45ebee520905",
+            "name": "NPC 1",
+            "numFrames": 3,
+            "type": "actor",
+            "filename": "NPC 1.png",
+            "_v": 1557712890817
+        },
+        {
+            "id": "0e52ab75-3e7e-4c33-900d-386a2eeaa673",
+            "name": "NPC 2",
+            "numFrames": 3,
+            "type": "actor",
+            "filename": "NPC 2.png",
+            "_v": 1557712890817
+        },
+        {
+            "id": "f3266c95-606f-4406-af24-b7b465cab36e",
+            "name": "NPC 3",
+            "numFrames": 3,
+            "type": "actor",
+            "filename": "NPC 3.png",
+            "_v": 1557712890817
+        },
+        {
+            "id": "ba286154-cbfc-4b24-827e-f1e88a69c606",
+            "name": "Player",
+            "numFrames": 6,
+            "type": "actor_animated",
+            "filename": "Player.png",
+            "_v": 1557712890817
+        }
+    ],
+    "scenes": [
+        {
+            "id": "37030df8-0b20-4307-8887-0bbddd37b663",
+            "name": "Scene 1",
+            "backgroundId": "6db7697e-f0df-4a4a-a66f-3df5c1b99dce",
+            "x": 293,
+            "y": 214,
+            "width": 32,
+            "height": 32,
+            "actors": [],
+            "triggers": [],
+            "collisions": [],
+            "script": [
+                {
+                    "id": "9b985e14-b2aa-47d1-883d-ea780a3e525f",
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "player"
+                    }
+                },
+                {
+                    "id": "2f8a91b2-1f1a-43a5-a085-203be4a7d33c",
+                    "command": "EVENT_WAIT",
+                    "args": {
+                        "time": 2
+                    }
+                },
+                {
+                    "id": "c119f3d0-8954-4948-8d8c-31912af1c41e",
+                    "command": "EVENT_SWITCH_SCENE",
+                    "args": {
+                        "sceneId": "4a9bec0d-6332-408c-8bd6-3a968a77172d",
+                        "x": 12,
+                        "y": 8,
+                        "direction": "down",
+                        "fadeSpeed": "2"
+                    }
+                },
+                {
+                    "id": "1d50bcff-4ba8-4a66-aab3-f7bda87e07a0",
+                    "command": "EVENT_END"
+                }
+            ]
+        },
+        {
+            "id": "4a9bec0d-6332-408c-8bd6-3a968a77172d",
+            "name": "Scene 2",
+            "backgroundId": "9c0b8473-3237-49b1-95d4-206cdecb7bf3",
+            "x": 542,
+            "y": 214,
+            "width": 32,
+            "height": 32,
+            "actors": [
+                {
+                    "id": "fca081a5-a16e-44ac-9581-1fec08078286",
+                    "spriteSheetId": "457c5944-8a9c-4e3b-831c-eacd0353f34d",
+                    "x": 7,
+                    "y": 10,
+                    "movementType": "static",
+                    "direction": "left",
+                    "script": [
+                        {
+                            "id": "7c552d5d-d2dc-4ccd-a115-0e11829582c6",
+                            "command": "EVENT_ACTOR_EMOTE",
+                            "args": {
+                                "actorId": "fca081a5-a16e-44ac-9581-1fec08078286",
+                                "emoteId": 0
+                            }
+                        },
+                        {
+                            "id": "1d50bcff-4ba8-4a66-aab3-f7bda87e07a0",
+                            "command": "EVENT_END"
+                        }
+                    ]
+                }
+            ],
+            "triggers": [],
+            "collisions": [
+                255,
+                255,
+                255,
+                255,
+                255,
+                255,
+                255,
+                255,
+                255,
+                255,
+                255,
+                255,
+                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                240,
+                255,
+                255,
+                255,
+                255,
+                255,
+                255,
+                255
+            ]
+        }
+    ],
+    "music": [
+        {
+            "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
+            "name": "template",
+            "filename": "template.mod",
+            "_v": 1557712890818
+        }
+    ],
+    "author": "Javier García"
+}

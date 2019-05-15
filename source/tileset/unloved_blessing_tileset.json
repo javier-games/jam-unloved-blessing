@@ -1,0 +1,14 @@
+{ "columns":10,
+ "image":"unloved_blessing_tileset.png",
+ "imageheight":80,
+ "imagewidth":80,
+ "margin":0,
+ "name":"Unloved Blessing",
+ "spacing":0,
+ "tilecount":100,
+ "tiledversion":"1.2.3",
+ "tileheight":8,
+ "tilewidth":8,
+ "type":"tileset",
+ "version":1.2
+}
