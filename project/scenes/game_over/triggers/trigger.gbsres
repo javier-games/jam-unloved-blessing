@@ -1,0 +1,133 @@
+{
+  "_resourceType": "trigger",
+  "id": "932682c5-7813-4a5b-8edc-53d7c6370f61",
+  "_index": 0,
+  "symbol": "trigger_20",
+  "prefabId": "",
+  "name": "",
+  "x": 15,
+  "y": 10,
+  "width": 1,
+  "height": 1,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "f41ca16f-ede7-4236-ae48-786e8117c1cd",
+      "command": "EVENT_LOOP",
+      "args": {},
+      "children": {
+        "true": [
+          {
+            "id": "37be8c04-2084-4eda-98d1-e0a969cb86a0",
+            "command": "EVENT_IF_INPUT",
+            "args": {
+              "input": [
+                "a",
+                "start"
+              ]
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "55fd5cb4-3907-4bc1-a553-255a50534745",
+                  "command": "EVENT_IF",
+                  "args": {
+                    "variable": "3",
+                    "operator": "==",
+                    "comparator": 1,
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "3"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 1
+                      }
+                    }
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "id": "bc594a5e-f38c-4cef-bd06-c6b8b8370606",
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "0",
+                          "value": {
+                            "type": "false"
+                          }
+                        }
+                      },
+                      {
+                        "id": "6c3436dd-b702-474e-a5c6-40bf7f356a5b",
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "2",
+                          "value": {
+                            "type": "false"
+                          }
+                        }
+                      },
+                      {
+                        "id": "1c26148e-0ad9-4ce1-b08d-5a527db3d098",
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "1",
+                          "value": {
+                            "type": "number",
+                            "value": 0
+                          }
+                        }
+                      },
+                      {
+                        "id": "f1872db8-0ce5-456b-84d6-318cebd4aed4",
+                        "command": "EVENT_SWITCH_SCENE",
+                        "args": {
+                          "sceneId": "6f8954b4-2cc6-4241-ab8b-b1504f6fc25a",
+                          "x": {
+                            "type": "number",
+                            "value": 17
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 8
+                          },
+                          "direction": "left",
+                          "fadeSpeed": "2"
+                        }
+                      }
+                    ],
+                    "false": []
+                  }
+                }
+              ],
+              "false": [
+                {
+                  "id": "a3e645db-df06-4aef-9dab-a9186730b2c2",
+                  "command": "EVENT_IF_INPUT",
+                  "args": {
+                    "input": [
+                      "down"
+                    ]
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "id": "35386d33-fe67-4a6c-b177-255285c69108",
+                        "command": "EVENT_STOP",
+                        "args": {}
+                      }
+                    ],
+                    "false": []
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "leaveScript": []
+}
