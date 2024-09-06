@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "85ed7868-1918-40a9-bb39-1ac9569cb3bf",
+  "name": "church_vault_map",
+  "symbol": "bg_church_vault_map",
+  "width": 32,
+  "height": 18,
+  "imageWidth": 256,
+  "imageHeight": 144,
+  "filename": "map-church_f1.png",
+  "tileColors": "",
+  "autoColor": false
+}

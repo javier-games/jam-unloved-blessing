@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "35706f51-074a-4e1e-b828-1eb6434edb30",
+  "name": "ui-intro_original",
+  "symbol": "bg_ui_intro_original",
+  "width": 32,
+  "height": 32,
+  "imageWidth": 256,
+  "imageHeight": 256,
+  "filename": "ui-intro_original.png",
+  "tileColors": ""
+}

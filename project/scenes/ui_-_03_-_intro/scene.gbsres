@@ -1,0 +1,54 @@
+{
+  "_resourceType": "scene",
+  "id": "e3c95d90-d229-411b-a019-5146255e7d4c",
+  "_index": 7,
+  "type": "TOPDOWN",
+  "name": "UI - 03 - Intro",
+  "symbol": "scene_intro",
+  "x": 60,
+  "y": 368,
+  "width": 20,
+  "height": 32,
+  "backgroundId": "7d9f5943-bdb1-43d0-be9c-ee7ac0603add",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "id": "3df33d89-9241-46e6-a6bf-11c31bd86b12",
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "player"
+      }
+    },
+    {
+      "id": "191ab4a2-b1a2-4f9f-8fed-48dce3f1f08a",
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5
+      }
+    },
+    {
+      "id": "0e495646-a732-485d-94a3-1ed37ae55e96",
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "4a9bec0d-6332-408c-8bd6-3a968a77172d",
+        "x": {
+          "type": "number",
+          "value": 12
+        },
+        "y": {
+          "type": "number",
+          "value": 8
+        },
+        "direction": "down",
+        "fadeSpeed": "2"
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00280+"
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "7d9f5943-bdb1-43d0-be9c-ee7ac0603add",
+  "name": "ui-intro",
+  "symbol": "bg_unloved_blessing_intro",
+  "width": 20,
+  "height": 32,
+  "imageWidth": 160,
+  "imageHeight": 256,
+  "filename": "ui-intro.png",
+  "tileColors": "",
+  "autoColor": false
+}
