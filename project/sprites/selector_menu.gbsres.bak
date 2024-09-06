@@ -5,7 +5,7 @@
   "symbol": "sprite_selector_menu",
   "numFrames": 1,
   "filename": "selector_menu.png",
-  "checksum": "98a77c50d9add5db3b504c29057c4a073ea57666",
+  "checksum": "cb8dd4c3103141ca471b568e6007d91a9266b96e",
   "width": 16,
   "height": 16,
   "states": [
@@ -48,10 +48,6 @@
                   "priority": false
                 }
               ]
-            },
-            {
-              "id": "4ed6a126-6790-4708-a860-14b3a8dd7f97",
-              "tiles": []
             }
           ]
         },
