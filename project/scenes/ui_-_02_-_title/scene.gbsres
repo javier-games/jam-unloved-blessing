@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "d6346b28-cdac-4ec7-b6f7-884f91489fcb",
-  "_index": 6,
+  "_index": 4,
   "type": "TOPDOWN",
   "name": "UI - 02 - Title",
   "symbol": "scene_main_menu",
@@ -52,8 +52,10 @@
               "time": 0.5,
               "magnitude": {
                 "type": "number",
-                "value": 5
-              }
+                "value": 1
+              },
+              "__collapse": true,
+              "__comment": true
             }
           },
           {
@@ -67,10 +69,10 @@
               },
               "y": {
                 "type": "number",
-                "value": 0
+                "value": 31
               },
               "direction": "",
-              "fadeSpeed": "2"
+              "fadeSpeed": 4
             }
           }
         ],

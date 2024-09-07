@@ -1,15 +1,15 @@
 {
   "_resourceType": "scene",
   "id": "6f8954b4-2cc6-4241-ab8b-b1504f6fc25a",
-  "_index": 8,
+  "_index": 6,
   "type": "TOPDOWN",
   "name": "LVL - 01",
   "symbol": "scene_scene_10",
   "x": 320,
-  "y": 632,
+  "y": 656,
   "width": 20,
   "height": 18,
-  "backgroundId": "52aae978-14aa-42d9-943b-7e23d4005df6",
+  "backgroundId": "cba2e85b-415c-4c0f-a35b-6940e09730f6",
   "tilesetId": "",
   "paletteIds": [],
   "spritePaletteIds": [],
@@ -18,5 +18,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "0f3f+00c+0f8+00e+0f6+002+0fa+002+0f6+002+0fa+002+0f6+002+0fa+002+0f3+0028+0f3+002+0fa+002+0f6+002+0fa+002+0f6+002+0fa+002+0f6+00e+0f6+00c+0f41+"
+  "collisions": "0f2a+00e+0f6+00e+0f6+002+0fa+002+0f6+002+0fa+002+0f4+004+0fa+00a+0fa+006+0f2+00e+0f6+00e+0f6+002+0fa+002+0f6+002+0fa+002+0f6+002+0fa+002+0f6+002+0fa+002+0f6+00e+0f6+00e+0f2c+"
 }

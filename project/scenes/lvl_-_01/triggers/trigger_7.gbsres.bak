@@ -15,9 +15,10 @@
       "id": "fd0e3120-26e3-4889-81e3-b953ff9fe24b",
       "command": "EVENT_SET_VALUE",
       "args": {
-        "variable": "0",
+        "variable": "3",
         "value": {
-          "type": "false"
+          "type": "number",
+          "value": 222
         }
       }
     },

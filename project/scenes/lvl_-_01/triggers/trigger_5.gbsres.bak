@@ -1,0 +1,100 @@
+{
+  "_resourceType": "trigger",
+  "id": "bbc76c5b-331b-41bc-9f77-142a04d0ed39",
+  "_index": 4,
+  "symbol": "trigger_26",
+  "prefabId": "",
+  "name": "",
+  "x": 3,
+  "y": 4,
+  "width": 1,
+  "height": 1,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "3df5daa3-3fa8-4023-a99c-64b0bbb1159c",
+      "command": "EVENT_IF_ACTOR_AT_POSITION",
+      "args": {
+        "actorId": "ea19e0f2-b9f3-498d-8f80-570f069265cd",
+        "x": {
+          "type": "number",
+          "value": 3
+        },
+        "y": {
+          "type": "number",
+          "value": 6
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "9ab2dc7a-962e-444d-8661-438d3e05732b",
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "0",
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "0"
+                },
+                "valueB": {
+                  "type": "false"
+                }
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "ab76f815-9557-4ad6-bba9-cf8f8aea7790",
+                  "command": "EVENT_ACTOR_SET_DIRECTION",
+                  "args": {
+                    "actorId": "player",
+                    "direction": {
+                      "type": "direction",
+                      "value": "down"
+                    }
+                  }
+                },
+                {
+                  "id": "84c3f10d-5dcd-4bed-8bcc-84dbf16e815c",
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": "He can not see me."
+                  }
+                },
+                {
+                  "id": "efaf2f1a-b51c-4727-8ecf-e01708d031b0",
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": "I think..."
+                  }
+                },
+                {
+                  "id": "a00b09d1-5d6a-4213-81c9-d786351a2e7e",
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": "I  can scare him\nfrom here!"
+                  }
+                },
+                {
+                  "id": "5e0fecaa-cbdb-4eff-9f32-865cd037f70f",
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "0",
+                    "value": {
+                      "type": "true"
+                    }
+                  }
+                }
+              ],
+              "false": []
+            }
+          }
+        ],
+        "false": []
+      }
+    }
+  ],
+  "leaveScript": []
+}

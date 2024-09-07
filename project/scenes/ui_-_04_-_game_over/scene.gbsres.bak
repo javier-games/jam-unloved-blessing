@@ -16,14 +16,6 @@
   "autoFadeSpeed": 1,
   "script": [
     {
-      "command": "EVENT_FADE_IN",
-      "args": {
-        "speed": "2",
-        "__collapse": true
-      },
-      "id": "90bb009d-8d34-41a9-a1e4-d168371caa24"
-    },
-    {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
         "actorId": "$self$",
@@ -31,6 +23,14 @@
         "__comment": false
       },
       "id": "00a216ed-200c-4d7c-a13b-269ba7945692"
+    },
+    {
+      "command": "EVENT_FADE_IN",
+      "args": {
+        "speed": "2",
+        "__collapse": true
+      },
+      "id": "90bb009d-8d34-41a9-a1e4-d168371caa24"
     },
     {
       "command": "EVENT_LOOP",

@@ -1,7 +1,7 @@
 {
   "_resourceType": "settings",
-  "startSceneId": "309c714c-c9fd-4d14-b265-7b2288f77a80",
-  "startX": 15,
+  "startSceneId": "37030df8-0b20-4307-8887-0bbddd37b663",
+  "startX": 17,
   "startY": 3,
   "startMoveSpeed": 1,
   "startAnimSpeed": 15,
@@ -11,13 +11,13 @@
   "customHead": "",
   "defaultBackgroundPaletteIds": [
     "dmg",
-    "dmg",
-    "dmg",
-    "dmg",
-    "dmg",
-    "dmg",
-    "dmg",
-    "dmg"
+    "default-bg-1",
+    "default-bg-2",
+    "default-bg-3",
+    "default-bg-4",
+    "default-bg-5",
+    "default-sprite",
+    "default-ui"
   ],
   "defaultSpritePaletteIds": [
     "dmg",

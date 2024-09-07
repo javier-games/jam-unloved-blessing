@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "34f68254-9772-4d4f-a82b-438593e0ecee",
-  "_index": 5,
+  "_index": 3,
   "type": "TOPDOWN",
   "name": "UI - 04 - Game Over",
   "symbol": "scene_game_over",
@@ -120,7 +120,7 @@
                                 },
                                 "y": {
                                   "type": "number",
-                                  "value": 9
+                                  "value": 7
                                 },
                                 "direction": "left",
                                 "fadeSpeed": "2",
