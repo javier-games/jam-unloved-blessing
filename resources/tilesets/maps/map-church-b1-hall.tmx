@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="10" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="2">
+ <tileset firstgid="1" source="../spritesheet.tsx"/>
+ <layer id="1" name="Map" width="10" height="9">
+  <data encoding="csv">
+771,883,1172,883,883,883,883,883,771,1767,
+773,65,8,65,8,65,8,8,772,713,
+886,8,712,713,713,713,714,65,1171,883,
+10,6,884,883,883,883,1173,65,8,65,
+716,8,65,7,10,6,65,8,715,713,
+771,65,712,713,713,713,714,65,771,883,
+771,8,884,1172,883,883,886,65,771,1767,
+771,8,65,8,65,8,65,8,771,1767,
+772,713,713,713,713,713,713,713,773,1767
+</data>
+ </layer>
+ <objectgroup id="3" name="Details"/>
+ <layer id="2" name="Details" width="10" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,650,0,0,
+0,0,0,0,0,0,0,0,0,0,
+417,0,0,0,0,0,0,0,0,0,
+0,0,593,0,417,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>

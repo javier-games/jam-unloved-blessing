@@ -284,23 +284,6 @@
               "useCollisions": false,
               "verticalFirst": false
             }
-          },
-          {
-            "id": "fe6383fe-6406-4b5d-a589-63e06c9a865d",
-            "command": "EVENT_SWITCH_SCENE",
-            "args": {
-              "sceneId": "34f68254-9772-4d4f-a82b-438593e0ecee",
-              "x": {
-                "type": "number",
-                "value": 18
-              },
-              "y": {
-                "type": "number",
-                "value": 11
-              },
-              "direction": "",
-              "fadeSpeed": "2"
-            }
           }
         ],
         "false": [

@@ -1,0 +1,85 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "maps/map-church-b1.tmx",
+    "expandedProjectPaths": [
+        ".",
+        "maps"
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "maps/map-church-b1-hall.tmx": {
+            "expandedObjectLayers": [
+                3
+            ],
+            "scale": 3,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 84.5,
+                "y": 94.33333333333334
+            }
+        },
+        "maps/map-church-b1-jail.tmx": {
+            "expandedObjectLayers": [
+                4
+            ],
+            "scale": 4,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 38.125,
+                "y": 36.75
+            }
+        },
+        "maps/map-church-b1.tmx": {
+            "expandedObjectLayers": [
+                4
+            ],
+            "scale": 2,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 171.75,
+                "y": 43.5
+            }
+        },
+        "spritesheeet.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "spritesheet.tsx": {
+            "scaleInDock": 4,
+            "scaleInEditor": 1.5
+        },
+        "tileset.json": {
+            "scaleInDock": 1
+        }
+    },
+    "last.imagePath": "D:/Projects/unloved-blessing/resources/tilesets",
+    "map.height": 9,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 20,
+    "openFiles": [
+        "maps/map-church-b1-jail.tmx",
+        "maps/map-church-b1-hall.tmx",
+        "spritesheet.tsx",
+        "maps/map-church-b1.tmx"
+    ],
+    "project": "unloved-blessing.tiled-project",
+    "recentFiles": [
+        "maps/map-church-b1-jail.tmx",
+        "maps/map-church-b1-hall.tmx",
+        "spritesheet.tsx",
+        "maps/map-church-b1.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.spacing": 1,
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    },
+    "tileset.useTransparentColor": true
+}

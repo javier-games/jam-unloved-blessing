@@ -5,8 +5,8 @@
   "type": "TOPDOWN",
   "name": "LVL - 00 ",
   "symbol": "scene_start_church_vault",
-  "x": 488,
-  "y": 656,
+  "x": 544,
+  "y": 672,
   "width": 20,
   "height": 18,
   "backgroundId": "89d5244a-8baa-4bd9-b8d1-5e599485fdec",
@@ -36,5 +36,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "0f54+00e+0f6+002+0f2+008+0f4+00f+0f5+00f+0f9+00d+0f7+00d+0f7+00b+0f9+00b+0f9+00e+0f8+00a+0f54+"
+  "collisions": "0f54+00e+0f6+002+0f2+00a+0f2+0012+0f2+00b+08!0f2+04!003+0f6+00e+0f6+007+08!0f2+04!003+0f6+008+08!04!004+0f6+00e+0f6+00e+0f8+00c+0f52+"
 }

@@ -1,0 +1,25 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "Trigged1",
+      "symbol": "var_trigged1"
+    },
+    {
+      "id": "1",
+      "name": "MonkAttack",
+      "symbol": "var_monkattack"
+    },
+    {
+      "id": "2",
+      "name": "Trigged2",
+      "symbol": "var_trigged2"
+    },
+    {
+      "id": "3",
+      "name": "Level",
+      "symbol": "var_level"
+    }
+  ]
+}

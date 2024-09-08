@@ -3,18 +3,18 @@
   "variables": [
     {
       "id": "0",
-      "name": "Trigged1",
-      "symbol": "var_trigged1"
+      "name": "Variable 2",
+      "symbol": "var_variable_2"
     },
     {
       "id": "1",
-      "name": "MonkAttack",
-      "symbol": "var_monkattack"
+      "name": "Variable 1",
+      "symbol": "var_variable_1"
     },
     {
       "id": "2",
-      "name": "Trigged2",
-      "symbol": "var_trigged2"
+      "name": "Variable 3",
+      "symbol": "var_variable_3"
     },
     {
       "id": "3",

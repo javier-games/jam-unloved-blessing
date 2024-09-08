@@ -1,11 +1,11 @@
 {
   "_resourceType": "settings",
-  "worldScrollX": 83,
-  "worldScrollY": 1112,
-  "zoom": 225,
+  "worldScrollX": 54,
+  "worldScrollY": 1920,
+  "zoom": 275,
   "navigatorSplitSizes": [
-    907,
-    30,
+    732,
+    205,
     30,
     30
   ],
@@ -15,8 +15,7 @@
   "previewAsMono": false,
   "showCollisionSlopeTiles": true,
   "favoriteEvents": [
-    "EVENT_TEXT",
-    "EVENT_SWITCH_SCENE"
+    "EVENT_TEXT"
   ],
   "debuggerEnabled": false,
   "debuggerScriptType": "editor",
