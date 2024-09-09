@@ -136,11 +136,11 @@
                                 "sceneId": "32a758fe-08f2-49b5-a9ef-ffd0e8268330",
                                 "x": {
                                   "type": "number",
-                                  "value": 30
+                                  "value": 37
                                 },
                                 "y": {
                                   "type": "number",
-                                  "value": 6
+                                  "value": 7
                                 },
                                 "direction": "",
                                 "fadeSpeed": "2"
@@ -264,7 +264,7 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "0012c+0f4+0010+0f4+0012+0f2+0010+",
+  "collisions": "002+0f2+0010+0f4+0010+0f4+0013c+",
   "playerSpriteSheetId": "86c20946-8ec6-4bb4-a719-e17cefdc9ae3",
   "autoFadeEventCollapse": false
 }

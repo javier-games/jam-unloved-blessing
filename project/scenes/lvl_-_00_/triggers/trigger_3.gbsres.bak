@@ -8,7 +8,7 @@
   "x": 0,
   "y": 6,
   "width": 1,
-  "height": 1,
+  "height": 2,
   "prefabScriptOverrides": {
     "01f97802-0023-45f3-98ef-032bc2be6352": {
       "id": "01f97802-0023-45f3-98ef-032bc2be6352",
@@ -16,7 +16,11 @@
         "sceneId": "6f8954b4-2cc6-4241-ab8b-b1504f6fc25a",
         "x": {
           "type": "number",
-          "value": 16
+          "value": 17
+        },
+        "y": {
+          "type": "number",
+          "value": 6
         }
       }
     }

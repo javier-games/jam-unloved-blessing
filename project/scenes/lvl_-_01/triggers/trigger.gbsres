@@ -6,9 +6,20 @@
   "x": 19,
   "y": 6,
   "symbol": "trigger_12",
-  "prefabScriptOverrides": {},
+  "prefabScriptOverrides": {
+    "193692b1-157e-448b-bccb-cf52fa339079": {
+      "id": "193692b1-157e-448b-bccb-cf52fa339079",
+      "args": {
+        "direction": "right",
+        "y": {
+          "type": "number",
+          "value": 7
+        }
+      }
+    }
+  },
   "width": 1,
-  "height": 1,
+  "height": 2,
   "script": [
     {
       "command": "EVENT_SWITCH_SCENE",

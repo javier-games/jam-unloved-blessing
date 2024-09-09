@@ -137,7 +137,7 @@
                   }
                 }
               },
-              "moveType": "diagonal",
+              "moveType": "horizontal",
               "useCollisions": true,
               "__comment": false
             },

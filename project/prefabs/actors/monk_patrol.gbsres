@@ -5,8 +5,8 @@
   "frame": 0,
   "animate": false,
   "spriteSheetId": "e4376d2a-833e-4eab-9c83-fea33e77aba6",
-  "moveSpeed": 0.25,
-  "animSpeed": 63,
+  "moveSpeed": 1,
+  "animSpeed": 15,
   "paletteId": "",
   "persistent": false,
   "collisionGroup": "",
@@ -21,6 +21,35 @@
       "children": {}
     },
     {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "21a8cd39-2b3e-4aaa-9fa4-ea454b56b2d7",
+        "__collapse": false,
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "1"
+        },
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "0"
+        }
+      },
+      "id": "499d95df-91f1-4e9d-8f58-e474ffa3335e",
+      "children": {}
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L4",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "67224457-fd44-424e-9bcb-6dd9c33054c9"
+    },
+    {
       "command": "EVENT_SET_VALUE",
       "args": {
         "variable": "L0",
@@ -29,8 +58,7 @@
           "value": 0
         }
       },
-      "id": "b2043d0c-af28-4310-ad21-cd489d1ebccc",
-      "children": {}
+      "id": "d5422f21-9b44-43a3-a4f4-1a30fe027083"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -41,28 +69,9 @@
           "value": 0
         }
       },
-      "id": "998367b5-44a8-46f2-8a7c-03a5c322b5fa",
-      "children": {}
-    },
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
-        "customEventId": "21a8cd39-2b3e-4aaa-9fa4-ea454b56b2d7",
-        "__collapse": false,
-        "$variable[V0]$": {
-          "type": "variable",
-          "value": "L0"
-        },
-        "$variable[V1]$": {
-          "type": "variable",
-          "value": "L1"
-        }
-      },
-      "id": "499d95df-91f1-4e9d-8f58-e474ffa3335e",
-      "children": {}
+      "id": "468aeb11-63fb-45e8-8502-718eda96c2a2"
     }
   ],
-  "startScript": [],
   "updateScript": [
     {
       "command": "EVENT_IF",
@@ -88,11 +97,11 @@
               "actorId": "$self$",
               "x": {
                 "type": "number",
-                "value": 2
+                "value": 32
               },
               "y": {
                 "type": "number",
-                "value": 4
+                "value": 13
               },
               "__collapseElse": true,
               "__collapse": false
@@ -105,7 +114,7 @@
                     "variable": "L0",
                     "value": {
                       "type": "number",
-                      "value": 11
+                      "value": 18
                     }
                   },
                   "id": "311123a2-7458-4b77-aebe-aaf7e9439ab1",
@@ -117,7 +126,7 @@
                     "variable": "L1",
                     "value": {
                       "type": "number",
-                      "value": 11
+                      "value": 13
                     }
                   },
                   "id": "c7252b70-81b5-4076-9ca7-d5beb8eb5e91",
@@ -134,14 +143,14 @@
               "actorId": "$self$",
               "x": {
                 "type": "number",
-                "value": 11
+                "value": 18
               },
               "y": {
                 "type": "number",
-                "value": 11
+                "value": 13
               },
               "__collapseElse": true,
-              "__collapse": true,
+              "__collapse": false,
               "__comment": false
             },
             "children": {
@@ -152,7 +161,7 @@
                     "variable": "L0",
                     "value": {
                       "type": "number",
-                      "value": 2
+                      "value": 32
                     }
                   },
                   "id": "5b01d18c-2178-4fe2-850e-8d1afb9cef5e",
@@ -164,7 +173,7 @@
                     "variable": "L1",
                     "value": {
                       "type": "number",
-                      "value": 4
+                      "value": 13
                     }
                   },
                   "id": "51c749b8-85ca-45f6-9fa9-d6bddbcdbe0c",
@@ -176,42 +185,32 @@
             "id": "9e376987-8730-4428-9c17-dc220e38b36b"
           },
           {
-            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
-              "customEventId": "96dd9784-f3a3-4654-9e56-85e710b23085",
-              "$variable[V3]$": {
-                "type": "variable",
-                "value": "L2"
-              },
-              "$variable[V4]$": {
-                "type": "variable",
-                "value": "L3"
-              },
-              "$variable[V1]$": {
+              "actorId": "$self$",
+              "x": {
                 "type": "variable",
                 "value": "L0"
               },
-              "$variable[V2]$": {
+              "y": {
                 "type": "variable",
                 "value": "L1"
               },
-              "__collapse": true
+              "moveType": "horizontal",
+              "useCollisions": true
             },
-            "id": "56c9e051-7f70-43a4-8828-82efe2e67c0a",
-            "children": {}
+            "id": "5063c4e7-eb4e-4c62-b3e7-6f027d618e6a"
           },
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
               "customEventId": "82d3579c-3f5c-416b-be06-d46d2a254678",
-              "__collapse": true,
               "$variable[V0]$": {
                 "type": "variable",
                 "value": "L4"
               }
             },
-            "id": "60c80378-5acd-40b7-85a1-2b39a84bdae9",
-            "children": {}
+            "id": "cdbcfc12-97bf-4e76-8bed-18e918c52832"
           }
         ],
         "false": [
@@ -219,7 +218,7 @@
             "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
             "args": {
               "actorId": "$self$",
-              "speed": 1.5
+              "speed": 1.8
             },
             "id": "c34f3e5e-da18-4634-9c1d-7d2e3cfbe373"
           },
@@ -237,7 +236,7 @@
               "operator": "<=",
               "distance": {
                 "type": "number",
-                "value": 1
+                "value": 2
               },
               "otherActorId": "$self$",
               "__collapseElse": true

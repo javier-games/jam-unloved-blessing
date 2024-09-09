@@ -1,33 +1,56 @@
 {
   "_resourceType": "trigger",
-  "id": "f03be592-6eb6-4823-96e2-d88b04708c9c",
+  "id": "5c4d4681-f2a2-4f62-8003-c5a2ea09cce7",
   "name": "",
-  "prefabId": "",
-  "x": 19,
-  "y": 7,
-  "symbol": "trigger_9",
-  "prefabScriptOverrides": {},
-  "width": 1,
-  "height": 1,
-  "script": [
-    {
-      "command": "EVENT_SWITCH_SCENE",
+  "prefabId": "ece88223-f0a2-4346-b6f6-7560b513d152",
+  "x": 0,
+  "y": 6,
+  "symbol": "trigger_10",
+  "prefabScriptOverrides": {
+    "0e828108-d2ac-4ce4-aef3-a96d262fd1f7": {
+      "id": "0e828108-d2ac-4ce4-aef3-a96d262fd1f7",
       "args": {
-        "sceneId": "dececb72-0e93-4fee-b8e0-163b243276f3",
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "3"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        }
+      }
+    },
+    "7a353a7a-b82e-4d85-a0e1-024a0f2f9da9": {
+      "id": "7a353a7a-b82e-4d85-a0e1-024a0f2f9da9",
+      "args": {
+        "sceneId": "32a758fe-08f2-49b5-a9ef-ffd0e8268330",
         "x": {
           "type": "number",
-          "value": 1
+          "value": 37
         },
         "y": {
           "type": "number",
-          "value": 7
-        },
-        "direction": "",
-        "fadeSpeed": 1
-      },
-      "id": "d847563e-c78b-43ec-ba70-9d54f83c245a"
+          "value": 6
+        }
+      }
+    },
+    "7184b618-8f55-47f9-a3fc-642f86bf993c": {
+      "id": "7184b618-8f55-47f9-a3fc-642f86bf993c",
+      "args": {
+        "sceneId": "2130fd00-2d6d-4403-b19a-f5d5aaee6ffc",
+        "x": {
+          "type": "number",
+          "value": 37
+        }
+      }
     }
-  ],
+  },
+  "width": 1,
+  "height": 2,
+  "script": [],
   "leaveScript": [],
   "_index": 1
 }

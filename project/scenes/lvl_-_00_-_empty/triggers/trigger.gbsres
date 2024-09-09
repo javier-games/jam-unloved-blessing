@@ -8,7 +8,7 @@
   "x": 0,
   "y": 6,
   "width": 1,
-  "height": 1,
+  "height": 2,
   "prefabScriptOverrides": {
     "7a353a7a-b82e-4d85-a0e1-024a0f2f9da9": {
       "id": "7a353a7a-b82e-4d85-a0e1-024a0f2f9da9",
@@ -16,6 +16,12 @@
         "x": {
           "type": "number",
           "value": 17
+        },
+        "sceneId": "6f8954b4-2cc6-4241-ab8b-b1504f6fc25a",
+        "direction": "left",
+        "y": {
+          "type": "number",
+          "value": 7
         }
       }
     },
@@ -28,8 +34,9 @@
         },
         "y": {
           "type": "number",
-          "value": 6
-        }
+          "value": 7
+        },
+        "direction": "left"
       }
     }
   },

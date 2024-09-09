@@ -10,12 +10,13 @@
     "193692b1-157e-448b-bccb-cf52fa339079": {
       "id": "193692b1-157e-448b-bccb-cf52fa339079",
       "args": {
-        "sceneId": "7446b903-b46b-4d36-8c06-161a61fd2dea"
+        "sceneId": "7446b903-b46b-4d36-8c06-161a61fd2dea",
+        "direction": "right"
       }
     }
   },
   "width": 1,
-  "height": 1,
+  "height": 2,
   "script": [],
   "leaveScript": [],
   "_index": 0

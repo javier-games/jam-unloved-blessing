@@ -12,13 +12,13 @@
       "args": {
         "y": {
           "type": "number",
-          "value": 6
+          "value": 7
         }
       }
     }
   },
   "width": 1,
-  "height": 1,
+  "height": 2,
   "script": [],
   "leaveScript": [],
   "_index": 0

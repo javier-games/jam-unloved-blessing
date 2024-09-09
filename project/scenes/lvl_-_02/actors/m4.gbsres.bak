@@ -1,0 +1,114 @@
+{
+  "_resourceType": "actor",
+  "id": "86b7d6a7-14e3-4fd5-8639-f5ce79afb191",
+  "name": "M4",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "4fcb39a1-9f20-45ea-86c8-aa83b07a95e9",
+  "prefabId": "3fd2a524-3667-4c7e-8a4c-c5641282510d",
+  "direction": "right",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {
+    "65620ef6-c568-4c28-b64f-ccb45ab2c48c": {
+      "id": "65620ef6-c568-4c28-b64f-ccb45ab2c48c",
+      "args": {
+        "y": {
+          "type": "number",
+          "value": 5
+        },
+        "x": {
+          "type": "number",
+          "value": 21
+        }
+      }
+    },
+    "9e376987-8730-4428-9c17-dc220e38b36b": {
+      "id": "9e376987-8730-4428-9c17-dc220e38b36b",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 10
+        },
+        "y": {
+          "type": "number",
+          "value": 5
+        }
+      }
+    },
+    "5b01d18c-2178-4fe2-850e-8d1afb9cef5e": {
+      "id": "5b01d18c-2178-4fe2-850e-8d1afb9cef5e",
+      "args": {
+        "value": {
+          "type": "number",
+          "value": 21
+        }
+      }
+    },
+    "51c749b8-85ca-45f6-9fa9-d6bddbcdbe0c": {
+      "id": "51c749b8-85ca-45f6-9fa9-d6bddbcdbe0c",
+      "args": {
+        "value": {
+          "type": "number",
+          "value": 5
+        }
+      }
+    },
+    "311123a2-7458-4b77-aebe-aaf7e9439ab1": {
+      "id": "311123a2-7458-4b77-aebe-aaf7e9439ab1",
+      "args": {
+        "value": {
+          "type": "number",
+          "value": 10
+        }
+      }
+    },
+    "c7252b70-81b5-4076-9ca7-d5beb8eb5e91": {
+      "id": "c7252b70-81b5-4076-9ca7-d5beb8eb5e91",
+      "args": {
+        "value": {
+          "type": "number",
+          "value": 5
+        }
+      }
+    },
+    "20acccc2-45c5-4dc0-a578-38ae31adb459": {
+      "id": "20acccc2-45c5-4dc0-a578-38ae31adb459",
+      "args": {
+        "actorId": "$self$"
+      }
+    },
+    "d5422f21-9b44-43a3-a4f4-1a30fe027083": {
+      "id": "d5422f21-9b44-43a3-a4f4-1a30fe027083",
+      "args": {
+        "value": {
+          "type": "number",
+          "value": 21
+        }
+      }
+    },
+    "468aeb11-63fb-45e8-8502-718eda96c2a2": {
+      "id": "468aeb11-63fb-45e8-8502-718eda96c2a2",
+      "args": {
+        "value": {
+          "type": "number",
+          "value": 5
+        }
+      }
+    }
+  },
+  "symbol": "actor_7",
+  "script": [],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 18,
+  "y": 5,
+  "_index": 4
+}

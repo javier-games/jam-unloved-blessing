@@ -1,8 +1,8 @@
 {
   "_resourceType": "settings",
-  "worldScrollX": 1679,
-  "worldScrollY": 3860,
-  "zoom": 575,
+  "worldScrollX": 0,
+  "worldScrollY": 467,
+  "zoom": 125,
   "navigatorSplitSizes": [
     382,
     205,
@@ -15,7 +15,7 @@
   "previewAsMono": false,
   "showCollisionSlopeTiles": true,
   "favoriteEvents": [],
-  "debuggerEnabled": false,
+  "debuggerEnabled": true,
   "debuggerScriptType": "editor",
   "debuggerVariablesFilter": "all",
   "debuggerCollapsedPanes": [],

@@ -14,7 +14,7 @@
     {
       "command": "EVENT_IF_ACTOR_AT_POSITION",
       "args": {
-        "actorId": "10f5d646-5640-4dc8-9cac-30528d703c8c",
+        "actorId": "b39f7690-9318-4dca-aabc-13cbfcc851b8",
         "x": {
           "type": "number",
           "value": 6
@@ -23,14 +23,15 @@
           "type": "number",
           "value": 6
         },
-        "__collapseElse": true
+        "__collapseElse": true,
+        "__collapse": false
       },
       "children": {
         "true": [
           {
             "command": "EVENT_ACTOR_SET_DIRECTION",
             "args": {
-              "actorId": "10f5d646-5640-4dc8-9cac-30528d703c8c",
+              "actorId": "b39f7690-9318-4dca-aabc-13cbfcc851b8",
               "direction": {
                 "type": "direction",
                 "value": "right"
@@ -42,16 +43,24 @@
           {
             "command": "EVENT_ACTOR_EMOTE",
             "args": {
-              "actorId": "10f5d646-5640-4dc8-9cac-30528d703c8c",
+              "actorId": "b39f7690-9318-4dca-aabc-13cbfcc851b8",
               "emoteId": "58ad7db9-d51f-496e-90e7-f7d4fc8a993d",
               "__collapse": false
             },
             "id": "05383606-1062-4981-afc3-1820f8bd3b10"
           },
           {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "e4137f77-1fd3-415b-8842-3256a0f815a9"
+            },
+            "id": "5bf72b6c-02f7-4b17-a4c2-91669635c5e8"
+          },
+          {
             "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
-              "actorId": "10f5d646-5640-4dc8-9cac-30528d703c8c",
+              "actorId": "b39f7690-9318-4dca-aabc-13cbfcc851b8",
               "x": {
                 "type": "number",
                 "value": 0
@@ -70,7 +79,7 @@
           {
             "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
-              "actorId": "10f5d646-5640-4dc8-9cac-30528d703c8c"
+              "actorId": "b39f7690-9318-4dca-aabc-13cbfcc851b8"
             },
             "id": "a428f1f2-cb6a-4ffa-ba44-411630419c52"
           }

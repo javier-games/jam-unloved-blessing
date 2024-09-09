@@ -4,7 +4,7 @@
     {
       "id": "0",
       "name": "Variable 2",
-      "symbol": "var_variable_2"
+      "symbol": "var_variable_0"
     },
     {
       "id": "1",
@@ -50,6 +50,36 @@
       "id": "bf7a906a-cec7-49cd-abfc-ba1ae5387c04__L4",
       "name": "PlayerFound",
       "symbol": "var_playerfound"
+    },
+    {
+      "id": "3fd2a524-3667-4c7e-8a4c-c5641282510d__L0",
+      "name": "Target.X",
+      "symbol": "var_target_x_0"
+    },
+    {
+      "id": "3fd2a524-3667-4c7e-8a4c-c5641282510d__L1",
+      "name": "Target.Y",
+      "symbol": "var_target_y_0"
+    },
+    {
+      "id": "3fd2a524-3667-4c7e-8a4c-c5641282510d__L2",
+      "name": "Diff.X",
+      "symbol": "var_diff_x_0"
+    },
+    {
+      "id": "3fd2a524-3667-4c7e-8a4c-c5641282510d__L3",
+      "name": "Diff.Y",
+      "symbol": "var_diff_y_0"
+    },
+    {
+      "id": "3fd2a524-3667-4c7e-8a4c-c5641282510d__L4",
+      "name": "PlayerFound",
+      "symbol": "var_playerfound_0"
+    },
+    {
+      "id": "8a01f7bd-0ca6-40d9-80fe-b79039ca92cc__L0",
+      "name": "PlayerFound",
+      "symbol": "var_playerfound_1"
     }
   ]
 }
