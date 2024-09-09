@@ -8,8 +8,8 @@
     },
     {
       "id": "1",
-      "name": "Variable 1",
-      "symbol": "var_variable_1"
+      "name": "LevelExit1",
+      "symbol": "var_levelexit1"
     },
     {
       "id": "2",
@@ -20,6 +20,61 @@
       "id": "3",
       "name": "Level",
       "symbol": "var_level"
+    },
+    {
+      "id": "13f9a322-0631-40dd-bc02-2ba8525b72d8__L0",
+      "name": "InAreaA",
+      "symbol": "var_inareaa"
+    },
+    {
+      "id": "bf7a906a-cec7-49cd-abfc-ba1ae5387c04__L0",
+      "name": "Target.X",
+      "symbol": "var_target_x"
+    },
+    {
+      "id": "bf7a906a-cec7-49cd-abfc-ba1ae5387c04__L1",
+      "name": "Target.Y",
+      "symbol": "var_target_y"
+    },
+    {
+      "id": "bf7a906a-cec7-49cd-abfc-ba1ae5387c04__L2",
+      "name": "Diff.X",
+      "symbol": "var_diff_x"
+    },
+    {
+      "id": "bf7a906a-cec7-49cd-abfc-ba1ae5387c04__L3",
+      "name": "Diff.Y",
+      "symbol": "var_diff_y"
+    },
+    {
+      "id": "bf7a906a-cec7-49cd-abfc-ba1ae5387c04__L4",
+      "name": "PlayerFound",
+      "symbol": "var_playerfound"
+    },
+    {
+      "id": "3fd2a524-3667-4c7e-8a4c-c5641282510d__L0",
+      "name": "Target.X",
+      "symbol": "var_target_x"
+    },
+    {
+      "id": "3fd2a524-3667-4c7e-8a4c-c5641282510d__L1",
+      "name": "Target.Y",
+      "symbol": "var_target_y"
+    },
+    {
+      "id": "3fd2a524-3667-4c7e-8a4c-c5641282510d__L2",
+      "name": "Diff.X",
+      "symbol": "var_diff_x"
+    },
+    {
+      "id": "3fd2a524-3667-4c7e-8a4c-c5641282510d__L3",
+      "name": "Diff.Y",
+      "symbol": "var_diff_y"
+    },
+    {
+      "id": "3fd2a524-3667-4c7e-8a4c-c5641282510d__L4",
+      "name": "PlayerFound",
+      "symbol": "var_playerfound"
     }
   ]
 }

@@ -1,22 +1,20 @@
 {
   "_resourceType": "settings",
-  "worldScrollX": 54,
-  "worldScrollY": 220,
-  "zoom": 275,
+  "worldScrollX": 1679,
+  "worldScrollY": 3860,
+  "zoom": 575,
   "navigatorSplitSizes": [
-    732,
+    382,
     205,
-    30,
-    30
+    205,
+    205
   ],
   "showNavigator": true,
   "showCollisions": true,
   "showConnections": true,
   "previewAsMono": false,
   "showCollisionSlopeTiles": true,
-  "favoriteEvents": [
-    "EVENT_TEXT"
-  ],
+  "favoriteEvents": [],
   "debuggerEnabled": false,
   "debuggerScriptType": "editor",
   "debuggerVariablesFilter": "all",

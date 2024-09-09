@@ -9,7 +9,15 @@
   "prefabScriptOverrides": {},
   "width": 4,
   "height": 10,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_ACTOR_STOP_UPDATE",
+      "args": {
+        "actorId": "bddde92b-c331-4346-b23c-e80080363762"
+      },
+      "id": "cf00178a-d03a-4186-93aa-2fdfaa8df274"
+    }
+  ],
   "leaveScript": [],
-  "_index": 4
+  "_index": 2
 }

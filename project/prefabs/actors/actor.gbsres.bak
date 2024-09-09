@@ -1,0 +1,85 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "8a01f7bd-0ca6-40d9-80fe-b79039ca92cc",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "3d2406d5-3c6c-440e-8efb-da3bcedff758",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "",
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF_ACTOR_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "up"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF_ACTOR_RELATIVE_TO_ACTOR",
+            "args": {
+              "actorId": "player",
+              "operation": "up",
+              "otherActorId": "$self$",
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "property",
+                        "target": "$self$",
+                        "property": "xpos"
+                      },
+                      "valueB": {
+                        "type": "property",
+                        "target": "player",
+                        "property": "xpos"
+                      }
+                    },
+                    "__collapseElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_ACTOR_EMOTE",
+                        "args": {
+                          "actorId": "$self$",
+                          "emoteId": "c4f691f5-51a1-4b57-bdfd-6e24363f60e9"
+                        },
+                        "id": "4a1f4b05-3a7a-43ba-b5d5-17412a55a61d"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "ce2341c4-f88f-4167-8f61-4b227496afe3"
+                }
+              ],
+              "false": []
+            },
+            "id": "0d442af3-44e7-4b09-a6c9-53f4d1cca276"
+          }
+        ],
+        "false": []
+      },
+      "id": "a74820cc-6c1c-489d-b08d-8ecf7555972d"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

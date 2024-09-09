@@ -1,0 +1,43 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "8a01f7bd-0ca6-40d9-80fe-b79039ca92cc",
+  "name": "Monk",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "3d2406d5-3c6c-440e-8efb-da3bcedff758",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "",
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "21a8cd39-2b3e-4aaa-9fa4-ea454b56b2d7",
+        "$variable[V0]$": {
+          "type": "number",
+          "value": 0
+        },
+        "$variable[V1]$": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "78eab461-b694-4c3b-afbb-7503d8023113"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_STOP_UPDATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "522cb4b1-b07d-4c54-b4f4-61ffae288700"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

@@ -1,0 +1,86 @@
+{
+  "_resourceType": "script",
+  "id": "21a8cd39-2b3e-4aaa-9fa4-ea454b56b2d7",
+  "name": "Get Scared",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "ExitTileX",
+      "passByReference": false
+    },
+    "V1": {
+      "id": "V1",
+      "name": "ExitTileY",
+      "passByReference": false
+    }
+  },
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Pursuer"
+    }
+  },
+  "symbol": "script_3",
+  "script": [
+    {
+      "command": "EVENT_PLAYER_BOUNCE",
+      "args": {
+        "height": "high"
+      },
+      "id": "ba0aaade-1d1f-4302-940b-dd036a3a5fdb"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "0",
+        "emoteId": "58ad7db9-d51f-496e-90e7-f7d4fc8a993d"
+      },
+      "id": "ac80068e-2356-4582-9567-9bde685c5693"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "0",
+        "x": {
+          "type": "variable",
+          "value": "V0"
+        },
+        "y": {
+          "type": "variable",
+          "value": "V1"
+        },
+        "moveType": "horizontal",
+        "useCollisions": true,
+        "__collapse": false
+      },
+      "id": "7072af19-e88e-4da4-ade3-6a040542f5ca"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": false
+      },
+      "id": "a0f6bc8e-cdf6-423c-9385-cfd0bc9508fb"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "0"
+      },
+      "id": "912b34c0-a819-4ed0-b976-19a5a4e5582e"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "0",
+        "spriteStateId": "Death",
+        "loopAnim": false,
+        "__collapse": false
+      },
+      "id": "78197b9a-3f04-469f-856e-c3995c944652"
+    }
+  ]
+}
