@@ -4,9 +4,9 @@
   "name": "ui-intro",
   "symbol": "bg_unloved_blessing_intro",
   "width": 20,
-  "height": 32,
+  "height": 52,
   "imageWidth": 160,
-  "imageHeight": 256,
+  "imageHeight": 416,
   "filename": "ui-intro.png",
   "tileColors": "",
   "autoColor": true

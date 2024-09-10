@@ -8,7 +8,7 @@
   "x": 60,
   "y": 368,
   "width": 20,
-  "height": 32,
+  "height": 52,
   "backgroundId": "7d9f5943-bdb1-43d0-be9c-ee7ac0603add",
   "tilesetId": "",
   "paletteIds": [],
@@ -23,72 +23,38 @@
       }
     },
     {
-      "command": "EVENT_CAMERA_MOVE_TO",
+      "command": "EVENT_TEXT",
       "args": {
-        "x": {
-          "type": "number",
-          "value": 0
-        },
-        "y": {
-          "type": "number",
-          "value": 11
-        },
-        "speed": 1,
-        "__collapse": false,
-        "__comment": true
+        "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+        "text": [
+          "These chains... \nI can barely move.",
+          "I've been here for\ndays maybe months.",
+          "Theodora, where\nis Theodora??...",
+          "My head... ",
+          "Everything's \nspinning. ",
+          "Where those roars \ncame from?!?!",
+          "I was... home.\nWasn't I?",
+          "No... there was...\nsomething else.",
+          "Someone... \nthey took us..."
+        ],
+        "__section": "presets",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": false,
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
       },
-      "id": "8a51bfb0-0a06-48da-914d-525d5f100a0c"
-    },
-    {
-      "command": "EVENT_CAMERA_MOVE_TO",
-      "args": {
-        "x": {
-          "type": "number",
-          "value": 0
-        },
-        "y": {
-          "type": "number",
-          "value": 8
-        },
-        "speed": 2,
-        "__collapse": true,
-        "__comment": true
-      },
-      "id": "6d0ab808-72a6-4627-9693-ab3530741298"
-    },
-    {
-      "command": "EVENT_CAMERA_MOVE_TO",
-      "args": {
-        "x": {
-          "type": "number",
-          "value": 0
-        },
-        "y": {
-          "type": "number",
-          "value": 5
-        },
-        "speed": 2,
-        "__collapse": true,
-        "__comment": true
-      },
-      "id": "af66595a-9b9a-4bba-888c-a92e590c0c3d"
-    },
-    {
-      "command": "EVENT_CAMERA_MOVE_TO",
-      "args": {
-        "x": {
-          "type": "number",
-          "value": 0
-        },
-        "y": {
-          "type": "number",
-          "value": 2
-        },
-        "speed": 2,
-        "__collapse": true,
-        "__comment": true
-      },
-      "id": "d43a4d63-36cd-4a2d-b14f-36949ea11855"
+      "id": "59f9df06-ef55-47ed-ba20-5d1bd857a201"
     },
     {
       "command": "EVENT_CAMERA_MOVE_TO",
@@ -132,14 +98,14 @@
       "id": "0e495646-a732-485d-94a3-1ed37ae55e96",
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "4a9bec0d-6332-408c-8bd6-3a968a77172d",
+        "sceneId": "0c4c5829-54b8-430d-961d-07e3be29cf66",
         "x": {
           "type": "number",
-          "value": 12
+          "value": 0
         },
         "y": {
           "type": "number",
-          "value": 8
+          "value": 0
         },
         "direction": "down",
         "fadeSpeed": "2"
@@ -149,5 +115,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "00280+"
+  "collisions": "00410+"
 }

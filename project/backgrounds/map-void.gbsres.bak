@@ -8,6 +8,5 @@
   "imageWidth": 320,
   "imageHeight": 320,
   "filename": "map-void.png",
-  "tileColors": "",
-  "autoColor": false
+  "tileColors": ""
 }
