@@ -19,6 +19,384 @@
   "symbol": "script_1",
   "script": [
     {
+      "command": "EVENT_IF_ACTOR_DIRECTION",
+      "args": {
+        "actorId": "0",
+        "direction": {
+          "type": "direction",
+          "value": "left"
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF_ACTOR_RELATIVE_TO_ACTOR",
+            "args": {
+              "actorId": "player",
+              "operation": "left",
+              "otherActorId": "0",
+              "__collapseElse": true,
+              "__collapse": false
+            },
+            "children": {
+              "true": [],
+              "false": []
+            },
+            "id": "2903f41b-63af-412f-bdcd-df41cfbcd14e"
+          }
+        ],
+        "false": []
+      },
+      "id": "d490888e-0cc5-4b53-bfc8-ab1cc0dfdaf7"
+    },
+    {
+      "command": "EVENT_IF_ACTOR_DIRECTION",
+      "args": {
+        "actorId": "0",
+        "direction": {
+          "type": "direction",
+          "value": "up"
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF_ACTOR_RELATIVE_TO_ACTOR",
+            "args": {
+              "actorId": "player",
+              "operation": "up",
+              "otherActorId": "0",
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "bOR",
+                      "valueA": {
+                        "type": "eq",
+                        "valueA": {
+                          "type": "property",
+                          "target": "0",
+                          "property": "xpos"
+                        },
+                        "valueB": {
+                          "type": "property",
+                          "target": "player",
+                          "property": "xpos"
+                        }
+                      },
+                      "valueB": {
+                        "type": "or",
+                        "valueA": {
+                          "type": "eq",
+                          "valueA": {
+                            "type": "property",
+                            "target": "0",
+                            "property": "xpos"
+                          },
+                          "valueB": {
+                            "type": "add",
+                            "valueA": {
+                              "type": "property",
+                              "target": "player",
+                              "property": "xpos"
+                            },
+                            "valueB": {
+                              "type": "number",
+                              "value": 1
+                            }
+                          }
+                        },
+                        "valueB": {
+                          "type": "eq",
+                          "valueA": {
+                            "type": "property",
+                            "target": "player",
+                            "property": "xpos"
+                          },
+                          "valueB": {
+                            "type": "sub",
+                            "valueA": {
+                              "type": "property",
+                              "target": "player",
+                              "property": "xpos"
+                            },
+                            "valueB": {
+                              "type": "number",
+                              "value": 1
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "__collapseElse": true,
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "V0",
+                          "value": {
+                            "type": "true"
+                          }
+                        },
+                        "id": "b9537c15-4d23-4c3f-be5a-e292e53c88ff"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "ca0f0c0c-9d78-4842-b05e-a493a273dc6d"
+                }
+              ],
+              "false": []
+            },
+            "id": "eebb0932-862c-44a8-8c8b-cd1e63ad2ecf"
+          }
+        ],
+        "false": []
+      },
+      "id": "955ecc4f-8240-4dd6-b291-050fa14ada75"
+    },
+    {
+      "command": "EVENT_IF_ACTOR_DIRECTION",
+      "args": {
+        "actorId": "0",
+        "direction": {
+          "type": "direction",
+          "value": "down"
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF_ACTOR_RELATIVE_TO_ACTOR",
+            "args": {
+              "actorId": "player",
+              "operation": "down",
+              "otherActorId": "0",
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "bOR",
+                      "valueA": {
+                        "type": "eq",
+                        "valueA": {
+                          "type": "property",
+                          "target": "0",
+                          "property": "xpos"
+                        },
+                        "valueB": {
+                          "type": "property",
+                          "target": "player",
+                          "property": "xpos"
+                        }
+                      },
+                      "valueB": {
+                        "type": "or",
+                        "valueA": {
+                          "type": "eq",
+                          "valueA": {
+                            "type": "property",
+                            "target": "0",
+                            "property": "xpos"
+                          },
+                          "valueB": {
+                            "type": "add",
+                            "valueA": {
+                              "type": "property",
+                              "target": "player",
+                              "property": "xpos"
+                            },
+                            "valueB": {
+                              "type": "number",
+                              "value": 1
+                            }
+                          }
+                        },
+                        "valueB": {
+                          "type": "eq",
+                          "valueA": {
+                            "type": "property",
+                            "target": "0",
+                            "property": "xpos"
+                          },
+                          "valueB": {
+                            "type": "sub",
+                            "valueA": {
+                              "type": "property",
+                              "target": "player",
+                              "property": "xpos"
+                            },
+                            "valueB": {
+                              "type": "number",
+                              "value": 1
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "__collapseElse": true,
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "V0",
+                          "value": {
+                            "type": "true"
+                          }
+                        },
+                        "id": "26309185-c8a4-4d56-9db8-b99bb76e79bc"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "9b8e73ec-84fb-4120-99ea-c9edb300ffc9"
+                }
+              ],
+              "false": []
+            },
+            "id": "98e2ee19-0e7c-4636-a300-0486d796481e"
+          }
+        ],
+        "false": []
+      },
+      "id": "78f909b0-dada-4f79-8b1e-620dd6603f4f"
+    },
+    {
+      "command": "EVENT_IF_ACTOR_DIRECTION",
+      "args": {
+        "actorId": "0",
+        "direction": {
+          "type": "direction",
+          "value": "right"
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF_ACTOR_RELATIVE_TO_ACTOR",
+            "args": {
+              "actorId": "player",
+              "operation": "right",
+              "otherActorId": "0",
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "bOR",
+                      "valueA": {
+                        "type": "eq",
+                        "valueA": {
+                          "type": "property",
+                          "target": "0",
+                          "property": "ypos"
+                        },
+                        "valueB": {
+                          "type": "property",
+                          "target": "player",
+                          "property": "ypos"
+                        }
+                      },
+                      "valueB": {
+                        "type": "or",
+                        "valueA": {
+                          "type": "eq",
+                          "valueA": {
+                            "type": "property",
+                            "target": "0",
+                            "property": "ypos"
+                          },
+                          "valueB": {
+                            "type": "add",
+                            "valueA": {
+                              "type": "property",
+                              "target": "player",
+                              "property": "ypos"
+                            },
+                            "valueB": {
+                              "type": "number",
+                              "value": 1
+                            }
+                          }
+                        },
+                        "valueB": {
+                          "type": "eq",
+                          "valueA": {
+                            "type": "property",
+                            "target": "0",
+                            "property": "ypos"
+                          },
+                          "valueB": {
+                            "type": "sub",
+                            "valueA": {
+                              "type": "property",
+                              "target": "player",
+                              "property": "ypos"
+                            },
+                            "valueB": {
+                              "type": "number",
+                              "value": 1
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "__collapseElse": true,
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "V0",
+                          "value": {
+                            "type": "true"
+                          }
+                        },
+                        "id": "ef4832ed-703b-437f-a275-fcce3a0a5b9d"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "3643ebb7-24a9-451d-85cd-591d9a993b9b"
+                }
+              ],
+              "false": []
+            },
+            "id": "95993dcc-7463-4d3b-817c-a477b5735cb9"
+          }
+        ],
+        "false": []
+      },
+      "id": "1fd70f1d-9abe-412b-9d48-f2ec8415cf8a"
+    },
+    {
       "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
       "args": {
         "actorId": "0",
@@ -28,7 +406,9 @@
           "value": 2
         },
         "otherActorId": "$self$",
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": true,
+        "__comment": true
       },
       "children": {
         "true": [
@@ -45,465 +425,86 @@
         ],
         "false": [
           {
-            "command": "EVENT_IF_ACTOR_DIRECTION",
+            "command": "EVENT_IF",
             "args": {
-              "actorId": "0",
-              "direction": {
-                "type": "direction",
-                "value": "left"
+              "condition": {
+                "type": "bOR",
+                "valueA": {
+                  "type": "eq",
+                  "valueA": {
+                    "type": "property",
+                    "target": "0",
+                    "property": "ypos"
+                  },
+                  "valueB": {
+                    "type": "property",
+                    "target": "player",
+                    "property": "ypos"
+                  }
+                },
+                "valueB": {
+                  "type": "or",
+                  "valueA": {
+                    "type": "eq",
+                    "valueA": {
+                      "type": "property",
+                      "target": "0",
+                      "property": "ypos"
+                    },
+                    "valueB": {
+                      "type": "add",
+                      "valueA": {
+                        "type": "property",
+                        "target": "player",
+                        "property": "ypos"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 1
+                      }
+                    }
+                  },
+                  "valueB": {
+                    "type": "eq",
+                    "valueA": {
+                      "type": "property",
+                      "target": "0",
+                      "property": "ypos"
+                    },
+                    "valueB": {
+                      "type": "sub",
+                      "valueA": {
+                        "type": "property",
+                        "target": "player",
+                        "property": "ypos"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 1
+                      }
+                    }
+                  }
+                }
               },
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
                 {
-                  "command": "EVENT_IF_ACTOR_RELATIVE_TO_ACTOR",
+                  "command": "EVENT_SET_VALUE",
                   "args": {
-                    "actorId": "player",
-                    "operation": "left",
-                    "otherActorId": "0",
-                    "__collapseElse": true,
-                    "__collapse": false
+                    "variable": "V0",
+                    "value": {
+                      "type": "true"
+                    }
                   },
-                  "children": {
-                    "true": [
-                      {
-                        "command": "EVENT_IF",
-                        "args": {
-                          "condition": {
-                            "type": "bOR",
-                            "valueA": {
-                              "type": "eq",
-                              "valueA": {
-                                "type": "property",
-                                "target": "0",
-                                "property": "ypos"
-                              },
-                              "valueB": {
-                                "type": "property",
-                                "target": "player",
-                                "property": "ypos"
-                              }
-                            },
-                            "valueB": {
-                              "type": "or",
-                              "valueA": {
-                                "type": "eq",
-                                "valueA": {
-                                  "type": "property",
-                                  "target": "0",
-                                  "property": "ypos"
-                                },
-                                "valueB": {
-                                  "type": "add",
-                                  "valueA": {
-                                    "type": "property",
-                                    "target": "player",
-                                    "property": "ypos"
-                                  },
-                                  "valueB": {
-                                    "type": "number",
-                                    "value": 1
-                                  }
-                                }
-                              },
-                              "valueB": {
-                                "type": "eq",
-                                "valueA": {
-                                  "type": "property",
-                                  "target": "0",
-                                  "property": "ypos"
-                                },
-                                "valueB": {
-                                  "type": "sub",
-                                  "valueA": {
-                                    "type": "property",
-                                    "target": "player",
-                                    "property": "ypos"
-                                  },
-                                  "valueB": {
-                                    "type": "number",
-                                    "value": 1
-                                  }
-                                }
-                              }
-                            }
-                          },
-                          "__collapseElse": true,
-                          "__collapse": false
-                        },
-                        "children": {
-                          "true": [
-                            {
-                              "command": "EVENT_SET_VALUE",
-                              "args": {
-                                "variable": "V0",
-                                "value": {
-                                  "type": "true"
-                                }
-                              },
-                              "id": "9ff24ef2-6a5f-46a7-bedd-47717d7c1b2c"
-                            }
-                          ],
-                          "false": []
-                        },
-                        "id": "09e77a1f-c75b-4819-b678-789c7c7ccfa9"
-                      }
-                    ],
-                    "false": []
-                  },
-                  "id": "2903f41b-63af-412f-bdcd-df41cfbcd14e"
+                  "id": "9ff24ef2-6a5f-46a7-bedd-47717d7c1b2c"
                 }
               ],
               "false": []
             },
-            "id": "d490888e-0cc5-4b53-bfc8-ab1cc0dfdaf7"
-          },
-          {
-            "command": "EVENT_IF_ACTOR_DIRECTION",
-            "args": {
-              "actorId": "0",
-              "direction": {
-                "type": "direction",
-                "value": "up"
-              },
-              "__collapseElse": true,
-              "__collapse": true
-            },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_IF_ACTOR_RELATIVE_TO_ACTOR",
-                  "args": {
-                    "actorId": "player",
-                    "operation": "up",
-                    "otherActorId": "0",
-                    "__collapseElse": true
-                  },
-                  "children": {
-                    "true": [
-                      {
-                        "command": "EVENT_IF",
-                        "args": {
-                          "condition": {
-                            "type": "bOR",
-                            "valueA": {
-                              "type": "eq",
-                              "valueA": {
-                                "type": "property",
-                                "target": "0",
-                                "property": "xpos"
-                              },
-                              "valueB": {
-                                "type": "property",
-                                "target": "player",
-                                "property": "xpos"
-                              }
-                            },
-                            "valueB": {
-                              "type": "or",
-                              "valueA": {
-                                "type": "eq",
-                                "valueA": {
-                                  "type": "property",
-                                  "target": "0",
-                                  "property": "xpos"
-                                },
-                                "valueB": {
-                                  "type": "add",
-                                  "valueA": {
-                                    "type": "property",
-                                    "target": "player",
-                                    "property": "xpos"
-                                  },
-                                  "valueB": {
-                                    "type": "number",
-                                    "value": 1
-                                  }
-                                }
-                              },
-                              "valueB": {
-                                "type": "eq",
-                                "valueA": {
-                                  "type": "property",
-                                  "target": "player",
-                                  "property": "xpos"
-                                },
-                                "valueB": {
-                                  "type": "sub",
-                                  "valueA": {
-                                    "type": "property",
-                                    "target": "player",
-                                    "property": "xpos"
-                                  },
-                                  "valueB": {
-                                    "type": "number",
-                                    "value": 1
-                                  }
-                                }
-                              }
-                            }
-                          },
-                          "__collapseElse": true,
-                          "__collapse": false
-                        },
-                        "children": {
-                          "true": [
-                            {
-                              "command": "EVENT_SET_VALUE",
-                              "args": {
-                                "variable": "V0",
-                                "value": {
-                                  "type": "true"
-                                }
-                              },
-                              "id": "b9537c15-4d23-4c3f-be5a-e292e53c88ff"
-                            }
-                          ],
-                          "false": []
-                        },
-                        "id": "ca0f0c0c-9d78-4842-b05e-a493a273dc6d"
-                      }
-                    ],
-                    "false": []
-                  },
-                  "id": "eebb0932-862c-44a8-8c8b-cd1e63ad2ecf"
-                }
-              ],
-              "false": []
-            },
-            "id": "955ecc4f-8240-4dd6-b291-050fa14ada75"
-          },
-          {
-            "command": "EVENT_IF_ACTOR_DIRECTION",
-            "args": {
-              "actorId": "0",
-              "direction": {
-                "type": "direction",
-                "value": "down"
-              },
-              "__collapseElse": true,
-              "__collapse": true
-            },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_IF_ACTOR_RELATIVE_TO_ACTOR",
-                  "args": {
-                    "actorId": "player",
-                    "operation": "down",
-                    "otherActorId": "0",
-                    "__collapseElse": true
-                  },
-                  "children": {
-                    "true": [
-                      {
-                        "command": "EVENT_IF",
-                        "args": {
-                          "condition": {
-                            "type": "bOR",
-                            "valueA": {
-                              "type": "eq",
-                              "valueA": {
-                                "type": "property",
-                                "target": "0",
-                                "property": "xpos"
-                              },
-                              "valueB": {
-                                "type": "property",
-                                "target": "player",
-                                "property": "xpos"
-                              }
-                            },
-                            "valueB": {
-                              "type": "or",
-                              "valueA": {
-                                "type": "eq",
-                                "valueA": {
-                                  "type": "property",
-                                  "target": "0",
-                                  "property": "xpos"
-                                },
-                                "valueB": {
-                                  "type": "add",
-                                  "valueA": {
-                                    "type": "property",
-                                    "target": "player",
-                                    "property": "xpos"
-                                  },
-                                  "valueB": {
-                                    "type": "number",
-                                    "value": 1
-                                  }
-                                }
-                              },
-                              "valueB": {
-                                "type": "eq",
-                                "valueA": {
-                                  "type": "property",
-                                  "target": "0",
-                                  "property": "xpos"
-                                },
-                                "valueB": {
-                                  "type": "sub",
-                                  "valueA": {
-                                    "type": "property",
-                                    "target": "player",
-                                    "property": "xpos"
-                                  },
-                                  "valueB": {
-                                    "type": "number",
-                                    "value": 1
-                                  }
-                                }
-                              }
-                            }
-                          },
-                          "__collapseElse": true,
-                          "__collapse": false
-                        },
-                        "children": {
-                          "true": [
-                            {
-                              "command": "EVENT_SET_VALUE",
-                              "args": {
-                                "variable": "V0",
-                                "value": {
-                                  "type": "true"
-                                }
-                              },
-                              "id": "26309185-c8a4-4d56-9db8-b99bb76e79bc"
-                            }
-                          ],
-                          "false": []
-                        },
-                        "id": "9b8e73ec-84fb-4120-99ea-c9edb300ffc9"
-                      }
-                    ],
-                    "false": []
-                  },
-                  "id": "98e2ee19-0e7c-4636-a300-0486d796481e"
-                }
-              ],
-              "false": []
-            },
-            "id": "78f909b0-dada-4f79-8b1e-620dd6603f4f"
-          },
-          {
-            "command": "EVENT_IF_ACTOR_DIRECTION",
-            "args": {
-              "actorId": "0",
-              "direction": {
-                "type": "direction",
-                "value": "right"
-              },
-              "__collapseElse": true,
-              "__collapse": true
-            },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_IF_ACTOR_RELATIVE_TO_ACTOR",
-                  "args": {
-                    "actorId": "player",
-                    "operation": "right",
-                    "otherActorId": "0",
-                    "__collapseElse": true
-                  },
-                  "children": {
-                    "true": [
-                      {
-                        "command": "EVENT_IF",
-                        "args": {
-                          "condition": {
-                            "type": "bOR",
-                            "valueA": {
-                              "type": "eq",
-                              "valueA": {
-                                "type": "property",
-                                "target": "0",
-                                "property": "ypos"
-                              },
-                              "valueB": {
-                                "type": "property",
-                                "target": "player",
-                                "property": "ypos"
-                              }
-                            },
-                            "valueB": {
-                              "type": "or",
-                              "valueA": {
-                                "type": "eq",
-                                "valueA": {
-                                  "type": "property",
-                                  "target": "0",
-                                  "property": "ypos"
-                                },
-                                "valueB": {
-                                  "type": "add",
-                                  "valueA": {
-                                    "type": "property",
-                                    "target": "player",
-                                    "property": "ypos"
-                                  },
-                                  "valueB": {
-                                    "type": "number",
-                                    "value": 1
-                                  }
-                                }
-                              },
-                              "valueB": {
-                                "type": "eq",
-                                "valueA": {
-                                  "type": "property",
-                                  "target": "0",
-                                  "property": "ypos"
-                                },
-                                "valueB": {
-                                  "type": "sub",
-                                  "valueA": {
-                                    "type": "property",
-                                    "target": "player",
-                                    "property": "ypos"
-                                  },
-                                  "valueB": {
-                                    "type": "number",
-                                    "value": 1
-                                  }
-                                }
-                              }
-                            }
-                          },
-                          "__collapseElse": true,
-                          "__collapse": false
-                        },
-                        "children": {
-                          "true": [
-                            {
-                              "command": "EVENT_SET_VALUE",
-                              "args": {
-                                "variable": "V0",
-                                "value": {
-                                  "type": "true"
-                                }
-                              },
-                              "id": "ef4832ed-703b-437f-a275-fcce3a0a5b9d"
-                            }
-                          ],
-                          "false": []
-                        },
-                        "id": "3643ebb7-24a9-451d-85cd-591d9a993b9b"
-                      }
-                    ],
-                    "false": []
-                  },
-                  "id": "95993dcc-7463-4d3b-817c-a477b5735cb9"
-                }
-              ],
-              "false": []
-            },
-            "id": "1fd70f1d-9abe-412b-9d48-f2ec8415cf8a"
+            "id": "09e77a1f-c75b-4819-b678-789c7c7ccfa9"
           }
         ]
       },

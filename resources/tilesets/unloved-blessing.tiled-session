@@ -3,10 +3,10 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "ui/ui-black.tmx",
+    "activeFile": "maps/map-church-b1-jail.tmx",
     "expandedProjectPaths": [
-        ".",
         "maps",
+        ".",
         "ui"
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -18,7 +18,7 @@
             "scale": 3,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 79.83333333333334,
+                "x": 79.99999999999999,
                 "y": 72
             }
         },
@@ -27,10 +27,10 @@
                 4
             ],
             "scale": 4,
-            "selectedLayer": 2,
+            "selectedLayer": 1,
             "viewCenter": {
-                "x": 80,
-                "y": 71.75
+                "x": 79.875,
+                "y": 37.25
             }
         },
         "maps/map-church-b1.tmx": {
@@ -59,8 +59,8 @@
             "scale": 2,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 124.25,
-                "y": 156.5
+                "x": 160.25,
+                "y": 160
             }
         },
         "spritesheeet.tsx": {
@@ -69,7 +69,7 @@
             "scaleInEditor": 1
         },
         "spritesheet.tsx": {
-            "scaleInDock": 0.5,
+            "scaleInDock": 1.5,
             "scaleInEditor": 1.5
         },
         "tileset.json": {
@@ -88,11 +88,11 @@
             }
         },
         "ui/ui-black.tmx": {
-            "scale": 6.133437499999999,
+            "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 79.97146787588527,
-                "y": 72.06399347837166
+                "x": 81.625,
+                "y": 68.5
             }
         },
         "ui/ui-intro-tileset.tsx": {
@@ -119,13 +119,13 @@
     ],
     "project": "unloved-blessing.tiled-project",
     "recentFiles": [
-        "maps/map-church-b1-jail.tmx",
-        "maps/map-church-b1-hall.tmx",
-        "spritesheet.tsx",
-        "maps/map-church-b1.tmx",
-        "maps/map-church-p0.tmx",
-        "maps/map-void.tmx",
         "ui/ui-black.tmx",
+        "maps/map-void.tmx",
+        "maps/map-church-p0.tmx",
+        "maps/map-church-b1.tmx",
+        "spritesheet.tsx",
+        "maps/map-church-b1-hall.tmx",
+        "maps/map-church-b1-jail.tmx",
         "ui/ui-intro-tileset.tsx",
         "ui/intro-tileset.tsx",
         "ui/intro.tmx"

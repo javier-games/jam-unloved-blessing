@@ -1,0 +1,457 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "a68c245c-db67-4c57-9b09-ba3ff8d83dfa",
+  "name": "Friend",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "4fcb39a1-9f20-45ea-86c8-aa83b07a95e9",
+  "moveSpeed": 2,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "_index": 0,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L1"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_STOP",
+            "args": {},
+            "id": "8762d89e-f397-4e42-aae0-3fc091806d0f"
+          }
+        ],
+        "false": []
+      },
+      "id": "69989515-4ddf-4c0e-8de6-40877fd81213"
+    },
+    {
+      "command": "EVENT_SWITCH",
+      "args": {
+        "variable": "3",
+        "choices": 2,
+        "__collapseCase0": false,
+        "value0": 1,
+        "__collapseCase1": false,
+        "value1": 2,
+        "__collapseCase2": false,
+        "value2": 3,
+        "__collapseCase3": false,
+        "value3": 4,
+        "__collapseCase4": false,
+        "value4": 5,
+        "__collapseCase5": false,
+        "value5": 6,
+        "__collapseCase6": false,
+        "value6": 7,
+        "__collapseCase7": false,
+        "value7": 8,
+        "__collapseCase8": false,
+        "value8": 9,
+        "__collapseCase9": false,
+        "value9": 10,
+        "__collapseCase10": false,
+        "value10": 11,
+        "__collapseCase11": false,
+        "value11": 12,
+        "__collapseCase12": false,
+        "value12": 13,
+        "__collapseCase13": false,
+        "value13": 14,
+        "__collapseCase14": false,
+        "value14": 15,
+        "__collapseCase15": false,
+        "value15": 16,
+        "__collapseElse": false
+      },
+      "children": {
+        "true0": [
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": {
+                "type": "direction",
+                "value": "up"
+              }
+            },
+            "id": "97271d67-7dd8-4802-a4d7-4a00ceb6e7fc"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "58ad7db9-d51f-496e-90e7-f7d4fc8a993d"
+            },
+            "id": "0c2e9959-fe73-4d23-9c45-6d3defea8f85"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+              "text": [
+                "Godwin: Oswald!!!\nYou are here!!",
+                "Oswald: Of course\nyou bastard!",
+                "You set this up,\nwhere is Theodora?",
+                "Where's she?",
+                "Godwin: Stay away!!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": false,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "cbeac627-d53e-4243-9518-95dcc11524d6"
+          }
+        ],
+        "true1": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+              "text": [
+                "Oswald: This is \nyour last chance.",
+                "You will be the\nfirst to know",
+                "what this body\nis capable of!!",
+                "Godwin: I serve to\na bigger purpose.",
+                "Do what ever you\nwant with this..",
+                "Mediocre damn\nvessel!!!",
+                "Oswald: You bloody\nbastard!!",
+                "Godwin: But...",
+                "If you care that\nmuch...",
+                "Take these keys..",
+                "And fuck your self!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": false,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "4cb2e0db-af9a-43e1-ba45-b8390040ffa5"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "2",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "bdbc1f3b-558e-42c5-b76a-d077c90dfab7"
+          }
+        ],
+        "true2": [],
+        "true3": [],
+        "true4": [],
+        "true5": [],
+        "true6": [],
+        "true7": [],
+        "true8": [],
+        "true9": [],
+        "true10": [],
+        "true11": [],
+        "true12": [],
+        "true13": [],
+        "true14": [],
+        "true15": [],
+        "false": []
+      },
+      "id": "c5b645fc-741f-48d0-930d-40cb1e8c370c"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "21a8cd39-2b3e-4aaa-9fa4-ea454b56b2d7",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "1"
+        },
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "0"
+        },
+        "__collapse": false
+      },
+      "id": "9ab23bc6-cac5-4744-ac9d-b0d7ef0ab0f9",
+      "children": {}
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L1",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "31498763-1df9-4067-84da-1ae7937e2dde"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "a6f2c1cd-9401-4ded-bd74-e82e50569976"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_STOP_UPDATE",
+      "args": {
+        "actorId": "$self$",
+        "__comment": false
+      },
+      "id": "a4f5fca8-9188-426b-873a-28cc7bd73a6f",
+      "children": {}
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L1",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "35ec020b-092c-440c-98aa-11840b25c949"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "163e3b3a-9f5a-4350-a30e-0d6ba5f9f214",
+      "children": {}
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "down"
+        }
+      },
+      "id": "f730a4c2-97b9-48c3-9e90-c245bcad7ad9",
+      "children": {}
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L1"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_STOP",
+            "args": {},
+            "id": "f8659751-a331-4ffe-8979-161fd3e67af9"
+          }
+        ],
+        "false": []
+      },
+      "id": "81cb2167-80d8-459e-948f-24de7fa9b3a0"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "f619456e-7c30-4a4a-a095-30a513e40168"
+            },
+            "id": "65e71fb9-403c-45d4-814e-682f09b7a168",
+            "children": {}
+          },
+          {
+            "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
+            "args": {
+              "actorId": "player",
+              "operator": "<=",
+              "distance": {
+                "type": "number",
+                "value": 2
+              },
+              "otherActorId": "$self$",
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "34f68254-9772-4d4f-a82b-438593e0ecee",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "direction": "",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "7c02b051-4b4d-40ac-8105-af0d87f1f127",
+                  "children": {}
+                }
+              ],
+              "false": []
+            },
+            "id": "846213c2-01f5-4f75-85e2-d44ac2aa9cfa"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "82d3579c-3f5c-416b-be06-d46d2a254678",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "L0"
+              },
+              "$actor[0]$": "$self$"
+            },
+            "id": "b2037de4-d3c8-409f-8fd1-ee0472ecba7a",
+            "children": {}
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L0"
+                },
+                "valueB": {
+                  "type": "true"
+                }
+              },
+              "__collapseElse": true,
+              "__comment": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+                    "text": [
+                      "Oswald: Godwin, \nis that you?",
+                      "Godwin: Shut up\nbeast!",
+                      "Oswald: It is me, \nyour friend Oswald.",
+                      "Godwin: I know is\nyou!",
+                      "I've been preparing\nyou for so long.\n",
+                      "And today, all the\neffort will be paid",
+                      "Now go back!!"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": false,
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "any",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "dd23cf04-565a-47c3-af66-340631e308b4"
+                }
+              ],
+              "false": []
+            },
+            "id": "4b0d1c25-1d39-4805-9a2f-51df34fe46ab"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.1,
+              "frames": 30
+            },
+            "id": "0cb00e87-2098-4cc2-995d-7fcd83c66a2a",
+            "children": {}
+          }
+        ]
+      },
+      "id": "0c2eec26-9c93-4cb1-bf28-a546639d0cfc"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

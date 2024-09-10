@@ -11,11 +11,58 @@
   "height": 2,
   "script": [
     {
-      "command": "EVENT_ACTOR_START_UPDATE",
+      "command": "EVENT_IF_ACTOR_AT_POSITION",
       "args": {
-        "actorId": "2b8ec913-9ea5-46eb-97b3-9c3c492efd4f"
+        "actorId": "cbaa39cb-2b4a-4fcd-90d0-3fe0c2a6e017",
+        "x": {
+          "type": "number",
+          "value": 26
+        },
+        "y": {
+          "type": "number",
+          "value": 5
+        },
+        "__collapseElse": true
       },
-      "id": "27c10b3f-5917-4089-8418-45e788ac06b1"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+              "text": [
+                "Godwin: I told you!\nStay away!!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": false,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "dd3371aa-cdab-41f0-9fd8-5189217cd236"
+          },
+          {
+            "command": "EVENT_ACTOR_START_UPDATE",
+            "args": {
+              "actorId": "cbaa39cb-2b4a-4fcd-90d0-3fe0c2a6e017"
+            },
+            "id": "27c10b3f-5917-4089-8418-45e788ac06b1"
+          }
+        ],
+        "false": []
+      },
+      "id": "305c800b-c110-49f8-a272-affec9c9678d"
     }
   ],
   "leaveScript": [],

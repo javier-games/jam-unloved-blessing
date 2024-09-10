@@ -51,6 +51,24 @@
           "value": 30
         }
       }
+    },
+    "9e376987-8730-4428-9c17-dc220e38b36b": {
+      "id": "9e376987-8730-4428-9c17-dc220e38b36b",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 20
+        }
+      }
+    },
+    "311123a2-7458-4b77-aebe-aaf7e9439ab1": {
+      "id": "311123a2-7458-4b77-aebe-aaf7e9439ab1",
+      "args": {
+        "value": {
+          "type": "number",
+          "value": 20
+        }
+      }
     }
   },
   "symbol": "actor_4",

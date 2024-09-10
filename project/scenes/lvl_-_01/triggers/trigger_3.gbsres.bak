@@ -4,20 +4,31 @@
   "name": "",
   "prefabId": "",
   "x": 2,
-  "y": 2,
+  "y": 6,
   "symbol": "trigger_0",
   "prefabScriptOverrides": {},
   "width": 2,
-  "height": 14,
-  "script": [],
-  "leaveScript": [
+  "height": 10,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "up"
+        }
+      },
+      "id": "ff79632e-10fb-4976-bb7e-e5d2abb59868"
+    },
     {
       "command": "EVENT_ACTOR_START_UPDATE",
       "args": {
         "actorId": "05384504-4346-416e-8372-e00d2a841894"
       },
-      "id": "c44108d8-7406-4df1-a0ec-08c2a25f95fb"
+      "id": "106415eb-a32c-47be-a5cd-cb7a0bf1210f"
     }
   ],
+  "leaveScript": [],
   "_index": 2
 }

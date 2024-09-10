@@ -3,23 +3,28 @@
   "variables": [
     {
       "id": "0",
-      "name": "Variable 2",
-      "symbol": "var_variable_0"
+      "name": "LevelExit.Y",
+      "symbol": "var_levelexit_y"
     },
     {
       "id": "1",
-      "name": "LevelExit1",
-      "symbol": "var_levelexit1"
+      "name": "LevelExit.X",
+      "symbol": "var_levelexit_x"
     },
     {
       "id": "2",
-      "name": "Variable 3",
-      "symbol": "var_variable_3"
+      "name": "HasKey",
+      "symbol": "var_haskey"
     },
     {
       "id": "3",
       "name": "Level",
       "symbol": "var_level"
+    },
+    {
+      "id": "4",
+      "name": "FoundWive",
+      "symbol": "var_foundwive"
     },
     {
       "id": "13f9a322-0631-40dd-bc02-2ba8525b72d8__L0",
@@ -80,6 +85,16 @@
       "id": "8a01f7bd-0ca6-40d9-80fe-b79039ca92cc__L0",
       "name": "PlayerFound",
       "symbol": "var_playerfound_1"
+    },
+    {
+      "id": "05384504-4346-416e-8372-e00d2a841894__L0",
+      "name": "PlayerFound",
+      "symbol": "var_playerfound_2"
+    },
+    {
+      "id": "a68c245c-db67-4c57-9b09-ba3ff8d83dfa__L0",
+      "name": "PlayerFound",
+      "symbol": "var_playerfound_3"
     }
   ]
 }

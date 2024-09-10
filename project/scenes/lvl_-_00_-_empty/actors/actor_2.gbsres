@@ -1,0 +1,108 @@
+{
+  "_resourceType": "actor",
+  "id": "a25ef220-4358-48a4-970a-be466d657578",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "41b88878-3e6a-4450-8362-629e4a0cbdab",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_24",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "4"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+              "text": [
+                "Oh!!! Theodora!!",
+                "I can not describe\nthis hurt that...",
+                "Burns in this body.",
+                "I will find the\nway to revenge us!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": false,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "704dc7ad-98a0-4a12-8887-145a7fae1150"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+              "text": [
+                "From this fire \nemanates a...",
+                "disgusting and...",
+                "unrecognizable\nsmell..."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": false,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "5a3f49ce-5d0f-404b-933e-1a1d40fee1c8"
+          }
+        ]
+      },
+      "id": "7bc85fe3-908a-462c-9708-21a137d4092d"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 10,
+  "y": 3,
+  "_index": 1
+}

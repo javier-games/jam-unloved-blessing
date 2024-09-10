@@ -1,0 +1,51 @@
+{
+  "_resourceType": "actor",
+  "id": "cbaa39cb-2b4a-4fcd-90d0-3fe0c2a6e017",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "4fcb39a1-9f20-45ea-86c8-aa83b07a95e9",
+  "prefabId": "a68c245c-db67-4c57-9b09-ba3ff8d83dfa",
+  "direction": "right",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {
+    "4cb2e0db-af9a-43e1-ba45-b8390040ffa5": {
+      "id": "4cb2e0db-af9a-43e1-ba45-b8390040ffa5",
+      "args": {
+        "__section": "text",
+        "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+        "text": "",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": false,
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      }
+    }
+  },
+  "symbol": "actor_3",
+  "script": [],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 26,
+  "y": 5,
+  "_index": 4
+}
