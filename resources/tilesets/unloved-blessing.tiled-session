@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "maps/map-church-b1.tmx",
+    "activeFile": "maps/map-church-b1-jail.tmx",
     "expandedProjectPaths": [
         ".",
         "maps"
@@ -15,10 +15,10 @@
                 3
             ],
             "scale": 3,
-            "selectedLayer": 1,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 84.5,
-                "y": 94.33333333333334
+                "x": 79.99999999999999,
+                "y": 72
             }
         },
         "maps/map-church-b1-jail.tmx": {
@@ -26,10 +26,10 @@
                 4
             ],
             "scale": 4,
-            "selectedLayer": 1,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 38.125,
-                "y": 36.75
+                "x": 80,
+                "y": 71.75
             }
         },
         "maps/map-church-b1.tmx": {
@@ -39,8 +39,27 @@
             "scale": 2,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 171.75,
-                "y": 43.5
+                "x": 177.25,
+                "y": 72
+            }
+        },
+        "maps/map-church-p0.tmx": {
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 4,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 88.125,
+                "y": 112
+            }
+        },
+        "maps/map-void.tmx": {
+            "scale": 2,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 160.25,
+                "y": 160
             }
         },
         "spritesheeet.tsx": {
@@ -56,8 +75,10 @@
             "scaleInDock": 1
         }
     },
+    "last.exportedFilePath": "D:/Projects/unloved-blessing/assets/backgrounds",
     "last.imagePath": "D:/Projects/unloved-blessing/resources/tilesets",
-    "map.height": 9,
+    "map.height": 20,
+    "map.lastUsedExportFilter": "All Files (*)",
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 16,
     "map.tileWidth": 16,
@@ -66,14 +87,18 @@
         "maps/map-church-b1-jail.tmx",
         "maps/map-church-b1-hall.tmx",
         "spritesheet.tsx",
-        "maps/map-church-b1.tmx"
+        "maps/map-church-b1.tmx",
+        "maps/map-church-p0.tmx",
+        "maps/map-void.tmx"
     ],
     "project": "unloved-blessing.tiled-project",
     "recentFiles": [
-        "maps/map-church-b1-jail.tmx",
-        "maps/map-church-b1-hall.tmx",
+        "maps/map-void.tmx",
+        "maps/map-church-p0.tmx",
+        "maps/map-church-b1.tmx",
         "spritesheet.tsx",
-        "maps/map-church-b1.tmx"
+        "maps/map-church-b1-hall.tmx",
+        "maps/map-church-b1-jail.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.spacing": 1,

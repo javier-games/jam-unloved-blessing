@@ -3,18 +3,7 @@
   "id": "21a8cd39-2b3e-4aaa-9fa4-ea454b56b2d7",
   "name": "Get Scared",
   "description": "",
-  "variables": {
-    "V0": {
-      "id": "V0",
-      "name": "ExitTileX",
-      "passByReference": false
-    },
-    "V1": {
-      "id": "V1",
-      "name": "ExitTileY",
-      "passByReference": false
-    }
-  },
+  "variables": {},
   "actors": {
     "0": {
       "id": "0",
@@ -27,7 +16,7 @@
       "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
       "args": {
         "actorId": "0",
-        "speed": 3
+        "speed": 2
       },
       "id": "5ce11264-3f2c-449a-a573-a61cd92b08f2"
     },
@@ -58,17 +47,25 @@
         "actorId": "0",
         "x": {
           "type": "variable",
-          "value": "V0"
+          "value": "1"
         },
         "y": {
           "type": "variable",
-          "value": "V1"
+          "value": "0"
         },
         "moveType": "vertical",
-        "useCollisions": false,
+        "useCollisions": true,
         "__collapse": false
       },
       "id": "7072af19-e88e-4da4-ade3-6a040542f5ca"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.1,
+        "frames": 30
+      },
+      "id": "1094e69c-b1eb-4b84-a705-d53dd6adcd2b"
     },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -76,6 +73,11 @@
         "actorId": "0"
       },
       "id": "912b34c0-a819-4ed0-b976-19a5a4e5582e"
+    },
+    {
+      "command": "EVENT_STOP",
+      "args": {},
+      "id": "8bcc92f0-cbe2-49d1-8f3b-b49f598d7324"
     }
   ]
 }

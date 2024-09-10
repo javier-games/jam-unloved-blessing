@@ -13,32 +13,7 @@
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
-  "prefabScriptOverrides": {
-    "8ee80ba8-f629-45b8-a199-5c438d4d9137": {
-      "id": "8ee80ba8-f629-45b8-a199-5c438d4d9137",
-      "args": {
-        "sceneId": "34f68254-9772-4d4f-a82b-438593e0ecee"
-      }
-    },
-    "01e6eba4-6070-4e19-881b-95ce1e3e900a": {
-      "id": "01e6eba4-6070-4e19-881b-95ce1e3e900a",
-      "args": {
-        "distance": {
-          "type": "number",
-          "value": 1
-        }
-      }
-    },
-    "3f2d5c55-d11a-4e73-9e0b-830181078c79": {
-      "id": "3f2d5c55-d11a-4e73-9e0b-830181078c79",
-      "args": {
-        "variable": "L0",
-        "value": {
-          "type": "false"
-        }
-      }
-    }
-  },
+  "prefabScriptOverrides": {},
   "symbol": "actor_2",
   "script": [],
   "startScript": [],

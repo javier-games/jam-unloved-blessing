@@ -45,6 +45,17 @@
         }
       },
       "id": "5c2af466-112e-436e-b227-728822769f9f"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "down"
+        }
+      },
+      "id": "cb1b2c7c-86ba-4db5-b844-d09d8bd0d96f"
     }
   ],
   "updateScript": [

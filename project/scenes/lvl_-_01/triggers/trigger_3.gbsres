@@ -1,6 +1,6 @@
 {
   "_resourceType": "trigger",
-  "id": "2451a2ce-14f4-40bb-8b32-89988fe06f86",
+  "id": "9eb95a4f-6040-46e6-814d-5fdd31bb9388",
   "name": "",
   "prefabId": "",
   "x": 2,
@@ -13,9 +13,9 @@
     {
       "command": "EVENT_ACTOR_START_UPDATE",
       "args": {
-        "actorId": "9aaafd64-2585-4c0f-b973-021cf863ae28"
+        "actorId": "05384504-4346-416e-8372-e00d2a841894"
       },
-      "id": "adfb9858-1524-4916-98e7-37cd4afe6674"
+      "id": "106415eb-a32c-47be-a5cd-cb7a0bf1210f"
     }
   ],
   "leaveScript": [],
