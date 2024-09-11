@@ -8,5 +8,6 @@
   "imageWidth": 176,
   "imageHeight": 224,
   "filename": "map-church-p0.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

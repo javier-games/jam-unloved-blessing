@@ -9,26 +9,8 @@
   "showCollisionExtraTiles": false,
   "sgbEnabled": false,
   "customHead": "",
-  "defaultBackgroundPaletteIds": [
-    "dmg",
-    "default-bg-1",
-    "default-bg-2",
-    "default-bg-3",
-    "default-bg-4",
-    "default-bg-5",
-    "default-sprite",
-    "default-ui"
-  ],
-  "defaultSpritePaletteIds": [
-    "dmg",
-    "dmg",
-    "dmg",
-    "dmg",
-    "dmg",
-    "dmg",
-    "dmg",
-    "dmg"
-  ],
+  "defaultBackgroundPaletteIds": [ ],
+  "defaultSpritePaletteIds": [],
   "defaultSpritePaletteId": "default-sprite",
   "defaultUIPaletteId": "default-ui",
   "playerPaletteId": "",
@@ -49,14 +31,38 @@
   "customColorsLight": "",
   "customColorsDark": "",
   "customColorsBlack": "",
-  "customControlsUp": [],
-  "customControlsDown": [],
-  "customControlsLeft": [],
-  "customControlsRight": [],
-  "customControlsA": [],
-  "customControlsB": [],
-  "customControlsStart": [],
-  "customControlsSelect": [],
+  "customControlsUp": [
+    "ArrowUp",
+    "w"
+  ],
+  "customControlsDown": [
+    "ArrowDown",
+    "s"
+  ],
+  "customControlsLeft": [
+    "ArrowLeft",
+    "a"
+  ],
+  "customControlsRight": [
+    "ArrowRight",
+    "d"
+  ],
+  "customControlsA": [
+    "Alt",
+    "z",
+    "j"
+  ],
+  "customControlsB": [
+    "Control",
+    "k",
+    "x"
+  ],
+  "customControlsStart": [
+    "Enter"
+  ],
+  "customControlsSelect": [
+    "Shift"
+  ],
   "colorMode": "mono",
   "generateDebugFilesEnabled": false,
   "compilerPreset": 3000,

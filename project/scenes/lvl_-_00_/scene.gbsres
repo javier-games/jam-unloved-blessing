@@ -11,18 +11,9 @@
   "height": 18,
   "backgroundId": "89d5244a-8baa-4bd9-b8d1-5e599485fdec",
   "tilesetId": "",
-  "paletteIds": [
-    "default-bg-2",
-    "default-bg-6",
-    "default-bg-4",
-    "default-bg-6",
-    "dmg",
-    "default-bg-5",
-    "default-bg-5",
-    "default-bg-5"
-  ],
+  "paletteIds": [],
   "spritePaletteIds": [
-    "default-bg-2",
+    "",
     "dmg",
     "dmg",
     "dmg",
