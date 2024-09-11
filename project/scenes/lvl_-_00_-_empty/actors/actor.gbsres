@@ -34,6 +34,52 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+              "text": [
+                "Let's try these\nkeys..."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": false,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "8d42d70e-a33d-4f82-85ad-dc4c666bd761"
+          },
+          {
+            "command": "EVENT_ACTOR_EFFECTS",
+            "args": {
+              "effect": "splitIn",
+              "actorId": "$self$",
+              "distance": 2,
+              "speed": 2,
+              "time": 0.5,
+              "frames": 30
+            },
+            "id": "d736b592-c7b8-46c5-8036-6833c59b04cd"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "player",
+              "emoteId": "58ad7db9-d51f-496e-90e7-f7d4fc8a993d"
+            },
+            "id": "c36a0f2b-7955-491c-b89f-d57800c9d219"
+          },
+          {
             "command": "EVENT_ACTOR_SET_FRAME",
             "args": {
               "actorId": "$self$",
@@ -50,6 +96,16 @@
               "actorId": "$self$"
             },
             "id": "435a8ec3-16c4-4794-bbe2-1b23eef0e0c8"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "6",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "c468ef01-ea93-46f4-92b2-018b956f0541"
           }
         ],
         "false": [
@@ -92,7 +148,7 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "4"
+            "value": "6"
           },
           "valueB": {
             "type": "true"

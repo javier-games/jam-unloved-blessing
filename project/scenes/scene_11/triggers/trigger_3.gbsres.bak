@@ -1,0 +1,43 @@
+{
+  "_resourceType": "trigger",
+  "id": "afc61541-b321-40d5-90e9-0949bdc31afc",
+  "name": "",
+  "prefabId": "",
+  "x": 11,
+  "y": 0,
+  "symbol": "trigger_20",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 13,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+        "text": [
+          "Theodora: Please,\nleave now...",
+          "My love..."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": false,
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "6ad3b629-2fa6-49ec-b2c2-4c2c1a714db5"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}

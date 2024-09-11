@@ -27,6 +27,16 @@
       "symbol": "var_foundwive"
     },
     {
+      "id": "5",
+      "name": "FriendshipExplained",
+      "symbol": "var_friendshipexplained"
+    },
+    {
+      "id": "6",
+      "name": "JailOpen",
+      "symbol": "var_jailopen"
+    },
+    {
       "id": "13f9a322-0631-40dd-bc02-2ba8525b72d8__L0",
       "name": "InAreaA",
       "symbol": "var_inareaa"

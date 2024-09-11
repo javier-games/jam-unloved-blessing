@@ -36,7 +36,8 @@
           "type": "number",
           "value": 7
         },
-        "direction": "left"
+        "direction": "left",
+        "sceneId": "7446b903-b46b-4d36-8c06-161a61fd2dea"
       }
     }
   },

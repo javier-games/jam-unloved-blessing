@@ -33,7 +33,7 @@
         },
         "y": {
           "type": "number",
-          "value": 6
+          "value": 7
         }
       }
     },
@@ -44,6 +44,11 @@
         "x": {
           "type": "number",
           "value": 37
+        },
+        "direction": "left",
+        "y": {
+          "type": "number",
+          "value": 7
         }
       }
     }

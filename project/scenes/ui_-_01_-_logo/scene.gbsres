@@ -13,7 +13,7 @@
   "tilesetId": "",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "autoFadeSpeed": 1,
+  "autoFadeSpeed": 2,
   "script": [
     {
       "id": "2f8a91b2-1f1a-43a5-a085-203be4a7d33c",

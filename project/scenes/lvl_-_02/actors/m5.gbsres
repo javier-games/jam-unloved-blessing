@@ -6,14 +6,24 @@
   "animate": false,
   "spriteSheetId": "4fcb39a1-9f20-45ea-86c8-aa83b07a95e9",
   "prefabId": "8a01f7bd-0ca6-40d9-80fe-b79039ca92cc",
-  "direction": "down",
+  "direction": "right",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
-  "prefabScriptOverrides": {},
+  "prefabScriptOverrides": {
+    "cb1b2c7c-86ba-4db5-b844-d09d8bd0d96f": {
+      "id": "cb1b2c7c-86ba-4db5-b844-d09d8bd0d96f",
+      "args": {
+        "direction": {
+          "type": "direction",
+          "value": "right"
+        }
+      }
+    }
+  },
   "symbol": "actor_5",
   "script": [],
   "startScript": [],
@@ -21,7 +31,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 4,
-  "y": 7,
+  "x": 26,
+  "y": 5,
   "_index": 1
 }

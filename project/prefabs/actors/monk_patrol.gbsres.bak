@@ -52,7 +52,7 @@
     {
       "command": "EVENT_SET_VALUE",
       "args": {
-        "variable": "0",
+        "variable": "L0",
         "value": {
           "type": "number",
           "value": 0
@@ -63,13 +63,20 @@
     {
       "command": "EVENT_SET_VALUE",
       "args": {
-        "variable": "0",
+        "variable": "L1",
         "value": {
           "type": "number",
           "value": 0
         }
       },
       "id": "468aeb11-63fb-45e8-8502-718eda96c2a2"
+    },
+    {
+      "command": "EVENT_ACTOR_STOP_UPDATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "84324a26-6a74-4939-a4a8-995b54cb2f0b"
     }
   ],
   "updateScript": [

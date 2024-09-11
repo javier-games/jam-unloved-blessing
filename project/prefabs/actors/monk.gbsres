@@ -154,7 +154,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Monk: I found you\ndamn beast!"
+                      "Monk: You can not\nrun away!"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -165,14 +165,15 @@
                     "textHeight": 5,
                     "position": "bottom",
                     "clearPrevious": true,
-                    "showFrame": "true",
+                    "showFrame": false,
                     "speedIn": -1,
                     "speedOut": -1,
                     "closeWhen": "key",
-                    "closeButton": "a",
+                    "closeButton": "any",
                     "closeDelayTime": 0.5,
                     "closeDelayFrames": 30,
-                    "__comment": false
+                    "__comment": false,
+                    "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321"
                   },
                   "id": "d906f5c4-d59d-4462-a480-0602487c69ae"
                 }

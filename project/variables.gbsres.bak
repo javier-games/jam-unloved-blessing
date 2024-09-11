@@ -4,7 +4,7 @@
     {
       "id": "0",
       "name": "LevelExit.Y",
-      "symbol": "var_levelexit_y"
+      "symbol": "var_levelexit_y_0"
     },
     {
       "id": "1",
@@ -95,6 +95,21 @@
       "id": "a68c245c-db67-4c57-9b09-ba3ff8d83dfa__L0",
       "name": "PlayerFound",
       "symbol": "var_playerfound_3"
+    },
+    {
+      "id": "a68c245c-db67-4c57-9b09-ba3ff8d83dfa__L1",
+      "name": "GotScared",
+      "symbol": "var_gotscared"
+    },
+    {
+      "id": "5",
+      "name": "FriendshipExplained",
+      "symbol": "var_friendshipexplained"
+    },
+    {
+      "id": "6",
+      "name": "JailOpen",
+      "symbol": "var_jailopen"
     }
   ]
 }

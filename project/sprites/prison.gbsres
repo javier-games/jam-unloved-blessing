@@ -48,6 +48,37 @@
                   "priority": false
                 }
               ]
+            },
+            {
+              "id": "cd23e0ef-0564-46b2-8ee9-199494f396d8",
+              "tiles": [
+                {
+                  "id": "78899a9e-cfaf-4695-93ae-ef7f5f566d05",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "2d31bf3f-d1fe-4306-9d3b-79ebf6daf644",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
             }
           ]
         },

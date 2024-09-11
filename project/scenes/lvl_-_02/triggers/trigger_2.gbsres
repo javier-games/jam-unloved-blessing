@@ -3,12 +3,12 @@
   "id": "07d162f2-0b0f-4f0a-836e-5990926f527f",
   "name": "",
   "prefabId": "",
-  "x": 28,
-  "y": 4,
+  "x": 5,
+  "y": 8,
   "symbol": "trigger_2",
   "prefabScriptOverrides": {},
-  "width": 8,
-  "height": 2,
+  "width": 1,
+  "height": 6,
   "script": [
     {
       "command": "EVENT_IF_ACTOR_AT_POSITION",
@@ -16,42 +16,16 @@
         "actorId": "cbaa39cb-2b4a-4fcd-90d0-3fe0c2a6e017",
         "x": {
           "type": "number",
-          "value": 26
+          "value": 4
         },
         "y": {
           "type": "number",
-          "value": 5
+          "value": 7
         },
         "__collapseElse": true
       },
       "children": {
         "true": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
-              "text": [
-                "Godwin: I told you!\nStay away!!"
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": false,
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "any",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "dd3371aa-cdab-41f0-9fd8-5189217cd236"
-          },
           {
             "command": "EVENT_ACTOR_START_UPDATE",
             "args": {

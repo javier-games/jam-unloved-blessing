@@ -13,7 +13,40 @@
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
-  "prefabScriptOverrides": {},
+  "prefabScriptOverrides": {
+    "4cb2e0db-af9a-43e1-ba45-b8390040ffa5": {
+      "id": "4cb2e0db-af9a-43e1-ba45-b8390040ffa5",
+      "args": {
+        "__section": "text",
+        "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+        "text": "",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": false,
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      }
+    },
+    "f730a4c2-97b9-48c3-9e90-c245bcad7ad9": {
+      "id": "f730a4c2-97b9-48c3-9e90-c245bcad7ad9",
+      "args": {
+        "direction": {
+          "type": "direction",
+          "value": "right"
+        }
+      }
+    }
+  },
   "symbol": "actor_3",
   "script": [],
   "startScript": [],
