@@ -1,0 +1,7 @@
+[Bb]uild/
+[Bb]uilds/
+**.afphoto~lock~
+**.afdesign~lock~
+**.bak
+assets/**/README.md
+plugins/README.md
