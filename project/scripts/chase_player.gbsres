@@ -1,0 +1,35 @@
+{
+  "_resourceType": "script",
+  "id": "f619456e-7c30-4a4a-a095-30a513e40168",
+  "name": "Chase Player",
+  "description": "",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Pursuer"
+    }
+  },
+  "symbol": "script_5",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "0",
+        "x": {
+          "type": "property",
+          "target": "player",
+          "property": "xpos"
+        },
+        "y": {
+          "type": "property",
+          "target": "player",
+          "property": "ypos"
+        },
+        "moveType": "horizontal",
+        "useCollisions": true
+      },
+      "id": "fa8cc185-1d47-4883-bd9e-0a332379d013"
+    }
+  ]
+}
