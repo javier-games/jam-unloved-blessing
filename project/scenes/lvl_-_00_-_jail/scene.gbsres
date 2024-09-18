@@ -1,0 +1,52 @@
+{
+  "_resourceType": "scene",
+  "id": "94d66657-42f3-4050-aa20-20c501b9c5e1",
+  "_index": 10,
+  "name": "LVL - 00 - Jail",
+  "backgroundId": "fcffd060-8b40-4ea3-bfe9-126e505dabf3",
+  "tilesetId": "",
+  "width": 40,
+  "height": 40,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "001f+0f4+0024+0f4+0024+0f4+0026+0f2+0026+0f2+0024+0f4+0024+0f4+0024+0f4+0024+0f9+00444+0f6+0022+0f6+0022+0f6+0022+0f6+0016+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_11",
+  "x": 720,
+  "y": 672,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "4"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "86e1810d-e6de-44a5-b628-d35faee08b28"
+            },
+            "id": "e82ef09c-71a7-4d69-9fba-dd58459a9e98"
+          }
+        ],
+        "false": []
+      },
+      "id": "6a58c8be-4e03-4d4b-b9d9-8397901fb5b9"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

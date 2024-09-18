@@ -1,0 +1,178 @@
+{
+  "_resourceType": "actor",
+  "id": "86e1810d-e6de-44a5-b628-d35faee08b28",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "0b0f2ca3-d1a8-4e98-9896-dc93a1dfb0fb",
+  "prefabId": "",
+  "direction": "up",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_11",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "",
+        "loopAnim": true
+      },
+      "id": "b3792acf-c738-4086-b98c-018e9e92002d"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 7
+      },
+      "id": "e8ac60b1-89ec-4045-8b84-26fbc20ba4c4"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+        "text": [
+          "Theodora: Yes \nit's me.",
+          "Oswald: What \nhappened... to us?",
+          "Is this real?",
+          "Theodora: I am\nreal for you.",
+          "Oswald: Let's go\nout from here!",
+          "We will find the\nthe way.",
+          "Theodora: No, there\nis not other way.",
+          "I can't leave. I\nhave tried but...",
+          "I am attached to \nhere now. ",
+          "Oswald: I will go\nfor help...",
+          "We can cut any\nchains.",
+          "Theodora: I know\nwe can...",
+          "We always did...\nAll I wanted was...",
+          "To see you one more\ntime...",
+          "And tell you that..",
+          "I will always love\nyou.",
+          "Oswald: What are\nyou saying???"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": false,
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "fc93751e-9d82-4e41-b27a-acf2072579e3"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "912b4e00-4ce3-4e39-aab9-b0405753e98f"
+      },
+      "id": "d8118546-04d3-4956-a039-d68d6bb61102"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "player",
+        "emoteId": "912b4e00-4ce3-4e39-aab9-b0405753e98f"
+      },
+      "id": "cf32a498-5248-4d87-ae66-faa7ac8e5dd3"
+    },
+    {
+      "command": "EVENT_ACTOR_EFFECTS",
+      "args": {
+        "effect": "splitOut",
+        "actorId": "$self$",
+        "distance": 9,
+        "speed": 0.5,
+        "time": 0.5,
+        "frames": 30
+      },
+      "id": "2539f48f-6709-4cb4-95ab-a3e4fd06257b"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "player",
+        "emoteId": "58ad7db9-d51f-496e-90e7-f7d4fc8a993d"
+      },
+      "id": "3bd3bcb7-44d3-4144-8b05-a0b12f6cf462"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+        "text": [
+          "I promise you my\nlove...",
+          "We will be together\nagain."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": false,
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "1ba9e263-fbfb-4d02-9dc3-3be9c7ae94a6"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "2e8af93a-7241-4d94-8995-24031a71ad01"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "86e1810d-e6de-44a5-b628-d35faee08b28",
+        "speed": 255
+      },
+      "id": "e291bb8e-8151-4602-ab68-26f07764e29a"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "SkeletonHidden",
+        "loopAnim": false
+      },
+      "id": "8de3e636-d4c5-4a79-8097-64c6c4cf29dc"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 31,
+  "y": 4,
+  "_index": 0
+}
