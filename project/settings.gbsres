@@ -35,7 +35,8 @@
   "defaultFontId": "",
   "defaultCharacterEncoding": "",
   "defaultPlayerSprites": {
-    "TOPDOWN": "86c20946-8ec6-4bb4-a719-e17cefdc9ae3"
+    "TOPDOWN": "86c20946-8ec6-4bb4-a719-e17cefdc9ae3",
+    "POINTNCLICK": "9e1118c7-b24b-4966-b36b-c5f94fdc261e"
   },
   "musicDriver": "gbt",
   "cartType": "mbc5",
