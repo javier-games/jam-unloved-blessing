@@ -3,5 +3,4 @@
 **.afphoto~lock~
 **.afdesign~lock~
 **.bak
-assets/**/README.md
-plugins/README.md
+project/user_settings.gbsres
