@@ -16,10 +16,19 @@
   "autoFadeSpeed": 1,
   "script": [
     {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 7
+      },
+      "id": "63458832-d0af-49ee-829d-3606c0ac0c30"
+    },
+    {
       "id": "74208f7a-0ca8-4aad-be45-3082b693b66f",
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
-        "actorId": "player"
+        "actorId": "player",
+        "__comment": false
       }
     },
     {

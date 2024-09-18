@@ -1,0 +1,61 @@
+{
+  "_resourceType": "trigger",
+  "id": "5c4d4681-f2a2-4f62-8003-c5a2ea09cce7",
+  "name": "",
+  "prefabId": "ece88223-f0a2-4346-b6f6-7560b513d152",
+  "x": 0,
+  "y": 6,
+  "symbol": "trigger_10",
+  "prefabScriptOverrides": {
+    "0e828108-d2ac-4ce4-aef3-a96d262fd1f7": {
+      "id": "0e828108-d2ac-4ce4-aef3-a96d262fd1f7",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "3"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        }
+      }
+    },
+    "7a353a7a-b82e-4d85-a0e1-024a0f2f9da9": {
+      "id": "7a353a7a-b82e-4d85-a0e1-024a0f2f9da9",
+      "args": {
+        "sceneId": "32a758fe-08f2-49b5-a9ef-ffd0e8268330",
+        "x": {
+          "type": "number",
+          "value": 37
+        },
+        "y": {
+          "type": "number",
+          "value": 7
+        }
+      }
+    },
+    "7184b618-8f55-47f9-a3fc-642f86bf993c": {
+      "id": "7184b618-8f55-47f9-a3fc-642f86bf993c",
+      "args": {
+        "sceneId": "91f4b248-9c46-4dd6-99bc-869716b9d77e",
+        "x": {
+          "type": "number",
+          "value": 37
+        },
+        "direction": "left",
+        "y": {
+          "type": "number",
+          "value": 7
+        }
+      }
+    }
+  },
+  "width": 1,
+  "height": 2,
+  "script": [],
+  "leaveScript": [],
+  "_index": 1
+}

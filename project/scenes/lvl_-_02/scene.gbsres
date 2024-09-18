@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "32a758fe-08f2-49b5-a9ef-ffd0e8268330",
+  "_index": 2,
+  "type": "TOPDOWN",
+  "name": "LVL - 02",
+  "symbol": "scene_church_vault",
+  "x": 72,
+  "y": 808,
+  "width": 40,
+  "height": 18,
+  "backgroundId": "f6e728ab-0d34-4f8a-b4c2-26e6090c3d1c",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0fa2+0022+0f6+0022+0f6+004+0f6+004+0f6+004+0f6+008+0f2+004+0f6+004+0f6+004+0f6+008+0f2+004+0f6+004+0f6+004+0f6+004+0f6+004+0f6+004+0f6+004+0f6+004+0f6+004+0f6+004+0f6+004+0f6+004+0f6+004+0f6+004+0f6+004+0f6+004+0f6+0022+0f6+0022+0fa4+"
+}
