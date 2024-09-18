@@ -5,26 +5,27 @@
     },
     "activeFile": "assets/backgrounds/ui-intro.tmx",
     "expandedProjectPaths": [
-        "assets/backgrounds",
         ".",
+        "assets",
+        "assets/backgrounds",
         "resources",
-        "assets"
+        "assets/fonts"
     ],
     "fileStates": {
         "assets/backgrounds/map-church-b1-hall.tmx": {
             "scale": 4.3277777777777775,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 79.94865211810013,
-                "y": 73.01668806161747
+                "x": 79.94865211810014,
+                "y": 72.09242618741979
             }
         },
         "assets/backgrounds/map-church-b1-jail.tmx": {
             "scale": 4.3277777777777775,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 79.94865211810013,
-                "y": 104.90372272143775
+                "x": 79.94865211810014,
+                "y": 72.09242618741979
             }
         },
         "assets/backgrounds/map-church-b1.tmx": {
@@ -32,15 +33,15 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 160.01750738592844,
-                "y": 121.8514060619324
+                "y": 72.13043002516687
             }
         },
         "assets/backgrounds/map-church-p0.tmx": {
             "scale": 2.782142857142857,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 88.06161745827983,
-                "y": 163.18356867779207
+                "x": 88.06161745827984,
+                "y": 112.14377406931965
             }
         },
         "assets/backgrounds/map-void.tmx": {
@@ -64,11 +65,11 @@
             }
         },
         "assets/backgrounds/ui-intro.tmx": {
-            "scale": 0.75,
+            "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 108,
-                "y": 317.33333333333337
+                "x": 33.33333333333333,
+                "y": 101.66666666666667
             }
         },
         "assets/backgrounds/ui-intro.tsx": {
@@ -89,44 +90,49 @@
         "resources/tileset.tsx": {
             "dynamicWrapping": false,
             "scaleInDock": 1,
-            "scaleInEditor": 1
+            "scaleInEditor": 3
+        },
+        "resources/ui-intro-background-tileset.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 3
+        },
+        "resources/ui-intro-transformation.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 3
         }
     },
     "last.exportedFilePath": "D:/Projects/unloved-blessing/assets/backgrounds",
     "last.externalTilesetPath": "D:/Projects/unloved-blessing/resources",
-    "last.imagePath": "D:/Projects/unloved-blessing/assets/backgrounds",
-    "map.height": 68,
+    "last.imagePath": "D:/Projects/unloved-blessing/resources",
+    "map.height": 26,
     "map.lastUsedExportFilter": "All Files (*)",
     "map.lastUsedFormat": "tmx",
-    "map.tileHeight": 8,
-    "map.tileWidth": 8,
-    "map.width": 48,
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 10,
     "openFiles": [
-        "resources/tileset.tsx",
-        "assets/backgrounds/map-church-b1.tmx",
-        "assets/backgrounds/map-church-b1-hall.tmx",
-        "assets/backgrounds/map-church-b1-jail.tmx",
-        "assets/backgrounds/map-church-p0.tmx",
-        "assets/backgrounds/map-void.tmx",
-        "assets/backgrounds/ui-black.tmx",
+        "resources/ui-intro-transformation.tsx",
+        "resources/ui-intro-background-tileset.tsx",
         "assets/backgrounds/ui-intro.tmx"
     ],
     "project": "Unloved Blessing.tiled-project",
     "recentFiles": [
-        "resources/tileset.tsx",
-        "assets/backgrounds/map-church-b1.tmx",
-        "assets/backgrounds/map-church-b1-hall.tmx",
-        "assets/backgrounds/map-church-b1-jail.tmx",
-        "assets/backgrounds/map-church-p0.tmx",
-        "assets/backgrounds/map-void.tmx",
-        "assets/backgrounds/ui-black.tmx",
+        "resources/ui-intro-transformation.tsx",
+        "resources/ui-intro-background-tileset.tsx",
         "assets/backgrounds/ui-intro.tmx",
+        "resources/tileset.tsx",
+        "assets/backgrounds/map-void.tmx",
+        "assets/backgrounds/map-church-p0.tmx",
+        "assets/backgrounds/map-church-b1-jail.tmx",
+        "assets/backgrounds/map-church-b1-hall.tmx",
+        "assets/backgrounds/map-church-b1.tmx",
+        "assets/backgrounds/ui-black.tmx",
         "assets/backgrounds/ui-intro2..tmx",
         "assets/backgrounds/ui-intro.tsx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
-        "height": 8,
-        "width": 8
+        "height": 16,
+        "width": 16
     }
 }
