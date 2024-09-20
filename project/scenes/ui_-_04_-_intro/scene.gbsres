@@ -13,9 +13,23 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_12",
-  "x": 240,
-  "y": 384,
+  "x": 432,
+  "y": 368,
   "script": [
+    {
+      "command": "EVENT_CAMERA_SET_POSITION",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "c33e431f-7046-44eb-9648-51d5daf03544"
+    },
     {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
@@ -24,12 +38,17 @@
       "id": "27b869e4-aa80-4cee-9053-6da34944dda2"
     },
     {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "14d12e02-8ca3-4ed8-85f4-a371fc0f8466"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
           "Theodora, \nplease be safe... \nwherever you are...\n"
         ],
-        "__section": "text",
+        "__section": "behavior",
         "avatarId": "",
         "minHeight": 4,
         "maxHeight": 7,

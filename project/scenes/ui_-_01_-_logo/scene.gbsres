@@ -17,6 +17,19 @@
   "autoFadeSpeed": 2,
   "script": [
     {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "f53dddd0-4dfa-4770-bba6-ef703ac04d82",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 10
+      },
+      "id": "e4067099-58f5-4255-867f-0a7eed7d15b0"
+    },
+    {
       "id": "2f8a91b2-1f1a-43a5-a085-203be4a7d33c",
       "command": "EVENT_WAIT",
       "args": {

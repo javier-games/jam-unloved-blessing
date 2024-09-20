@@ -3,7 +3,7 @@
   "id": "e3c95d90-d229-411b-a019-5146255e7d4c",
   "_index": 5,
   "type": "TOPDOWN",
-  "name": "UI - 03 - Intro",
+  "name": "UI - 03 - Intro Dialog",
   "symbol": "scene_intro",
   "x": 60,
   "y": 368,
@@ -13,14 +13,23 @@
   "tilesetId": "",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "autoFadeSpeed": 3,
+  "autoFadeSpeed": 1,
   "script": [
     {
       "id": "3df33d89-9241-46e6-a6bf-11c31bd86b12",
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
-        "actorId": "player"
+        "actorId": "player",
+        "__collapse": false,
+        "__comment": false
       }
+    },
+    {
+      "command": "EVENT_FADE_IN",
+      "args": {
+        "speed": "2"
+      },
+      "id": "b1f9c839-28e6-4078-a053-3b382fdc97a2"
     },
     {
       "command": "EVENT_TEXT",
@@ -37,7 +46,7 @@
           "No... there was...\nsomething else.",
           "Someone... \nthey took us..."
         ],
-        "__section": "presets",
+        "__section": "text",
         "avatarId": "",
         "minHeight": 4,
         "maxHeight": 7,
@@ -52,68 +61,32 @@
         "closeWhen": "key",
         "closeButton": "any",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__comment": false
       },
       "id": "59f9df06-ef55-47ed-ba20-5d1bd857a201"
     },
     {
-      "command": "EVENT_CAMERA_MOVE_TO",
-      "args": {
-        "x": {
-          "type": "number",
-          "value": 0
-        },
-        "y": {
-          "type": "number",
-          "value": 0
-        },
-        "speed": 1,
-        "__collapse": false,
-        "__comment": false
-      },
-      "id": "685a6444-38f1-43ec-8c19-7bcd35b2e577"
-    },
-    {
-      "command": "EVENT_WAIT",
-      "args": {
-        "time": 0.5,
-        "frames": 30
-      },
-      "id": "420722a6-9ead-4f01-a8cb-3dde88989586"
-    },
-    {
-      "command": "EVENT_CAMERA_SHAKE",
-      "args": {
-        "time": 1,
-        "frames": 30,
-        "shakeDirection": "horizontal",
-        "magnitude": {
-          "type": "number",
-          "value": 5
-        }
-      },
-      "id": "8ce3b12e-8084-4d55-8f9e-4af2d21658a9"
-    },
-    {
-      "id": "0e495646-a732-485d-94a3-1ed37ae55e96",
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "0c4c5829-54b8-430d-961d-07e3be29cf66",
+        "sceneId": "29228d71-df85-44f9-8528-ee93f484f731",
         "x": {
           "type": "number",
           "value": 0
         },
         "y": {
           "type": "number",
-          "value": 0
+          "value": 36
         },
-        "direction": "down",
-        "fadeSpeed": "2"
-      }
+        "direction": "",
+        "fadeSpeed": 0
+      },
+      "id": "da57e194-e1bb-44a0-9db6-fe3801aa300f"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": ""
+  "collisions": "",
+  "autoFadeEventCollapse": false
 }

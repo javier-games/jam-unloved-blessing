@@ -3,19 +3,32 @@
   "id": "9be0474c-65d6-414b-b83e-6b7efde4530a",
   "_index": 14,
   "name": "UI - 00 - Logo",
-  "backgroundId": "fca033ea-48b8-4e67-baf9-ab97586fb7a9",
+  "backgroundId": "e45175ad-2d84-486e-aa84-68849a4998e2",
   "tilesetId": "",
-  "width": 32,
-  "height": 32,
+  "width": 20,
+  "height": 18,
   "type": "LOGO",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "",
+  "collisions": "00168+",
   "autoFadeSpeed": 2,
   "symbol": "scene_15",
   "x": 240,
   "y": 30,
   "script": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "f53dddd0-4dfa-4770-bba6-ef703ac04d82",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 11
+      },
+      "id": "62741dc0-ea29-4f85-abf5-222417148166"
+    },
     {
       "command": "EVENT_WAIT",
       "args": {
