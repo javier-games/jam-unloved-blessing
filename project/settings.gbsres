@@ -1,7 +1,7 @@
 {
   "_resourceType": "settings",
   "startSceneId": "9be0474c-65d6-414b-b83e-6b7efde4530a",
-  "startX": 0,
+  "startX": 9,
   "startY": 0,
   "startMoveSpeed": 1,
   "startAnimSpeed": 3,
@@ -38,7 +38,7 @@
     "TOPDOWN": "86c20946-8ec6-4bb4-a719-e17cefdc9ae3",
     "POINTNCLICK": "9e1118c7-b24b-4966-b36b-c5f94fdc261e"
   },
-  "musicDriver": "gbt",
+  "musicDriver": "huge",
   "cartType": "mbc5",
   "batterylessEnabled": false,
   "customColorsWhite": "E8F8E0",
