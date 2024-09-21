@@ -50,6 +50,15 @@
       "id": "67224457-fd44-424e-9bcb-6dd9c33054c9"
     },
     {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "",
+        "loopAnim": true
+      },
+      "id": "bd612e7e-6ab3-4ea8-9d2b-c07aa7466e77"
+    },
+    {
       "command": "EVENT_SET_VALUE",
       "args": {
         "variable": "L0",
@@ -244,22 +253,11 @@
             "children": {
               "true": [
                 {
-                  "command": "EVENT_SWITCH_SCENE",
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
                   "args": {
-                    "sceneId": "34f68254-9772-4d4f-a82b-438593e0ecee",
-                    "x": {
-                      "type": "number",
-                      "value": 0
-                    },
-                    "y": {
-                      "type": "number",
-                      "value": 0
-                    },
-                    "direction": "",
-                    "fadeSpeed": "2"
+                    "customEventId": "792a6755-98fa-4b42-ba89-92e3ea374b1a"
                   },
-                  "id": "c0c143bf-f563-4a2b-990f-1f7bf80449ec",
-                  "children": {}
+                  "id": "34c25c94-3c9a-4869-900e-ca2848d8b287"
                 }
               ],
               "false": []

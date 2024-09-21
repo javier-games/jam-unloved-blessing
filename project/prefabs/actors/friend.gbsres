@@ -169,12 +169,34 @@
             "id": "4cb2e0db-af9a-43e1-ba45-b8390040ffa5"
           },
           {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "beep",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0
+            },
+            "id": "357f226c-9a1f-48b9-b4c4-eb00210bf11d"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.5,
+              "frames": 30
+            },
+            "id": "5dfb958a-188a-4040-b465-b39a3eb638f8"
+          },
+          {
             "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "2",
               "value": {
                 "type": "true"
-              }
+              },
+              "__collapse": false
             },
             "id": "bdbc1f3b-558e-42c5-b76a-d077c90dfab7"
           }
@@ -241,6 +263,15 @@
       },
       "id": "a4f5fca8-9188-426b-873a-28cc7bd73a6f",
       "children": {}
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "",
+        "loopAnim": true
+      },
+      "id": "b167aceb-48a6-4253-8014-0a706ef75f50"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -345,22 +376,11 @@
             "children": {
               "true": [
                 {
-                  "command": "EVENT_SWITCH_SCENE",
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
                   "args": {
-                    "sceneId": "34f68254-9772-4d4f-a82b-438593e0ecee",
-                    "x": {
-                      "type": "number",
-                      "value": 0
-                    },
-                    "y": {
-                      "type": "number",
-                      "value": 0
-                    },
-                    "direction": "",
-                    "fadeSpeed": "2"
+                    "customEventId": "792a6755-98fa-4b42-ba89-92e3ea374b1a"
                   },
-                  "id": "7c02b051-4b4d-40ac-8105-af0d87f1f127",
-                  "children": {}
+                  "id": "ec503c40-7c33-4c0a-8996-b142e304de49"
                 }
               ],
               "false": []

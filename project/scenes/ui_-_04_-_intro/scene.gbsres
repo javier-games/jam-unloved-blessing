@@ -13,8 +13,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_12",
-  "x": 432,
-  "y": 368,
+  "x": 408,
+  "y": 720,
   "script": [
     {
       "command": "EVENT_CAMERA_SET_POSITION",
@@ -66,6 +66,13 @@
         "closeDelayFrames": 30
       },
       "id": "e674f1b2-f696-49ec-973b-a0f1c5647ee2"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "38f501cc-2efc-4c55-8940-9f2c456c6323"
+      },
+      "id": "e6c5baa7-8f4a-42ec-bb04-7eeec0a4ea53"
     },
     {
       "command": "EVENT_SWITCH_SCENE",

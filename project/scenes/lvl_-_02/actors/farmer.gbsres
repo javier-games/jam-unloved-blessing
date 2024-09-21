@@ -22,6 +22,20 @@
           "value": "down"
         }
       }
+    },
+    "357f226c-9a1f-48b9-b4c4-eb00210bf11d": {
+      "id": "357f226c-9a1f-48b9-b4c4-eb00210bf11d",
+      "args": {
+        "priority": "high",
+        "type": "f53dddd0-4dfa-4770-bba6-ef703ac04d82",
+        "effect": 9
+      }
+    },
+    "5dfb958a-188a-4040-b465-b39a3eb638f8": {
+      "id": "5dfb958a-188a-4040-b465-b39a3eb638f8",
+      "args": {
+        "time": 1
+      }
     }
   },
   "symbol": "actor_3",

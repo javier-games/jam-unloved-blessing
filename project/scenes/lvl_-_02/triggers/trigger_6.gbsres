@@ -11,33 +11,12 @@
   "height": 2,
   "script": [
     {
-      "command": "EVENT_IF_ACTOR_AT_POSITION",
+      "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "actorId": "6c175ece-3815-4781-b2e5-48878c5ef776",
-        "x": {
-          "type": "number",
-          "value": 26
-        },
-        "y": {
-          "type": "number",
-          "value": 5
-        },
-        "__collapseElse": true,
-        "__collapse": false
+        "customEventId": "eb652f85-7c5a-4a18-ae53-8d8afe9472c2",
+        "$actor[0]$": "6c175ece-3815-4781-b2e5-48878c5ef776"
       },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_ACTOR_START_UPDATE",
-            "args": {
-              "actorId": "6c175ece-3815-4781-b2e5-48878c5ef776"
-            },
-            "id": "0835ef37-190f-4f66-8498-aca27f7f0297"
-          }
-        ],
-        "false": []
-      },
-      "id": "e7bc7aba-b030-4c8c-ae2f-c2e59b600359"
+      "id": "3403de6c-d9ee-49c1-bff6-f8a6428e658a"
     }
   ],
   "leaveScript": [],

@@ -17,6 +17,13 @@
   "symbol": "actor_21",
   "script": [
     {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0f9b14c4-59e8-4d36-a0b4-92ee93532341"
+      },
+      "id": "899cc562-800f-4edc-8a19-08eb90b73fa5"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
@@ -38,7 +45,8 @@
         "closeWhen": "key",
         "closeButton": "any",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": true
       },
       "id": "9a5b2005-d4ea-4270-8e2a-d081a0daa36c"
     }

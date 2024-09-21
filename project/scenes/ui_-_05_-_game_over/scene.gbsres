@@ -5,8 +5,8 @@
   "type": "TOPDOWN",
   "name": "UI - 05 - Game Over",
   "symbol": "scene_game_over",
-  "x": 240,
-  "y": 200,
+  "x": 864,
+  "y": 520,
   "width": 20,
   "height": 18,
   "backgroundId": "4e7deb03-830e-4b21-9012-0332284e49c9",
@@ -24,6 +24,26 @@
         "__comment": false
       },
       "id": "00a216ed-200c-4d7c-a13b-269ba7945692"
+    },
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "c569e505-cc7b-47e3-a5e8-a8a04a35bd77"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30
+      },
+      "id": "a313dabd-2d86-4403-9dde-43f063c655e6"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "db8a0531-4621-4979-bd5c-47bbb64b707e"
+      },
+      "id": "5adf0c78-39ba-4c04-94eb-16b47716bcf9"
     },
     {
       "command": "EVENT_FADE_IN",
@@ -71,6 +91,25 @@
                   },
                   "children": {
                     "true": [
+                      {
+                        "command": "EVENT_MUSIC_STOP",
+                        "args": {},
+                        "id": "baa9a189-a1be-4576-8b08-e9520b313c15"
+                      },
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "0f9b14c4-59e8-4d36-a0b4-92ee93532341"
+                        },
+                        "id": "c9fe6c5f-9554-43c8-b359-82ed56c18a4b"
+                      },
+                      {
+                        "command": "EVENT_MUSIC_PLAY",
+                        "args": {
+                          "musicId": "38f501cc-2efc-4c55-8940-9f2c456c6323"
+                        },
+                        "id": "5caf6b99-6970-469f-bf20-406df27bc704"
+                      },
                       {
                         "command": "EVENT_SWITCH",
                         "args": {
@@ -188,6 +227,13 @@
                       }
                     ],
                     "false": [
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "0f9b14c4-59e8-4d36-a0b4-92ee93532341"
+                        },
+                        "id": "d73fcd5f-155d-485c-84f5-d10d8a86501a"
+                      },
                       {
                         "command": "EVENT_SWITCH_SCENE",
                         "args": {

@@ -622,6 +622,86 @@
           ]
         }
       ]
+    },
+    {
+      "id": "a04950a7-4b41-47ea-bb72-302eb1e03244",
+      "name": "Dead",
+      "animations": [
+        {
+          "id": "3a6a0e62-996b-4282-aa59-02e978825613",
+          "frames": [
+            {
+              "id": "0744fb3e-4bb9-498b-8ff9-ee08ee06d9fb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d7ed3e26-7cf6-4a71-aeb0-2a1564939689",
+          "frames": [
+            {
+              "id": "6cbfc88d-9b80-40b5-bbb2-44410a5577ed",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "35b20dfe-3a1d-4b66-8e31-303806fb49d4",
+          "frames": [
+            {
+              "id": "2d89da65-f64c-4c7f-9baa-19afeb2272d4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f0a0f5a5-08e2-43f7-a81e-c2cf1796e0db",
+          "frames": [
+            {
+              "id": "e5fb6570-2fc6-48f4-b84e-61c5a1c7d163",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "27bb964a-cbac-4755-b407-6c9ca77f20b3",
+          "frames": [
+            {
+              "id": "ba2c9e5b-09bf-4628-b30c-7463f373f4a2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "18e99dc1-23e2-4215-b2d9-950ca9e2dfea",
+          "frames": [
+            {
+              "id": "1cb3cffe-ef05-4437-904f-1af5c09a6a89",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "595beae9-6813-40e5-9364-d74c29b91062",
+          "frames": [
+            {
+              "id": "308bde91-599e-49ec-b39d-d597a3475384",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2669c5e4-63bd-42cd-bc1a-1e7dd0aac50f",
+          "frames": [
+            {
+              "id": "9610c948-eb8a-4b9b-ab62-d16bf12327a0",
+              "tiles": []
+            }
+          ]
+        }
+      ],
+      "animationType": "fixed",
+      "flipLeft": true
     }
   ],
   "numTiles": 18,

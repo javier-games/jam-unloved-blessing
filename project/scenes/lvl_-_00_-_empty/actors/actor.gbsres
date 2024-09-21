@@ -60,6 +60,11 @@
             "id": "8d42d70e-a33d-4f82-85ad-dc4c666bd761"
           },
           {
+            "command": "EVENT_MUSIC_STOP",
+            "args": {},
+            "id": "936c7586-844f-432f-9e89-52d84f1233e9"
+          },
+          {
             "command": "EVENT_ACTOR_EFFECTS",
             "args": {
               "effect": "splitIn",
@@ -70,6 +75,19 @@
               "frames": 30
             },
             "id": "d736b592-c7b8-46c5-8036-6833c59b04cd"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "f53dddd0-4dfa-4770-bba6-ef703ac04d82",
+              "priority": "high",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 5
+            },
+            "id": "d0ce2697-80c1-4419-9fc9-522aa26a583a"
           },
           {
             "command": "EVENT_ACTOR_EMOTE",

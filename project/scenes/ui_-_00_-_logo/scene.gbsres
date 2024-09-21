@@ -13,9 +13,17 @@
   "collisions": "00168+",
   "autoFadeSpeed": 2,
   "symbol": "scene_15",
-  "x": 240,
+  "x": 60,
   "y": 30,
   "script": [
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30
+      },
+      "id": "0d8139b3-3172-4aaa-be01-1b2ef57c8d40"
+    },
     {
       "command": "EVENT_SOUND_PLAY_EFFECT",
       "args": {
@@ -25,17 +33,17 @@
         "frequency": 200,
         "duration": 0.5,
         "wait": true,
-        "effect": 11
+        "effect": 0
       },
       "id": "62741dc0-ea29-4f85-abf5-222417148166"
     },
     {
       "command": "EVENT_WAIT",
       "args": {
-        "time": 1.5,
+        "time": 1,
         "frames": 30
       },
-      "id": "0d8139b3-3172-4aaa-be01-1b2ef57c8d40"
+      "id": "8d81780e-0d13-4322-9baa-3a35e12ee77d"
     },
     {
       "command": "EVENT_SWITCH_SCENE",

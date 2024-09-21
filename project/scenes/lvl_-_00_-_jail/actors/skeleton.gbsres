@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "86e1810d-e6de-44a5-b628-d35faee08b28",
-  "name": "",
+  "name": "Skeleton",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "0b0f2ca3-d1a8-4e98-9896-dc93a1dfb0fb",
@@ -21,7 +21,9 @@
       "args": {
         "actorId": "$self$",
         "spriteStateId": "",
-        "loopAnim": true
+        "loopAnim": true,
+        "__collapse": true,
+        "__comment": true
       },
       "id": "b3792acf-c738-4086-b98c-018e9e92002d"
     },
@@ -29,9 +31,21 @@
       "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
       "args": {
         "actorId": "$self$",
-        "speed": 7
+        "speed": 7,
+        "__collapse": false,
+        "__comment": true
       },
       "id": "e8ac60b1-89ec-4045-8b84-26fbc20ba4c4"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "912b4e00-4ce3-4e39-aab9-b0405753e98f",
+        "__collapse": true,
+        "__comment": true
+      },
+      "id": "d8118546-04d3-4956-a039-d68d6bb61102"
     },
     {
       "command": "EVENT_TEXT",
@@ -71,23 +85,19 @@
         "closeWhen": "key",
         "closeButton": "any",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": true,
+        "__comment": true
       },
       "id": "fc93751e-9d82-4e41-b27a-acf2072579e3"
     },
     {
       "command": "EVENT_ACTOR_EMOTE",
       "args": {
-        "actorId": "$self$",
-        "emoteId": "912b4e00-4ce3-4e39-aab9-b0405753e98f"
-      },
-      "id": "d8118546-04d3-4956-a039-d68d6bb61102"
-    },
-    {
-      "command": "EVENT_ACTOR_EMOTE",
-      "args": {
         "actorId": "player",
-        "emoteId": "912b4e00-4ce3-4e39-aab9-b0405753e98f"
+        "emoteId": "912b4e00-4ce3-4e39-aab9-b0405753e98f",
+        "__collapse": true,
+        "__comment": true
       },
       "id": "cf32a498-5248-4d87-ae66-faa7ac8e5dd3"
     },
@@ -99,7 +109,9 @@
         "distance": 9,
         "speed": 0.5,
         "time": 0.5,
-        "frames": 30
+        "frames": 30,
+        "__collapse": true,
+        "__comment": true
       },
       "id": "2539f48f-6709-4cb4-95ab-a3e4fd06257b"
     },
@@ -107,7 +119,9 @@
       "command": "EVENT_ACTOR_EMOTE",
       "args": {
         "actorId": "player",
-        "emoteId": "58ad7db9-d51f-496e-90e7-f7d4fc8a993d"
+        "emoteId": "58ad7db9-d51f-496e-90e7-f7d4fc8a993d",
+        "__collapse": true,
+        "__comment": true
       },
       "id": "3bd3bcb7-44d3-4144-8b05-a0b12f6cf462"
     },
@@ -134,9 +148,19 @@
         "closeWhen": "key",
         "closeButton": "any",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": true,
+        "__comment": true
       },
       "id": "1ba9e263-fbfb-4d02-9dc3-3be9c7ae94a6"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "player",
+        "emoteId": "e4137f77-1fd3-415b-8842-3256a0f815a9"
+      },
+      "id": "82045024-9218-4c00-8da8-c1aef757685f"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -144,7 +168,8 @@
         "variable": "4",
         "value": {
           "type": "true"
-        }
+        },
+        "__collapse": true
       },
       "id": "2e8af93a-7241-4d94-8995-24031a71ad01"
     }
