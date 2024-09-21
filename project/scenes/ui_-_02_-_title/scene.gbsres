@@ -6,7 +6,7 @@
   "name": "UI - 02 - Title",
   "symbol": "scene_main_menu",
   "x": 60,
-  "y": 368,
+  "y": 544,
   "width": 20,
   "height": 18,
   "backgroundId": "49728eac-550c-4afe-ad71-845edb93a8a9",
@@ -15,13 +15,6 @@
   "spritePaletteIds": [],
   "autoFadeSpeed": 1,
   "script": [
-    {
-      "command": "EVENT_MUSIC_PLAY",
-      "args": {
-        "musicId": "edaa607e-7eda-4924-9011-462d464eadb1"
-      },
-      "id": "d7b0e373-92ef-483b-9c24-a8547728de29"
-    },
     {
       "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
       "args": {

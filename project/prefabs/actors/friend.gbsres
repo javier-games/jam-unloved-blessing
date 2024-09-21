@@ -26,7 +26,8 @@
             "type": "true"
           }
         },
-        "__collapseElse": true
+        "__collapseElse": true,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -77,7 +78,8 @@
         "value14": 15,
         "__collapseCase15": false,
         "value15": 16,
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true0": [
@@ -105,11 +107,7 @@
             "args": {
               "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
               "text": [
-                "Godwin: Oswald!!!\nYou are here!!",
-                "Oswald: Of course\nyou bastard!",
-                "You set this up,\ndon't you?",
-                "Where is Theodora?\nWhere's she?",
-                "Godwin: Stay away!!"
+                "Godwin: Oswald!!!\nYou are here!!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -120,15 +118,69 @@
               "textHeight": 5,
               "position": "bottom",
               "clearPrevious": true,
-              "showFrame": false,
+              "showFrame": true,
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "any",
+              "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },
             "id": "cbeac627-d53e-4243-9518-95dcc11524d6"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+              "text": [
+                "Oswald: Of course\nyou bastard!",
+                "You set this up,\ndon't you?",
+                "Where is Theodora?\nWhere's she?"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "306b773e-435f-47de-b9a0-c3e9a341311e"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+              "text": [
+                "Godwin: Stay away!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "88045823-a4f5-40a6-be74-21ebc1cf28f9"
           }
         ],
         "true1": [
@@ -139,15 +191,7 @@
               "text": [
                 "Oswald: This is \nyour last chance.",
                 "You will be the\nfirst to know",
-                "what this body\nis capable of!!",
-                "Godwin: I serve to\na bigger purpose.",
-                "Do what ever you\nwant with this..",
-                "Mediocre damn\nvessel!!!",
-                "Oswald: You bloody\nbastard!!",
-                "Godwin: But...",
-                "If you care that\nmuch...",
-                "Take these keys..",
-                "But you won't scape\nany ways!!!"
+                "what this body\nis capable of!!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -158,26 +202,109 @@
               "textHeight": 5,
               "position": "bottom",
               "clearPrevious": true,
-              "showFrame": false,
+              "showFrame": true,
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "any",
+              "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },
             "id": "4cb2e0db-af9a-43e1-ba45-b8390040ffa5"
           },
           {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+              "text": [
+                "Godwin: I serve to\na bigger purpose.",
+                "Do what ever you\nwant with this..",
+                "Mediocre damn\nvessel!!!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "0e9d40f5-8e64-4263-afb2-51aed793b47f"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+              "text": [
+                "Oswald: You bloody\nbastard!!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "ed34d4c6-78d3-4e96-a8ad-5cca49116424"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+              "text": [
+                "Godwin: But...",
+                "If you care that\nmuch...",
+                "Take these keys..",
+                "But you won't \nscape any ways!!!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "35c7e864-0c9b-490d-b453-09aaaebac38f"
+          },
+          {
             "command": "EVENT_SOUND_PLAY_EFFECT",
             "args": {
-              "type": "beep",
+              "type": "f53dddd0-4dfa-4770-bba6-ef703ac04d82",
               "priority": "medium",
               "pitch": 4,
               "frequency": 200,
               "duration": 0.5,
               "wait": true,
-              "effect": 0
+              "effect": 9
             },
             "id": "357f226c-9a1f-48b9-b4c4-eb00210bf11d"
           },
@@ -242,14 +369,16 @@
         "variable": "L1",
         "value": {
           "type": "true"
-        }
+        },
+        "__collapse": false
       },
       "id": "31498763-1df9-4067-84da-1ae7937e2dde"
     },
     {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
-        "actorId": "$self$"
+        "actorId": "$self$",
+        "__collapse": false
       },
       "id": "a6f2c1cd-9401-4ded-bd74-e82e50569976"
     }
@@ -415,7 +544,7 @@
                   "type": "true"
                 }
               },
-              "__collapseElse": true,
+              "__collapseElse": false,
               "__comment": false
             },
             "children": {
@@ -474,7 +603,7 @@
                               "type": "false"
                             }
                           },
-                          "__collapseElse": true
+                          "__collapseElse": false
                         },
                         "children": {
                           "true": [
@@ -483,12 +612,87 @@
                               "args": {
                                 "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
                                 "text": [
-                                  "Oswald: Godwin, \nis that you?",
-                                  "Godwin: Shut up\nbeast!",
-                                  "Oswald: It is me, \nyour friend Oswald.",
+                                  "Oswald: Godwin, \nis that you?"
+                                ],
+                                "__section": "text",
+                                "avatarId": "",
+                                "minHeight": 4,
+                                "maxHeight": 7,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 5,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": true,
+                                "speedIn": -1,
+                                "speedOut": -1,
+                                "closeWhen": "key",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30
+                              },
+                              "id": "dd23cf04-565a-47c3-af66-340631e308b4"
+                            },
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+                                "text": [
+                                  "Godwin: Shut up\nbeast!"
+                                ],
+                                "__section": "text",
+                                "avatarId": "",
+                                "minHeight": 4,
+                                "maxHeight": 7,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 5,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": true,
+                                "speedIn": -1,
+                                "speedOut": -1,
+                                "closeWhen": "key",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30
+                              },
+                              "id": "c8e044fa-20d8-43f1-9ba4-8aa8744acacb"
+                            },
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+                                "text": [
+                                  "Oswald: It is me, \nyour friend Oswald"
+                                ],
+                                "__section": "text",
+                                "avatarId": "",
+                                "minHeight": 4,
+                                "maxHeight": 7,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 5,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": true,
+                                "speedIn": -1,
+                                "speedOut": -1,
+                                "closeWhen": "key",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30
+                              },
+                              "id": "f4fbd0ad-cb9a-43e9-8439-25e1376c3632"
+                            },
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+                                "text": [
                                   "Godwin: I know is\nyou!",
                                   "I've been preparing\nyou for so long.\n",
-                                  "And today, all the\neffort will be paid",
+                                  "And today, \nall the effort \nwill be paid",
                                   "Now go back!!"
                                 ],
                                 "__section": "text",
@@ -500,15 +704,15 @@
                                 "textHeight": 5,
                                 "position": "bottom",
                                 "clearPrevious": true,
-                                "showFrame": false,
+                                "showFrame": true,
                                 "speedIn": -1,
                                 "speedOut": -1,
                                 "closeWhen": "key",
-                                "closeButton": "any",
+                                "closeButton": "a",
                                 "closeDelayTime": 0.5,
                                 "closeDelayFrames": 30
                               },
-                              "id": "dd23cf04-565a-47c3-af66-340631e308b4"
+                              "id": "21daa707-bf4c-4c5b-8f69-1a2d139940ab"
                             },
                             {
                               "command": "EVENT_SET_VALUE",
@@ -533,9 +737,9 @@
                         "args": {
                           "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
                           "text": [
-                            "Godwin: I told you!\nStay away!!"
+                            "Godwin: I told you\nStay away!!"
                           ],
-                          "__section": "text",
+                          "__section": "behavior",
                           "avatarId": "",
                           "minHeight": 4,
                           "maxHeight": 7,
@@ -544,11 +748,11 @@
                           "textHeight": 5,
                           "position": "bottom",
                           "clearPrevious": true,
-                          "showFrame": false,
+                          "showFrame": true,
                           "speedIn": -1,
                           "speedOut": -1,
                           "closeWhen": "key",
-                          "closeButton": "any",
+                          "closeButton": "a",
                           "closeDelayTime": 0.5,
                           "closeDelayFrames": 30
                         },

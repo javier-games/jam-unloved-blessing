@@ -13,65 +13,7 @@
   "isPinned": false,
   "persistent": true,
   "collisionGroup": "",
-  "prefabScriptOverrides": {
-    "85a9c25f-83b0-43f9-9fbc-d3d621c94476": {
-      "id": "85a9c25f-83b0-43f9-9fbc-d3d621c94476",
-      "args": {
-        "text": "1"
-      }
-    },
-    "d7476df5-baf0-49aa-9dd0-cee55a7ee6c9": {
-      "id": "d7476df5-baf0-49aa-9dd0-cee55a7ee6c9",
-      "args": {
-        "text": "2"
-      }
-    },
-    "cbeac627-d53e-4243-9518-95dcc11524d6": {
-      "id": "cbeac627-d53e-4243-9518-95dcc11524d6",
-      "args": {
-        "text": [
-          "Godwin: Oswald!!!\nYou are here!!",
-          "Oswald: Of course\nyou bastard!",
-          "You set this up,\ndid you not?",
-          "Where is Theodora?\nWhere is she?",
-          "Godwin: Stay away!!"
-        ]
-      }
-    },
-    "4cb2e0db-af9a-43e1-ba45-b8390040ffa5": {
-      "id": "4cb2e0db-af9a-43e1-ba45-b8390040ffa5",
-      "args": {
-        "text": [
-          "Oswald: This is \nyour last chance.",
-          "You shall be the\nfirst to know",
-          "what this body\nis capable of!!",
-          "Godwin: I serve\na greater purpose.",
-          "Do what you will\nwith this..",
-          "Mediocre damn\nvessel!!!",
-          "Oswald: You bloody\nbastard!!",
-          "Godwin: But...",
-          "If you care that\nmuch...",
-          "Take these keys..",
-          "But you shall not\nescape anyway!!!"
-        ]
-      }
-    },
-    "dd23cf04-565a-47c3-af66-340631e308b4": {
-      "id": "dd23cf04-565a-47c3-af66-340631e308b4",
-      "args": {
-        "text": [
-          "Oswald: Godwin, \nis that you?",
-          "Godwin: Shut up\nbeast!",
-          "Oswald: It is me, \nyour friend Oswald.",
-          "Godwin: I know \nit is you!",
-          "I've been preparing\nyou for so long.\n",
-          "And today...",
-          "All the effort \nshall be repaid",
-          "Now go back!!"
-        ]
-      }
-    }
-  },
+  "prefabScriptOverrides": {},
   "symbol": "actor_2",
   "script": [
     {

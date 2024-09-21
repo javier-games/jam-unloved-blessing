@@ -3,7 +3,7 @@
   "id": "37030df8-0b20-4307-8887-0bbddd37b663",
   "_index": 0,
   "type": "LOGO",
-  "name": "UI - 01 - Logo",
+  "name": "UI - 01 - Logo - Javier",
   "symbol": "scene_splash_screen",
   "labelColor": "",
   "x": 60,
@@ -40,7 +40,7 @@
       "id": "c119f3d0-8954-4948-8d8c-31912af1c41e",
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "d6346b28-cdac-4ec7-b6f7-884f91489fcb",
+        "sceneId": "67a3455d-4a40-4953-b1e2-548cc0450371",
         "x": {
           "type": "number",
           "value": 0

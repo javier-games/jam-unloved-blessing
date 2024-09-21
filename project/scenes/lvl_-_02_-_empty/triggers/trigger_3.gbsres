@@ -8,7 +8,7 @@
   "symbol": "trigger_26",
   "prefabScriptOverrides": {},
   "width": 2,
-  "height": 2,
+  "height": 3,
   "script": [
     {
       "command": "EVENT_IF",
@@ -32,10 +32,10 @@
             "args": {
               "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
               "text": [
-                "It's noisy out there!",
+                "It's noisy \nout there!",
                 "There shall be no\nway back!"
               ],
-              "__section": "text",
+              "__section": "behavior",
               "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
@@ -44,11 +44,11 @@
               "textHeight": 5,
               "position": "bottom",
               "clearPrevious": true,
-              "showFrame": false,
+              "showFrame": true,
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "any",
+              "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },

@@ -35,7 +35,7 @@
                 "Theodora: Pray,\nleave now...",
                 "My love..."
               ],
-              "__section": "text",
+              "__section": "layout",
               "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
@@ -44,11 +44,11 @@
               "textHeight": 5,
               "position": "bottom",
               "clearPrevious": true,
-              "showFrame": false,
+              "showFrame": true,
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "any",
+              "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },

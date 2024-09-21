@@ -40,8 +40,33 @@
             "args": {
               "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
               "text": [
-                "???: Pray, leave!! ",
-                "Oswald: That voice!",
+                "???: Pray, leave!!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "ca73cc5c-facb-44c2-a5e8-4b78abf1cc55"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+              "text": [
+                "Oswald: \nThat voice!!",
                 "Theodora where are\nyou?"
               ],
               "__section": "text",
@@ -53,15 +78,15 @@
               "textHeight": 5,
               "position": "bottom",
               "clearPrevious": true,
-              "showFrame": false,
+              "showFrame": true,
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "any",
+              "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },
-            "id": "ca73cc5c-facb-44c2-a5e8-4b78abf1cc55"
+            "id": "14659a04-8ac2-4a50-98d0-91fb42dd035a"
           }
         ],
         "false": []

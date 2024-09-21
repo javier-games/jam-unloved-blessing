@@ -23,7 +23,7 @@
             "type": "false"
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
