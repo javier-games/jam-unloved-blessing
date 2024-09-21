@@ -45,6 +45,19 @@
   "symbol": "script_6",
   "script": [
     {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "tone",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 13,
+        "duration": 2,
+        "wait": false,
+        "effect": 0
+      },
+      "id": "f72c0176-30a3-43de-8533-476cdfac162b"
+    },
+    {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "ec9fc664-3371-4785-8bf1-6debc25b46c5",
