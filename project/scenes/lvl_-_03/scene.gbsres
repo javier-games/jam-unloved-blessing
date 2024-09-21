@@ -534,9 +534,9 @@
               "text": [
                 "Oswald: Where is \nTheodora???",
                 "Pope: So innocent!",
-                "Did not you felt\nher presense?",
+                "Didn’t you feel\nher presence?",
                 "She was next to\nyou...",
-                "During the hole\nprocess..."
+                "During the whole\nprocess..."
               ],
               "__section": "text",
               "avatarId": "",
@@ -615,7 +615,7 @@
         "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
         "text": [
           "Monks:\nYog-Sothoth!!!",
-          "Is the key and \nthe gate!"
+          "Our master is the key and\nthe gate!"
         ],
         "__section": "text",
         "avatarId": "",
@@ -643,9 +643,9 @@
         "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
         "text": [
           "Pope: And she...",
-          "She served to our\nmission, Oswald.",
+          "She served our\nmission, Oswald.",
           "Her sacrifice was \nvital.",
-          "Her skin, burned\ninto the ashes...",
+          "Her skin, burned\nto the ashes...",
           "Has granted you\nthis new form...",
           "Free of earthly\nbonds.",
           "Her flesh and\nspirit...",
@@ -654,7 +654,7 @@
           "She was my life, \nmy soul!",
           "Pope: She was a \nnoble...",
           "Offering for the \ngreater cause.",
-          "Oswald: She never\nwould do that!!",
+          "Oswald: She would\nnever do such a thing!!",
           "Pope: Yog-Sothoth's \ndesigns...",
           "are beyond our \ncomprehension."
         ],
@@ -692,12 +692,12 @@
       "args": {
         "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
         "text": [
-          "Pope: Do not mourn, \nOswald. ",
-          "In moments...",
-          "The alignment will \nallow us to commune",
+          "Pope: Mourn not, \nOswald. ",
+          "In but a moment...",
+          "The alignment shall \nallow us to commune",
           "with our master.",
           "You are integral\nto our ascension.",
-          "Oswald: I'll never \nbe a part of this..",
+          "Oswald: I shall never \nbe a part of this..",
           "Madness!!!"
         ],
         "__section": "behavior",
@@ -960,7 +960,7 @@
             "args": {
               "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
               "text": [
-                "Pope: Is time!!!",
+                "Pope: It is time!!!",
                 "Rejoice...",
                 "For we stand on...",
                 "The cusp of..",
