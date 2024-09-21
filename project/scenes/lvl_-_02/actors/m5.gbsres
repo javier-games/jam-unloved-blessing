@@ -22,14 +22,6 @@
           "value": "right"
         }
       }
-    },
-    "d906f5c4-d59d-4462-a480-0602487c69ae": {
-      "id": "d906f5c4-d59d-4462-a480-0602487c69ae",
-      "args": {
-        "text": [
-          "Monk: You cannot\nrun away!"
-        ]
-      }
     }
   },
   "symbol": "actor_5",

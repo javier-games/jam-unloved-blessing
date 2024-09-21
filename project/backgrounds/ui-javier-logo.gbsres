@@ -1,13 +1,13 @@
 {
   "_resourceType": "background",
   "id": "a4114df0-c643-4f82-ac66-c71b7b320e67",
-  "name": "ui-logo",
+  "name": "ui-javier-logo",
   "symbol": "bg_logo",
   "width": 20,
   "height": 18,
   "imageWidth": 160,
   "imageHeight": 144,
-  "filename": "ui-logo.png",
+  "filename": "ui-javier-logo.png",
   "tileColors": "",
   "autoColor": true
 }

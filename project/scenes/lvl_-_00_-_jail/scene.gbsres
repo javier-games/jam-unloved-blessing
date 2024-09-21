@@ -81,7 +81,7 @@
             "args": {
               "routine": 0,
               "__scriptTabs": "trigger",
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -158,22 +158,204 @@
                         "args": {
                           "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
                           "text": [
-                            "Theodora: Yes \nit's me.",
+                            "Theodora: Yes \nit's me."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": true,
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": false
+                        },
+                        "id": "6884c2fa-de1d-4c81-8d24-5033aeaa3431"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+                          "text": [
                             "Oswald: What has\nhappened... to us?",
-                            "Is this real?",
-                            "Theodora: I am\nreal for you.",
+                            "Is this real?"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": true,
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": false
+                        },
+                        "id": "cc4759e3-1018-45cb-a1fe-2e7f1fbeae57"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+                          "text": [
+                            "Theodora: I am\nreal for you."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": true,
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": false
+                        },
+                        "id": "6887bfae-defe-4a51-b502-b03abea3095a"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+                          "text": [
                             "Oswald: Let us get\nout of here!",
-                            "We shall find\na way.",
-                            "Theodora: No, there\nis no other way.",
+                            "We shall find\na way."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": true,
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": false
+                        },
+                        "id": "6e68776d-957d-48fa-8d00-0ed1a2366e39"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+                          "text": [
+                            "Theodora: No, \nthere is no \nother way.",
                             "I cannot leave. I\nhave tried, but...",
-                            "I am attached to \nthis place now. ",
-                            "Oswald: I shall go\nfor help...",
-                            "We can cut any\nchains.",
+                            "I am attached to \nthis place now. "
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": true,
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": false
+                        },
+                        "id": "d2a51384-1739-4adc-83bd-ebed2bb458c0"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+                          "text": [
+                            "Oswald: I shall go\nfor help..",
+                            "We can cut any\nchains."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": true,
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": false
+                        },
+                        "id": "93eea932-1b7b-4c99-a628-baddaa19278c"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+                          "text": [
                             "Theodora: I know\nwe can...",
-                            "We always did...\nAll I wished was...",
-                            "To see you one last\ntime...",
-                            "And tell you that..",
-                            "I shall always love\nyou.",
+                            "We always did...\nAll I wished was..",
+                            "To see you one \nlast time...",
+                            "And tell you \nthat...",
+                            "I shall always \nlove you."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": true,
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": false
+                        },
+                        "id": "5eb8e842-df34-49f7-85be-c398dd357de5"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+                          "text": [
                             "Oswald: What are\nyou saying???"
                           ],
                           "__section": "text",
@@ -185,16 +367,16 @@
                           "textHeight": 5,
                           "position": "bottom",
                           "clearPrevious": true,
-                          "showFrame": false,
+                          "showFrame": true,
                           "speedIn": -1,
                           "speedOut": -1,
                           "closeWhen": "key",
-                          "closeButton": "any",
+                          "closeButton": "a",
                           "closeDelayTime": 0.5,
                           "closeDelayFrames": 30,
-                          "__collapse": true
+                          "__collapse": false
                         },
-                        "id": "6884c2fa-de1d-4c81-8d24-5033aeaa3431"
+                        "id": "1ac4679d-fa0f-4d7a-b1bb-7cda1f94fd1e"
                       },
                       {
                         "command": "EVENT_ACTOR_EMOTE",
@@ -242,7 +424,7 @@
                           "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
                           "text": [
                             "I promise you my\nlove...",
-                            "We shall be together\nagain."
+                            "We shall be \ntogether again."
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -253,14 +435,14 @@
                           "textHeight": 5,
                           "position": "bottom",
                           "clearPrevious": true,
-                          "showFrame": false,
+                          "showFrame": true,
                           "speedIn": -1,
                           "speedOut": -1,
                           "closeWhen": "key",
-                          "closeButton": "any",
+                          "closeButton": "a",
                           "closeDelayTime": 0.5,
                           "closeDelayFrames": 30,
-                          "__collapse": true
+                          "__collapse": false
                         },
                         "id": "6207fb61-c354-44e9-892e-7ea000a0bf69"
                       }

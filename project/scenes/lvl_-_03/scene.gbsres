@@ -373,7 +373,7 @@
       "args": {
         "time": 0.5,
         "frames": 30,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "52ef3419-a87a-4fc8-b05e-82df475f7a76"
     },
@@ -411,7 +411,7 @@
         "text": [
           "Pope: Ah, Oswald. \nYou've arrived."
         ],
-        "__section": "text",
+        "__section": "layout",
         "avatarId": "",
         "minHeight": 4,
         "maxHeight": 7,
@@ -420,7 +420,7 @@
         "textHeight": 5,
         "position": "bottom",
         "clearPrevious": true,
-        "showFrame": false,
+        "showFrame": true,
         "speedIn": -1,
         "speedOut": -1,
         "closeWhen": "key",
@@ -457,10 +457,10 @@
       "args": {
         "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
         "text": [
-          "Pope: Just in time. ",
+          "Pope: \nJust in time. ",
           "The stars are \nnearly aligned."
         ],
-        "__section": "text",
+        "__section": "behavior",
         "avatarId": "",
         "minHeight": 4,
         "maxHeight": 7,
@@ -469,14 +469,14 @@
         "textHeight": 5,
         "position": "bottom",
         "clearPrevious": true,
-        "showFrame": false,
+        "showFrame": true,
         "speedIn": -1,
         "speedOut": -1,
         "closeWhen": "key",
-        "closeButton": "any",
+        "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "8c0f8358-1cc0-4849-88a9-8f1cee627438"
     },
@@ -494,7 +494,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -506,7 +506,7 @@
                 "Oswald: What have \nyou done...",
                 "With Theodora??\nWith us?"
               ],
-              "__section": "text",
+              "__section": "behavior",
               "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
@@ -515,11 +515,11 @@
               "textHeight": 5,
               "position": "bottom",
               "clearPrevious": true,
-              "showFrame": false,
+              "showFrame": true,
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "any",
+              "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },
@@ -532,13 +532,9 @@
             "args": {
               "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
               "text": [
-                "Oswald: Where is \nTheodora???",
-                "Pope: So innocent!",
-                "Didn’t you feel\nher presence?",
-                "She was next to\nyou...",
-                "During the whole\nprocess..."
+                "Oswald: Where is \nTheodora???"
               ],
-              "__section": "text",
+              "__section": "behavior",
               "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
@@ -547,15 +543,44 @@
               "textHeight": 5,
               "position": "bottom",
               "clearPrevious": true,
-              "showFrame": false,
+              "showFrame": true,
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "any",
+              "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },
             "id": "e51af408-4ac2-4e99-afa9-0ac4980d8492"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+              "text": [
+                "Pope: So innocent!",
+                "Didn’t you feel\nher presence?",
+                "She was next to\nyou...",
+                "During the whole\nprocess..."
+              ],
+              "__section": "behavior",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "e98513da-cda0-4fb2-bdc1-ba20774d970f"
           }
         ]
       },
@@ -572,7 +597,7 @@
           "To communicate \nwith our master...",
           "Yog-Sothoth!!!"
         ],
-        "__section": "text",
+        "__section": "behavior",
         "avatarId": "",
         "minHeight": 4,
         "maxHeight": 7,
@@ -581,14 +606,14 @@
         "textHeight": 5,
         "position": "bottom",
         "clearPrevious": true,
-        "showFrame": false,
+        "showFrame": true,
         "speedIn": -1,
         "speedOut": -1,
         "closeWhen": "key",
-        "closeButton": "any",
+        "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "686eccc2-6d49-407e-b798-957506811f4c"
     },
@@ -605,7 +630,7 @@
         "$actor[6]$": "cc6153eb-56e1-4901-bc66-37796d6317e1",
         "$actor[7]$": "9589c07b-d514-4660-b83a-c439f6a828a7",
         "$actor[8]$": "dda84cb6-8c07-4247-aeb2-6440ef6a6da1",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "2e77607d-4356-4c5c-9639-e188ff9feb23"
     },
@@ -615,9 +640,9 @@
         "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
         "text": [
           "Monks:\nYog-Sothoth!!!",
-          "Our master is the key and\nthe gate!"
+          "Our master is the \nkey and the gate!"
         ],
-        "__section": "text",
+        "__section": "behavior",
         "avatarId": "",
         "minHeight": 4,
         "maxHeight": 7,
@@ -626,14 +651,14 @@
         "textHeight": 5,
         "position": "bottom",
         "clearPrevious": true,
-        "showFrame": false,
+        "showFrame": true,
         "speedIn": -1,
         "speedOut": -1,
         "closeWhen": "key",
-        "closeButton": "any",
+        "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "e523dfc5-192d-45f8-8052-6bfd7a032738"
     },
@@ -649,16 +674,9 @@
           "Has granted you\nthis new form...",
           "Free of earthly\nbonds.",
           "Her flesh and\nspirit...",
-          "Now dwell \nwithin you.",
-          "Oswald:\nYou monster!",
-          "She was my life, \nmy soul!",
-          "Pope: She was a \nnoble...",
-          "Offering for the \ngreater cause.",
-          "Oswald: She would\nnever do such a thing!!",
-          "Pope: Yog-Sothoth's \ndesigns...",
-          "are beyond our \ncomprehension."
+          "Now dwell \nwithin you."
         ],
-        "__section": "text",
+        "__section": "behavior",
         "avatarId": "",
         "minHeight": 4,
         "maxHeight": 7,
@@ -667,16 +685,127 @@
         "textHeight": 5,
         "position": "bottom",
         "clearPrevious": true,
-        "showFrame": false,
+        "showFrame": true,
         "speedIn": -1,
         "speedOut": -1,
         "closeWhen": "key",
-        "closeButton": "any",
+        "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "23eff094-ed9f-43af-8323-9fa9eb5e4620"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+        "text": [
+          "Oswald:\nYou monster!.",
+          "She was my life, \nmy soul!"
+        ],
+        "__section": "behavior",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": true,
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "39ca6183-5148-4adc-8377-811fb49ed69a"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+        "text": [
+          "Pope: She was... \nA noble...",
+          "Offering for the \ngreater cause."
+        ],
+        "__section": "behavior",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": true,
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "c33d3ae9-5e2d-44f0-929a-953bdef1ca29"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+        "text": [
+          "Oswald: She would\nnever do \nsuch a thing!!"
+        ],
+        "__section": "behavior",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": true,
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "dd122080-dea2-454b-8af3-8b95b314e443"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+        "text": [
+          "Pope: \nYog-Sothoth's \ndesigns...",
+          "are beyond our \ncomprehension."
+        ],
+        "__section": "behavior",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": true,
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "5c8c9d2d-bd78-4943-8b2e-ff0ffbd0d042"
     },
     {
       "command": "EVENT_ACTOR_EMOTE",
@@ -694,10 +823,36 @@
         "text": [
           "Pope: Mourn not, \nOswald. ",
           "In but a moment...",
-          "The alignment shall \nallow us to commune",
+          "The alignment \nshall allow us \nto commune",
           "with our master.",
-          "You are integral\nto our ascension.",
-          "Oswald: I shall never \nbe a part of this..",
+          "You are integral\nto our ascension."
+        ],
+        "__section": "behavior",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": true,
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 1.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "3eb06927-a44a-4553-bc7e-7fa41ab658e3"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+        "text": [
+          "Oswald: I shall \nnever be a part \nof this..",
           "Madness!!!"
         ],
         "__section": "behavior",
@@ -709,16 +864,16 @@
         "textHeight": 5,
         "position": "bottom",
         "clearPrevious": true,
-        "showFrame": false,
+        "showFrame": true,
         "speedIn": -1,
         "speedOut": -1,
         "closeWhen": "key",
-        "closeButton": "any",
+        "closeButton": "a",
         "closeDelayTime": 1.5,
         "closeDelayFrames": 30,
-        "__collapse": true
+        "__collapse": false
       },
-      "id": "3eb06927-a44a-4553-bc7e-7fa41ab658e3"
+      "id": "8232e683-d897-4f2e-a414-f843b96314b7"
     },
     {
       "command": "EVENT_SET_MUSIC_ROUTINE",
@@ -739,6 +894,14 @@
               "true": []
             },
             "id": "0af026d3-bdce-45b4-9cd1-e8b8c305d6b8"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 1e-8
+            },
+            "id": "0fe5626f-5ab5-41f0-851a-6122279b0aa2"
           },
           {
             "command": "EVENT_MUSIC_STOP",
@@ -960,13 +1123,39 @@
             "args": {
               "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
               "text": [
-                "Pope: It is time!!!",
+                "Pope: \nIt is time!!!",
                 "Rejoice...",
                 "For we stand on...",
                 "The cusp of..",
                 "Enlightenment!",
                 "Rejoice!",
-                "REJOICE!",
+                "REJOICE!"
+              ],
+              "__section": "behavior",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "text",
+              "closeButton": "any",
+              "closeDelayTime": 1,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "0a4e3859-9373-4e91-92be-4c063a029b61"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+              "text": [
                 "Monks: REJOICE!"
               ],
               "__section": "behavior",
@@ -978,7 +1167,7 @@
               "textHeight": 5,
               "position": "bottom",
               "clearPrevious": true,
-              "showFrame": false,
+              "showFrame": true,
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "text",
@@ -987,7 +1176,7 @@
               "closeDelayFrames": 30,
               "__collapse": false
             },
-            "id": "0a4e3859-9373-4e91-92be-4c063a029b61"
+            "id": "c8f0d0fd-2862-48d3-bab4-1728fdc32c66"
           },
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -1002,7 +1191,7 @@
               "$actor[6]$": "cc6153eb-56e1-4901-bc66-37796d6317e1",
               "$actor[7]$": "9589c07b-d514-4660-b83a-c439f6a828a7",
               "$actor[8]$": "dda84cb6-8c07-4247-aeb2-6440ef6a6da1",
-              "__collapse": true,
+              "__collapse": false,
               "$variable[V0]$": {
                 "type": "number",
                 "value": 3

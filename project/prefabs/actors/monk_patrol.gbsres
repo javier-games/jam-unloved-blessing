@@ -112,7 +112,7 @@
                 "type": "number",
                 "value": 13
               },
-              "__collapseElse": true,
+              "__collapseElse": false,
               "__collapse": false
             },
             "children": {
@@ -158,7 +158,7 @@
                 "type": "number",
                 "value": 13
               },
-              "__collapseElse": true,
+              "__collapseElse": false,
               "__collapse": false,
               "__comment": false
             },

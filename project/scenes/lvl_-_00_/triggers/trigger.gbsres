@@ -32,7 +32,8 @@
             "command": "EVENT_ACTOR_EMOTE",
             "args": {
               "actorId": "$self$",
-              "emoteId": "e4137f77-1fd3-415b-8842-3256a0f815a9"
+              "emoteId": "e4137f77-1fd3-415b-8842-3256a0f815a9",
+              "__collapse": true
             },
             "id": "5bf72b6c-02f7-4b17-a4c2-91669635c5e8"
           },
@@ -43,9 +44,9 @@
               "text": [
                 "Oswald: What's\nhappened to me?",
                 "This... this \nisn't me.",
-                "Where are my hands? \nMy arms?!"
+                "Where are \nmy hands? My arms?"
               ],
-              "__section": "text",
+              "__section": "behavior",
               "avatarId": "",
               "minHeight": 4,
               "maxHeight": 8,
@@ -54,13 +55,14 @@
               "textHeight": 5,
               "position": "bottom",
               "clearPrevious": true,
-              "showFrame": false,
+              "showFrame": true,
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "any",
+              "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
             "id": "8ebc2a77-7aed-4f94-a75b-ccbf45a7049a"
           },
@@ -72,7 +74,7 @@
                 "type": "direction",
                 "value": "right"
               },
-              "__collapse": false
+              "__collapse": true
             },
             "id": "e0127e9f-f77a-4d6d-a3b4-98c97d508f9e"
           },
@@ -81,17 +83,8 @@
             "args": {
               "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
               "text": [
-                "Pope: You awaken, \nchild of the night.",
-                "The vessel is \ncomplete.",
-                "Oswald: What have \nyou done to me?",
-                "Where's my wife?",
-                "Pope: Her role is \nfulfilled...",
-                "As shall yours \nbe soon.",
-                "You shall bridge\nthe worlds...",
-                "Speak with the \nGreat One.",
-                "You are the Chosen \nKey...",
-                "Destined to open\nthe way.",
-                "But first, embrace\nwhat you've become."
+                "Pope: You awaken, \nchild of the \nnight.",
+                "The vessel is \ncomplete."
               ],
               "__section": "text",
               "avatarId": "",
@@ -102,15 +95,77 @@
               "textHeight": 5,
               "position": "bottom",
               "clearPrevious": true,
-              "showFrame": false,
+              "showFrame": true,
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "any",
+              "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
             "id": "81551a3b-cbdd-4dd2-b439-e04f6082e360"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+              "text": [
+                "Oswald: What have \nyou done to me?",
+                "Where's my wife?"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "d2ce3606-c1ed-4e66-aa54-3eac81890405"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+              "text": [
+                "Pope: Her role is \nfulfilled...",
+                "As shall yours \nbe soon.",
+                "You shall bridge\nthe worlds...",
+                "Speak with the \nGreat One.",
+                "You are the Chosen\nKey...",
+                "Destined to open\nthe way.",
+                "But first, embrace\nwhat you have\nbecome."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "051bd9aa-9760-45fa-b188-60533f751587"
           },
           {
             "command": "EVENT_ACTOR_MOVE_TO",
@@ -127,14 +182,15 @@
               "moveType": "horizontal",
               "useCollisions": false,
               "verticalFirst": false,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "607ca712-7e35-4fdc-b4aa-6b41bef8168f"
           },
           {
             "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
-              "actorId": "b39f7690-9318-4dca-aabc-13cbfcc851b8"
+              "actorId": "b39f7690-9318-4dca-aabc-13cbfcc851b8",
+              "__collapse": true
             },
             "id": "a428f1f2-cb6a-4ffa-ba44-411630419c52"
           },
@@ -142,7 +198,8 @@
             "command": "EVENT_ACTOR_EMOTE",
             "args": {
               "actorId": "$self$",
-              "emoteId": "58ad7db9-d51f-496e-90e7-f7d4fc8a993d"
+              "emoteId": "58ad7db9-d51f-496e-90e7-f7d4fc8a993d",
+              "__collapse": true
             },
             "id": "53011210-e2ca-4a7b-acc4-0b7a4badd21f"
           },
@@ -152,9 +209,9 @@
               "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
               "text": [
                 "I have to get out.",
-                "I have to find her."
+                "I have to \nfind her."
               ],
-              "__section": "presets",
+              "__section": "behavior",
               "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
@@ -163,13 +220,14 @@
               "textHeight": 5,
               "position": "bottom",
               "clearPrevious": true,
-              "showFrame": false,
+              "showFrame": true,
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "any",
+              "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": false
             },
             "id": "c87b256b-4682-44e5-9acf-3fd9303a4ec0"
           }
