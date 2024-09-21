@@ -7,7 +7,7 @@
   "symbol": "scene_splash_screen",
   "labelColor": "",
   "x": 60,
-  "y": 32,
+  "y": 200,
   "width": 20,
   "height": 18,
   "backgroundId": "a4114df0-c643-4f82-ac66-c71b7b320e67",
@@ -20,12 +20,12 @@
       "command": "EVENT_SOUND_PLAY_EFFECT",
       "args": {
         "type": "f53dddd0-4dfa-4770-bba6-ef703ac04d82",
-        "priority": "medium",
+        "priority": "high",
         "pitch": 4,
         "frequency": 200,
         "duration": 0.5,
         "wait": true,
-        "effect": 10
+        "effect": 1
       },
       "id": "e4067099-58f5-4255-867f-0a7eed7d15b0"
     },

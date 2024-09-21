@@ -6,7 +6,7 @@
   "name": "UI - 03 - Intro Dialog",
   "symbol": "scene_intro",
   "x": 60,
-  "y": 368,
+  "y": 712,
   "width": 20,
   "height": 52,
   "backgroundId": "7d9f5943-bdb1-43d0-be9c-ee7ac0603add",
@@ -76,7 +76,7 @@
         },
         "y": {
           "type": "number",
-          "value": 36
+          "value": 34
         },
         "direction": "",
         "fadeSpeed": 0

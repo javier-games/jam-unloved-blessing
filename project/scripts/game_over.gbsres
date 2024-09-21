@@ -1,0 +1,96 @@
+{
+  "_resourceType": "script",
+  "id": "792a6755-98fa-4b42-ba89-92e3ea374b1a",
+  "name": "Game Over",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_8",
+  "script": [
+    {
+      "command": "EVENT_SCRIPT_LOCK",
+      "args": {},
+      "id": "ab3e0026-8164-4cdc-9e74-215fc451bb04"
+    },
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "63637eb9-669d-4bfc-9c26-d4d645851177"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1e-7,
+        "__comment": false
+      },
+      "id": "29925c07-9277-4622-b6cd-32a472ddd688"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "down"
+        }
+      },
+      "id": "bf1929ad-f0ec-4962-ac80-5d449f8f10c0"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "f53dddd0-4dfa-4770-bba6-ef703ac04d82",
+        "priority": "high",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 2,
+        "__collapse": false
+      },
+      "id": "23d7ddf2-f59e-45ff-9ab0-bea66683d736"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1.2,
+        "frames": 30
+      },
+      "id": "98ea6c3b-4953-4be3-8aa8-6beb9412bb57"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1,
+        "__comment": false
+      },
+      "id": "41edf8e2-d61e-4ecf-ab10-f5db681612d3"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "34f68254-9772-4d4f-a82b-438593e0ecee",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2",
+        "time": 1.2,
+        "frames": 30
+      },
+      "id": "2f0b3a7c-3680-4c41-9124-2e320b1acb70"
+    },
+    {
+      "command": "EVENT_SCRIPT_UNLOCK",
+      "args": {},
+      "id": "c5a917bb-da63-47f5-bbe6-35f9bd8f5e4e"
+    }
+  ]
+}

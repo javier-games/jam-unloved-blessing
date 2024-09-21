@@ -17,6 +17,13 @@
   "symbol": "actor_22",
   "script": [
     {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0f9b14c4-59e8-4d36-a0b4-92ee93532341"
+      },
+      "id": "d62512b3-1152-4c7e-ab9a-d4584cd7c19d"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",

@@ -5,8 +5,8 @@
   "type": "TOPDOWN",
   "name": "LVL - 00 ",
   "symbol": "scene_start_church_vault",
-  "x": 552,
-  "y": 808,
+  "x": 608,
+  "y": 1256,
   "width": 20,
   "height": 18,
   "backgroundId": "89d5244a-8baa-4bd9-b8d1-5e599485fdec",
@@ -23,7 +23,16 @@
     "dmg"
   ],
   "autoFadeSpeed": 1,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 7
+      },
+      "id": "57dccec7-5ffa-4e49-a534-c9698e932e15"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
