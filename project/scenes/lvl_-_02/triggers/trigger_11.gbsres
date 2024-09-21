@@ -1,14 +1,14 @@
 {
   "_resourceType": "trigger",
-  "id": "7e172cfc-8fb8-4708-9e28-89c99130e1eb",
+  "id": "0dc20cc2-a0f8-4937-ab86-39d92c8ced75",
   "name": "",
   "prefabId": "",
-  "x": 2,
-  "y": 9,
-  "symbol": "trigger_25",
+  "x": 3,
+  "y": 11,
+  "symbol": "trigger_27",
   "prefabScriptOverrides": {},
-  "width": 3,
-  "height": 2,
+  "width": 2,
+  "height": 3,
   "script": [
     {
       "command": "EVENT_IF",
@@ -32,7 +32,8 @@
             "args": {
               "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
               "text": [
-                "It's noisy out there!"
+                "If I go out..",
+                "There shall be no\nway back!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -51,14 +52,14 @@
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },
-            "id": "fa11096c-92b8-489a-9a4d-5606e9a2b054"
+            "id": "bdf09866-a709-4ff1-bfed-a17f5ba6d7d0"
           }
         ],
         "false": []
       },
-      "id": "6720a288-ecd8-404c-a3a4-0802267cd41f"
+      "id": "b7284c26-1e49-490d-8535-19c8fd39adbc"
     }
   ],
   "leaveScript": [],
-  "_index": 9
+  "_index": 10
 }
