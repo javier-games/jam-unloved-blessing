@@ -88,5 +88,6 @@
   "playerHit2Script": [],
   "playerHit3Script": [],
   "collisions": "",
-  "autoFadeEventCollapse": false
+  "autoFadeEventCollapse": false,
+  "playerSpriteSheetId": "a472d885-f36b-43bd-985a-65d585286e06"
 }
