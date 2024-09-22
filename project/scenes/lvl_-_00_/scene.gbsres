@@ -14,13 +14,13 @@
   "paletteIds": [],
   "spritePaletteIds": [
     "",
-    "dmg",
-    "dmg",
-    "dmg",
-    "dmg",
-    "dmg",
-    "dmg",
-    "dmg"
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
   ],
   "autoFadeSpeed": 1,
   "script": [

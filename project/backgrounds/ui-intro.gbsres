@@ -9,5 +9,5 @@
   "imageHeight": 416,
   "filename": "ui-intro.png",
   "tileColors": "",
-  "autoColor": true
+  "autoColor": false
 }

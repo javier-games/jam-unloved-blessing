@@ -299,7 +299,7 @@
                 {
                   "command": "EVENT_CAMERA_SHAKE",
                   "args": {
-                    "time": 1,
+                    "time": 0.5,
                     "frames": 30,
                     "shakeDirection": "horizontal",
                     "magnitude": {
