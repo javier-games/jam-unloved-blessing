@@ -1,13 +1,13 @@
 {
   "_resourceType": "background",
   "id": "6491c4f6-1489-468b-b26c-8520e2c6fd7c",
-  "name": "ui-akaneko-logo",
+  "name": "ui-akari-logo",
   "symbol": "bg_ui_akaneko_logo",
   "width": 20,
   "height": 18,
   "imageWidth": 160,
   "imageHeight": 144,
-  "filename": "ui-akaneko-logo.png",
+  "filename": "ui-akari-logo.png",
   "tileColors": "",
   "autoColor": false
 }

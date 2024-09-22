@@ -3,12 +3,12 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "assets/backgrounds/ui-intro.tmx",
+    "activeFile": "resources/ui-title.tmx",
     "expandedProjectPaths": [
-        ".",
+        "resources",
         "assets",
         "assets/backgrounds",
-        "resources",
+        ".",
         "assets/fonts"
     ],
     "fileStates": {
@@ -84,6 +84,10 @@
                 "y": 271.69540873460244
             }
         },
+        "assets/backgrounds/ui-title.tsx": {
+            "scaleInDock": 3,
+            "scaleInEditor": 1
+        },
         "assets/spritesheet.tsx": {
             "scaleInDock": 1
         },
@@ -99,40 +103,50 @@
         "resources/ui-intro-transformation.tsx": {
             "scaleInDock": 1,
             "scaleInEditor": 3
+        },
+        "resources/ui-title.tmx": {
+            "scale": 4,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 86.25,
+                "y": 77.75
+            }
         }
     },
     "last.exportedFilePath": "D:/Projects/unloved-blessing/assets/backgrounds",
     "last.externalTilesetPath": "D:/Projects/unloved-blessing/resources",
-    "last.imagePath": "D:/Projects/unloved-blessing/resources",
-    "map.height": 26,
+    "last.imagePath": "D:/Projects/unloved-blessing/assets/backgrounds",
+    "map.height": 18,
     "map.lastUsedExportFilter": "All Files (*)",
     "map.lastUsedFormat": "tmx",
-    "map.tileHeight": 16,
-    "map.tileWidth": 16,
-    "map.width": 10,
+    "map.tileHeight": 8,
+    "map.tileWidth": 8,
+    "map.width": 20,
     "openFiles": [
         "resources/ui-intro-transformation.tsx",
         "resources/ui-intro-background-tileset.tsx",
-        "assets/backgrounds/ui-intro.tmx"
+        "assets/backgrounds/ui-intro.tmx",
+        "assets/backgrounds/ui-title.tsx",
+        "resources/ui-title.tmx"
     ],
     "project": "Unloved Blessing.tiled-project",
     "recentFiles": [
         "resources/ui-intro-transformation.tsx",
         "resources/ui-intro-background-tileset.tsx",
         "assets/backgrounds/ui-intro.tmx",
+        "assets/backgrounds/ui-title.tsx",
+        "resources/ui-title.tmx",
         "resources/tileset.tsx",
         "assets/backgrounds/map-void.tmx",
         "assets/backgrounds/map-church-p0.tmx",
         "assets/backgrounds/map-church-b1-jail.tmx",
         "assets/backgrounds/map-church-b1-hall.tmx",
         "assets/backgrounds/map-church-b1.tmx",
-        "assets/backgrounds/ui-black.tmx",
-        "assets/backgrounds/ui-intro2..tmx",
-        "assets/backgrounds/ui-intro.tsx"
+        "assets/backgrounds/ui-black.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
-        "height": 16,
-        "width": 16
+        "height": 8,
+        "width": 8
     }
 }
