@@ -1,0 +1,91 @@
+{
+  "_resourceType": "script",
+  "id": "af99a099-ae12-41d9-81a7-4292b27002e3",
+  "name": "Scream Set Frame",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Frame",
+      "passByReference": false
+    }
+  },
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Screammer"
+    }
+  },
+  "symbol": "script_4",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "V0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 3
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+            "args": {
+              "actorId": "0",
+              "speed": 1
+            },
+            "id": "e5f623ff-aa40-4cad-ab22-c3a16fe28b18"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "0",
+              "spriteStateId": "",
+              "loopAnim": true
+            },
+            "id": "b619372a-fb52-476e-a9e9-6cfe8ad93559"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+            "args": {
+              "actorId": "0",
+              "speed": 255
+            },
+            "id": "2d6e7772-f0b7-41af-9d84-45225d7f4560"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "0",
+              "frame": {
+                "type": "variable",
+                "value": "V0"
+              }
+            },
+            "id": "d997382c-e62d-4561-847e-71d052d97909"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "0",
+              "spriteStateId": "Scream",
+              "loopAnim": false
+            },
+            "id": "d6c2e148-4af4-4ca9-8280-0e586e74e45a"
+          }
+        ]
+      },
+      "id": "e3554ed3-3271-4d8c-8def-67a3ba2e3c32"
+    }
+  ]
+}

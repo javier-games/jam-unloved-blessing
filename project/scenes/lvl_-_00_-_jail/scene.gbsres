@@ -1,0 +1,467 @@
+{
+  "_resourceType": "scene",
+  "id": "94d66657-42f3-4050-aa20-20c501b9c5e1",
+  "_index": 10,
+  "name": "LVL - 00 - Jail",
+  "backgroundId": "fcffd060-8b40-4ea3-bfe9-126e505dabf3",
+  "tilesetId": "",
+  "width": 40,
+  "height": 40,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "001f+0f4+0024+0f4+0024+0f4+0026+0f2+0026+0f2+0024+0f4+0024+0f4+0024+0f4+0024+0f9+00444+0f6+0022+0f6+0022+0f6+0022+0f6+0016+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_11",
+  "x": 816,
+  "y": 1120,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "4"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "86e1810d-e6de-44a5-b628-d35faee08b28"
+            },
+            "id": "e82ef09c-71a7-4d69-9fba-dd58459a9e98"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.3,
+              "frames": 30
+            },
+            "id": "6ae81193-a119-4387-bb6f-f0a7368ad4ad"
+          },
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "db8a0531-4621-4979-bd5c-47bbb64b707e"
+            },
+            "id": "80a8a0a1-4530-4dac-bb29-f617c00a00be"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.1,
+              "frames": 30
+            },
+            "id": "1fb3a556-7416-45da-a028-90157c3463d9"
+          },
+          {
+            "command": "EVENT_MUTE_CHANNEL",
+            "args": {
+              "channels": [
+                2,
+                1,
+                0
+              ]
+            },
+            "id": "ad2b1079-6395-4f76-9e4e-c31dd49a6938"
+          },
+          {
+            "command": "EVENT_SET_MUSIC_ROUTINE",
+            "args": {
+              "routine": 0,
+              "__scriptTabs": "trigger",
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "4"
+                      },
+                      "valueB": {
+                        "type": "true"
+                      }
+                    },
+                    "__collapseElse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SET_MUSIC_ROUTINE",
+                        "args": {
+                          "routine": 0,
+                          "__scriptTabs": "trigger",
+                          "__collapse": true
+                        },
+                        "children": {
+                          "true": []
+                        },
+                        "id": "313edd6d-6368-46a0-9e8b-519df341837d"
+                      },
+                      {
+                        "command": "EVENT_MUSIC_STOP",
+                        "args": {},
+                        "id": "75385d5f-c785-4701-8018-da11074f7dd7"
+                      },
+                      {
+                        "command": "EVENT_WAIT",
+                        "args": {
+                          "time": 0.5,
+                          "frames": 30
+                        },
+                        "id": "e230ca1b-0788-455d-bf0d-c613a9e28d86"
+                      },
+                      {
+                        "command": "EVENT_MUSIC_PLAY",
+                        "args": {
+                          "musicId": "edaa607e-7eda-4924-9011-462d464eadb1"
+                        },
+                        "id": "73be9f12-ff48-4b91-8d6c-3c6493114d1c"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_SET_STATE",
+                        "args": {
+                          "actorId": "86e1810d-e6de-44a5-b628-d35faee08b28",
+                          "spriteStateId": "",
+                          "loopAnim": true,
+                          "__collapse": false
+                        },
+                        "id": "b9bc1647-a8a1-4a64-837d-82cdc5b25778"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                        "args": {
+                          "actorId": "86e1810d-e6de-44a5-b628-d35faee08b28",
+                          "speed": 7,
+                          "__collapse": false
+                        },
+                        "id": "ecf2e83d-6cb3-4907-a35a-5d5593428563"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+                          "text": [
+                            "Theodora: Yes \nit's me."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": true,
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": false
+                        },
+                        "id": "6884c2fa-de1d-4c81-8d24-5033aeaa3431"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+                          "text": [
+                            "Oswald: What has\nhappened... to us?",
+                            "Is this real?"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": true,
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": false
+                        },
+                        "id": "cc4759e3-1018-45cb-a1fe-2e7f1fbeae57"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+                          "text": [
+                            "Theodora: I am\nreal for you."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": true,
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": false
+                        },
+                        "id": "6887bfae-defe-4a51-b502-b03abea3095a"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+                          "text": [
+                            "Oswald: Let us get\nout of here!",
+                            "We shall find\na way."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": true,
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": false
+                        },
+                        "id": "6e68776d-957d-48fa-8d00-0ed1a2366e39"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+                          "text": [
+                            "Theodora: No, \nthere is no \nother way.",
+                            "I cannot leave. I\nhave tried, but...",
+                            "I am attached to \nthis place now. "
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": true,
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": false
+                        },
+                        "id": "d2a51384-1739-4adc-83bd-ebed2bb458c0"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+                          "text": [
+                            "Oswald: I shall go\nfor help..",
+                            "We can cut any\nchains."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": true,
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": false
+                        },
+                        "id": "93eea932-1b7b-4c99-a628-baddaa19278c"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+                          "text": [
+                            "Theodora: I know\nwe can...",
+                            "We always did...\nAll I wished was..",
+                            "To see you one \nlast time...",
+                            "And tell you \nthat...",
+                            "I shall always \nlove you."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": true,
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": false
+                        },
+                        "id": "5eb8e842-df34-49f7-85be-c398dd357de5"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+                          "text": [
+                            "Oswald: What are\nyou saying???"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": true,
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": false
+                        },
+                        "id": "1ac4679d-fa0f-4d7a-b1bb-7cda1f94fd1e"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_EMOTE",
+                        "args": {
+                          "actorId": "86e1810d-e6de-44a5-b628-d35faee08b28",
+                          "emoteId": "912b4e00-4ce3-4e39-aab9-b0405753e98f",
+                          "__collapse": true
+                        },
+                        "id": "b68432a8-1a85-4fb2-9aa7-cd20f7e9f3f0"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_EMOTE",
+                        "args": {
+                          "actorId": "player",
+                          "emoteId": "912b4e00-4ce3-4e39-aab9-b0405753e98f",
+                          "__collapse": true
+                        },
+                        "id": "1d936741-5626-4e75-90fd-8c25b6a45782"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_EFFECTS",
+                        "args": {
+                          "effect": "splitOut",
+                          "actorId": "86e1810d-e6de-44a5-b628-d35faee08b28",
+                          "distance": 9,
+                          "speed": 0.5,
+                          "time": 0.5,
+                          "frames": 30,
+                          "__collapse": true
+                        },
+                        "id": "78cdfbd5-7873-443e-b39c-7ffbbf2f4465"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_EMOTE",
+                        "args": {
+                          "actorId": "player",
+                          "emoteId": "58ad7db9-d51f-496e-90e7-f7d4fc8a993d",
+                          "__collapse": true
+                        },
+                        "id": "541c2a96-2309-4567-acd8-c9e0324b2d07"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+                          "text": [
+                            "I promise you my\nlove...",
+                            "We shall be \ntogether again."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": true,
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": false
+                        },
+                        "id": "6207fb61-c354-44e9-892e-7ea000a0bf69"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "be89bcc5-144a-4773-900d-60e2e2853318"
+                }
+              ]
+            },
+            "id": "7c857cc1-9554-45df-b648-0d876ad77570"
+          }
+        ]
+      },
+      "id": "6a58c8be-4e03-4d4b-b9d9-8397901fb5b9"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
+}

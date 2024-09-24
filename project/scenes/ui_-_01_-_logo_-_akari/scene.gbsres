@@ -1,0 +1,63 @@
+{
+  "_resourceType": "scene",
+  "id": "67a3455d-4a40-4953-b1e2-548cc0450371",
+  "_index": 16,
+  "name": "UI - 01 - Logo - Akari",
+  "backgroundId": "6491c4f6-1489-468b-b26c-8520e2c6fd7c",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "LOGO",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_17",
+  "x": 60,
+  "y": 368,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "edaa607e-7eda-4924-9011-462d464eadb1"
+      },
+      "id": "9199d99d-2a72-4b61-929d-1b1a834f307d"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30
+      },
+      "id": "999ba1bf-bc09-45cf-9402-ab92386591c8"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30
+      },
+      "id": "4f240645-0af6-4114-b6b2-204693213318"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "d6346b28-cdac-4ec7-b6f7-884f91489fcb",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "2ec237db-44f9-4206-96fb-e8ffa30c3756"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

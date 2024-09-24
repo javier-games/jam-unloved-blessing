@@ -1,0 +1,9 @@
+{
+  "_resourceType": "emote",
+  "id": "c4f691f5-51a1-4b57-bdfd-6e24363f60e9",
+  "name": "anger",
+  "symbol": "emote_anger",
+  "width": 16,
+  "height": 16,
+  "filename": "anger.png"
+}
