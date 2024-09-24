@@ -5,12 +5,12 @@
     },
     "activeFile": "docs/backtground-edge.tmx",
     "expandedProjectPaths": [
-        "assets",
-        "assets/backgrounds",
         "resources",
         ".",
+        "assets/backgrounds",
+        "assets/fonts",
         "docs",
-        "assets/fonts"
+        "assets"
     ],
     "fileStates": {
         "assets/backgrounds/map-church-b1-hall.tmx": {
@@ -104,8 +104,8 @@
             "scale": 1.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 204,
-                "y": 212.66666666666669
+                "x": 240.33333333333334,
+                "y": 56
             }
         },
         "resources/tileset.tsx": {
@@ -125,8 +125,8 @@
             "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 86.25,
-                "y": 77.75
+                "x": 80.125,
+                "y": 72
             }
         }
     },
