@@ -3,12 +3,13 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "resources/ui-title.tmx",
+    "activeFile": "docs/backtground-edge.tmx",
     "expandedProjectPaths": [
-        "resources",
         "assets",
         "assets/backgrounds",
+        "resources",
         ".",
+        "docs",
         "assets/fonts"
     ],
     "fileStates": {
@@ -68,8 +69,8 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 33.33333333333333,
-                "y": 101.66666666666667
+                "x": 79.99999999999999,
+                "y": 208
             }
         },
         "assets/backgrounds/ui-intro.tsx": {
@@ -91,13 +92,29 @@
         "assets/spritesheet.tsx": {
             "scaleInDock": 1
         },
+        "docs/backtground-edge.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 193,
+                "y": 161.5
+            }
+        },
+        "docs/banner.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 204,
+                "y": 212.66666666666669
+            }
+        },
         "resources/tileset.tsx": {
             "dynamicWrapping": false,
             "scaleInDock": 1,
             "scaleInEditor": 3
         },
         "resources/ui-intro-background-tileset.tsx": {
-            "scaleInDock": 2,
+            "scaleInDock": 3,
             "scaleInEditor": 3
         },
         "resources/ui-intro-transformation.tsx": {
@@ -116,18 +133,20 @@
     "last.exportedFilePath": "D:/Projects/unloved-blessing/assets/backgrounds",
     "last.externalTilesetPath": "D:/Projects/unloved-blessing/resources",
     "last.imagePath": "D:/Projects/unloved-blessing/assets/backgrounds",
-    "map.height": 18,
+    "map.height": 40,
     "map.lastUsedExportFilter": "All Files (*)",
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
-    "map.width": 20,
+    "map.width": 40,
     "openFiles": [
         "resources/ui-intro-transformation.tsx",
         "resources/ui-intro-background-tileset.tsx",
         "assets/backgrounds/ui-intro.tmx",
         "assets/backgrounds/ui-title.tsx",
-        "resources/ui-title.tmx"
+        "resources/ui-title.tmx",
+        "docs/banner.tmx",
+        "docs/backtground-edge.tmx"
     ],
     "project": "Unloved Blessing.tiled-project",
     "recentFiles": [
@@ -136,13 +155,13 @@
         "assets/backgrounds/ui-intro.tmx",
         "assets/backgrounds/ui-title.tsx",
         "resources/ui-title.tmx",
+        "docs/banner.tmx",
+        "docs/backtground-edge.tmx",
         "resources/tileset.tsx",
         "assets/backgrounds/map-void.tmx",
         "assets/backgrounds/map-church-p0.tmx",
         "assets/backgrounds/map-church-b1-jail.tmx",
-        "assets/backgrounds/map-church-b1-hall.tmx",
-        "assets/backgrounds/map-church-b1.tmx",
-        "assets/backgrounds/ui-black.tmx"
+        "assets/backgrounds/map-church-b1-hall.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {

@@ -1,0 +1,72 @@
+{
+  "_resourceType": "scene",
+  "id": "66b940c7-b019-4552-bc75-1c9d31bbbed0",
+  "_index": 17,
+  "name": "UI - 00 - Announce Sound On",
+  "backgroundId": "d5828933-0b21-4d12-8efb-4a870e888d7d",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_18",
+  "x": 256,
+  "y": 32,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "player"
+      },
+      "id": "b76defa3-94c0-49bb-95ce-f946335e1314"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "For a better \nexperience, please\nuser headphones."
+        ],
+        "__section": "layout",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": true,
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "204d14c2-70d1-40dc-a4e2-c0ab2a3f3195"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "9be0474c-65d6-414b-b83e-6b7efde4530a",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "9ca60f89-5302-4100-836d-1132c4cf03d0"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
