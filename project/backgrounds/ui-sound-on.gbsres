@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "d5828933-0b21-4d12-8efb-4a870e888d7d",
+  "name": "ui-sound-on",
+  "symbol": "bg_ui_black_copy",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "ui-sound-on.png",
+  "tileColors": ""
+}

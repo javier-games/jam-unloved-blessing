@@ -1,0 +1,100 @@
+{
+  "_resourceType": "script",
+  "id": "eb652f85-7c5a-4a18-ae53-8d8afe9472c2",
+  "name": "Activate Pursuer",
+  "description": "",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Pursuer"
+    }
+  },
+  "symbol": "script_10",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "bAND",
+          "valueA": {
+            "type": "bAND",
+            "valueA": {
+              "type": "eq",
+              "valueA": {
+                "type": "property",
+                "target": "0",
+                "property": "frame"
+              },
+              "valueB": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "valueB": {
+              "type": "eq",
+              "valueA": {
+                "type": "property",
+                "target": "0",
+                "property": "direction"
+              },
+              "valueB": {
+                "type": "direction",
+                "value": "down"
+              }
+            }
+          },
+          "valueB": {
+            "type": "bAND",
+            "valueA": {
+              "type": "eq",
+              "valueA": {
+                "type": "property",
+                "target": "0",
+                "property": "xpos"
+              },
+              "valueB": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "valueB": {
+              "type": "eq",
+              "valueA": {
+                "type": "property",
+                "target": "0",
+                "property": "ypos"
+              },
+              "valueB": {
+                "type": "number",
+                "value": 0
+              }
+            }
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_STOP_UPDATE",
+            "args": {
+              "actorId": "0"
+            },
+            "id": "416ee2f7-ab25-4f56-b185-1561ee40eeb7"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_START_UPDATE",
+            "args": {
+              "actorId": "0"
+            },
+            "id": "e47a471e-d46a-4708-b9e2-b82e2936913f"
+          }
+        ]
+      },
+      "id": "b4f2581d-17d9-490f-be0a-08013b081f65"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "_resourceType": "script",
+  "id": "0f9b14c4-59e8-4d36-a0b4-92ee93532341",
+  "name": "Interact Effect",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_9",
+  "script": [
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "f53dddd0-4dfa-4770-bba6-ef703ac04d82",
+        "priority": "high",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 11
+      },
+      "id": "2c0ba3cc-e5b3-4191-b7d3-0e51a1a898de"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30
+      },
+      "id": "db266165-0949-4b1f-a2b1-90fd75e963c4"
+    }
+  ]
+}

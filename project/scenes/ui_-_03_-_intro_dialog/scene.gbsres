@@ -1,0 +1,93 @@
+{
+  "_resourceType": "scene",
+  "id": "e3c95d90-d229-411b-a019-5146255e7d4c",
+  "_index": 5,
+  "type": "TOPDOWN",
+  "name": "UI - 03 - Intro Dialog",
+  "symbol": "scene_intro",
+  "x": 60,
+  "y": 712,
+  "width": 20,
+  "height": 52,
+  "backgroundId": "7d9f5943-bdb1-43d0-be9c-ee7ac0603add",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "id": "3df33d89-9241-46e6-a6bf-11c31bd86b12",
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "player",
+        "__collapse": false,
+        "__comment": false
+      }
+    },
+    {
+      "command": "EVENT_FADE_IN",
+      "args": {
+        "speed": "2"
+      },
+      "id": "b1f9c839-28e6-4078-a053-3b382fdc97a2"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "__presetId": "0c18587d-d23f-4666-bc9f-3c3c7ca9d321",
+        "text": [
+          "These chains... \nI can barely move.",
+          "I've been here for\ndays maybe months.",
+          "Theodora, where\nis Theodora??...",
+          "My head... ",
+          "Everything's \nspinning. ",
+          "Where are those  \nroars coming from?",
+          "I was... home.\nWasn't I?",
+          "No... there was...\nsomething else.",
+          "Someone... \nthey took us..."
+        ],
+        "__section": "layout",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": true,
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__comment": false
+      },
+      "id": "59f9df06-ef55-47ed-ba20-5d1bd857a201"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "29228d71-df85-44f9-8528-ee93f484f731",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 34
+        },
+        "direction": "",
+        "fadeSpeed": 0
+      },
+      "id": "da57e194-e1bb-44a0-9db6-fe3801aa300f"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "",
+  "autoFadeEventCollapse": false,
+  "playerSpriteSheetId": "a472d885-f36b-43bd-985a-65d585286e06"
+}
